@@ -1,0 +1,793 @@
+state,district,ds,yhat,yhat_lower,yhat_upper
+100000,100000,2026-01-11,0.0,0.0,2.0965392172981706e-09
+100000,100000,2026-01-18,0.0,0.0,2.607125567322935e-09
+100000,100000,2026-01-25,0.0,0.0,3.881185127014945e-09
+100000,100000,2026-02-01,0.0,0.0,5.420981519721501e-09
+Andaman & Nicobar Islands,Andamans,2026-01-11,0.0,0.0,0.0
+Andaman & Nicobar Islands,Andamans,2026-01-18,0.0,0.0,0.0
+Andaman & Nicobar Islands,Andamans,2026-01-25,0.0,0.0,0.0
+Andaman & Nicobar Islands,Andamans,2026-02-01,0.0,0.0,0.0
+Andaman & Nicobar Islands,Nicobars,2025-12-14,0.0,0.0,2.048221851905008e-09
+Andaman & Nicobar Islands,Nicobars,2025-12-21,0.0,0.0,2.505111409223247e-09
+Andaman & Nicobar Islands,Nicobars,2025-12-28,0.0,0.0,3.205466315016619e-09
+Andaman & Nicobar Islands,Nicobars,2026-01-04,0.0,0.0,4.67174033912306e-09
+Andaman & Nicobar Islands,South Andaman,2026-01-11,0.0,0.0,0.0
+Andaman & Nicobar Islands,South Andaman,2026-01-18,0.0,0.0,0.0
+Andaman & Nicobar Islands,South Andaman,2026-01-25,0.0,0.0,0.0
+Andaman & Nicobar Islands,South Andaman,2026-02-01,0.0,0.0,0.0
+Andaman and Nicobar Islands,Nicobar,2026-01-11,0.0,0.0,0.0
+Andaman and Nicobar Islands,Nicobar,2026-01-18,0.0,0.0,0.0
+Andaman and Nicobar Islands,Nicobar,2026-01-25,0.0,0.0,0.0
+Andaman and Nicobar Islands,Nicobar,2026-02-01,0.0,0.0,0.0
+Andaman and Nicobar Islands,North And Middle Andaman,2026-01-11,0.0,0.0,0.0
+Andaman and Nicobar Islands,North And Middle Andaman,2026-01-18,0.0,0.0,0.0
+Andaman and Nicobar Islands,North And Middle Andaman,2026-01-25,0.0,0.0,0.0
+Andaman and Nicobar Islands,North And Middle Andaman,2026-02-01,0.0,0.0,0.0
+Andaman and Nicobar Islands,South Andaman,2026-01-11,0.0,0.0,0.0
+Andaman and Nicobar Islands,South Andaman,2026-01-18,0.0,0.0,0.0
+Andaman and Nicobar Islands,South Andaman,2026-01-25,0.0,0.0,0.0
+Andaman and Nicobar Islands,South Andaman,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Adilabad,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Adilabad,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Adilabad,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Adilabad,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Alluri Sitharama Raju,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Alluri Sitharama Raju,2026-01-18,617.4260269978513,546.2096933853919,688.8553538205372
+Andhra Pradesh,Alluri Sitharama Raju,2026-01-25,4573.686534836076,4497.581386550953,4648.229150695491
+Andhra Pradesh,Alluri Sitharama Raju,2026-02-01,12278.475848275346,12207.750113842394,12349.86317436225
+Andhra Pradesh,Anakapalli,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Anakapalli,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Anakapalli,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Anakapalli,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Anantapur,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Anantapur,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Anantapur,2026-01-25,6130.421137791943,5603.853903551817,6651.038992766158
+Andhra Pradesh,Anantapur,2026-02-01,22119.322679130026,21573.84735968085,22622.580260078415
+Andhra Pradesh,Ananthapur,2026-01-11,1605.023511785348,895.579763387936,2343.663442118387
+Andhra Pradesh,Ananthapur,2026-01-18,13754.525654273231,13045.784738671213,14421.23987157848
+Andhra Pradesh,Ananthapur,2026-01-25,43914.77421637593,43149.40679544257,44655.431506488945
+Andhra Pradesh,Ananthapur,2026-02-01,84028.84553729354,83276.66362786885,84763.13055654506
+Andhra Pradesh,Ananthapuramu,2026-01-11,2044.6491213577574,902.656283580763,3241.259907085808
+Andhra Pradesh,Ananthapuramu,2026-01-18,15806.589269823673,14518.687532769034,16966.112503942008
+Andhra Pradesh,Ananthapuramu,2026-01-25,47168.742326836946,45952.89360473661,48356.48472778872
+Andhra Pradesh,Ananthapuramu,2026-02-01,84168.78937597813,83056.84397598797,85258.22900502193
+Andhra Pradesh,Annamayya,2026-01-11,73.95937389714692,0.0,159.3619406762188
+Andhra Pradesh,Annamayya,2026-01-18,654.1030385749924,571.9688651369647,740.1889404802433
+Andhra Pradesh,Annamayya,2026-01-25,1707.4661620625357,1622.8105437784354,1794.2605374716316
+Andhra Pradesh,Annamayya,2026-02-01,2336.239684795363,2250.7717985383742,2417.994087020003
+Andhra Pradesh,Bapatla,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Bapatla,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Bapatla,2026-01-25,510.1763955460118,463.86842036588916,556.9783665956033
+Andhra Pradesh,Bapatla,2026-02-01,1912.1831870093015,1864.5371920953003,1961.4906038809443
+Andhra Pradesh,Chittoor,2026-01-11,2245.8971520965715,160.18469745246452,4453.8279255767775
+Andhra Pradesh,Chittoor,2026-01-18,40418.11559733284,38321.95494158752,42402.52013492969
+Andhra Pradesh,Chittoor,2026-01-25,153449.60919541016,151334.4997418246,155553.52580925706
+Andhra Pradesh,Chittoor,2026-02-01,326712.3132966189,324425.30910627835,328869.7997767759
+Andhra Pradesh,Cuddapah,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Cuddapah,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Cuddapah,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Cuddapah,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,2026-01-11,168.15325678278532,99.00689854482448,238.61010752784756
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,2026-01-18,1788.4996883167178,1716.2689693813297,1864.594621439992
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,2026-01-25,5454.788727314596,5386.81939363041,5520.494851120619
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,2026-02-01,9634.1654045238,9567.141568347968,9700.364360542764
+Andhra Pradesh,East Godavari,2026-01-11,2318.7183227289497,768.7185100147522,4031.9621714296813
+Andhra Pradesh,East Godavari,2026-01-18,37269.80087249792,35575.7212637844,38818.69990910819
+Andhra Pradesh,East Godavari,2026-01-25,122437.12738632243,120824.3627322518,124026.18724238708
+Andhra Pradesh,East Godavari,2026-02-01,224144.19795639586,222478.7329088326,225745.5054598839
+Andhra Pradesh,Eluru,2026-01-11,0.0,0.0,17.254529275056644
+Andhra Pradesh,Eluru,2026-01-18,41.070271930202864,0.0,85.87983458589935
+Andhra Pradesh,Eluru,2026-01-25,100.33177743515199,53.08042826182539,147.99196667264343
+Andhra Pradesh,Eluru,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Guntur,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Guntur,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Guntur,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Guntur,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Hyderabad,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Hyderabad,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Hyderabad,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Hyderabad,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,K.V.Rangareddy,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,K.V.Rangareddy,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,K.V.Rangareddy,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,K.V.Rangareddy,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,K.v. Rangareddy,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,K.v. Rangareddy,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,K.v. Rangareddy,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,K.v. Rangareddy,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Kakinada,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Kakinada,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Kakinada,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Kakinada,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Karim Nagar,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Karim Nagar,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Karim Nagar,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Karim Nagar,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Karimnagar,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Karimnagar,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Karimnagar,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Karimnagar,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Khammam,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Khammam,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Khammam,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Khammam,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Krishna,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Krishna,2026-01-18,0.0,0.0,622.9544133934328
+Andhra Pradesh,Krishna,2026-01-25,25467.555410401612,24623.717881059172,26300.68550515923
+Andhra Pradesh,Krishna,2026-02-01,71845.73843473964,71068.49394895548,72689.05252625211
+Andhra Pradesh,Kurnool,2026-01-11,4086.1809712685354,418.7684300580129,7885.785092785817
+Andhra Pradesh,Kurnool,2026-01-18,45505.253628342594,41651.029718867634,49236.25013399838
+Andhra Pradesh,Kurnool,2026-01-25,151936.3808429389,147891.6801927438,155821.83164528754
+Andhra Pradesh,Kurnool,2026-02-01,291911.99608005385,288148.72828261496,295619.39889813506
+Andhra Pradesh,Mahabub Nagar,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Mahabub Nagar,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Mahabub Nagar,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Mahabub Nagar,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Mahabubnagar,2026-01-11,7.052839415797322,3.0091698158440265,10.886502543148488
+Andhra Pradesh,Mahabubnagar,2026-01-18,41.434236657950265,37.72297568189289,45.4640448431594
+Andhra Pradesh,Mahabubnagar,2026-01-25,106.13723589618431,102.06941337142894,110.2113091657889
+Andhra Pradesh,Mahabubnagar,2026-02-01,163.58692568490497,159.87263931512047,167.81301163606173
+Andhra Pradesh,Mahbubnagar,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Mahbubnagar,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Mahbubnagar,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Mahbubnagar,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Medak,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Medak,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Medak,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Medak,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,N. T. R,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,N. T. R,2026-01-18,548.6582393759431,510.16476103372594,586.7531690310593
+Andhra Pradesh,N. T. R,2026-01-25,2878.0606307352227,2842.183424524527,2917.7728730240146
+Andhra Pradesh,N. T. R,2026-02-01,6779.946489156644,6742.087119466094,6817.596727476023
+Andhra Pradesh,Nalgonda,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Nalgonda,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Nalgonda,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Nalgonda,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Nandyal,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Nandyal,2026-01-18,0.0,0.0,105.23593168352808
+Andhra Pradesh,Nandyal,2026-01-25,1528.0459660487286,1389.4979091926862,1674.785217757612
+Andhra Pradesh,Nandyal,2026-02-01,4245.71740641336,4104.132846721004,4379.594551583437
+Andhra Pradesh,Nellore,2026-01-11,2244.317915716805,879.8914336117303,3552.0728359106865
+Andhra Pradesh,Nellore,2026-01-18,21175.62798821333,19706.82750233726,22390.414691952883
+Andhra Pradesh,Nellore,2026-01-25,68502.78227619122,67235.72364321671,69940.65335720319
+Andhra Pradesh,Nellore,2026-02-01,131146.3981868106,129806.32971930993,132499.18683864997
+Andhra Pradesh,Nizamabad,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Nizamabad,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Nizamabad,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Nizamabad,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Palnadu,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Palnadu,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Palnadu,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Palnadu,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Parvathipuram Manyam,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Parvathipuram Manyam,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Parvathipuram Manyam,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Parvathipuram Manyam,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Prakasam,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Prakasam,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Prakasam,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Prakasam,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Rangareddi,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Rangareddi,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Rangareddi,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Rangareddi,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Spsr Nellore,2025-07-14,0.0,0.0,0.0
+Andhra Pradesh,Spsr Nellore,2025-07-21,0.0,0.0,0.0
+Andhra Pradesh,Spsr Nellore,2025-07-28,0.0,0.0,0.0
+Andhra Pradesh,Spsr Nellore,2025-08-04,0.0,0.0,0.0
+Andhra Pradesh,Sri Potti Sriramulu Nellore,2026-01-11,550.1906011038209,358.12442850945854,731.4831294152201
+Andhra Pradesh,Sri Potti Sriramulu Nellore,2026-01-18,3268.110613997987,3063.586397911815,3451.5008522240014
+Andhra Pradesh,Sri Potti Sriramulu Nellore,2026-01-25,8508.536334122713,8317.312168867404,8716.075292731895
+Andhra Pradesh,Sri Potti Sriramulu Nellore,2026-02-01,13714.423021294404,13515.676677610843,13924.069885267207
+Andhra Pradesh,Sri Sathya Sai,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Sri Sathya Sai,2026-01-18,0.0,0.0,8.14706645152063
+Andhra Pradesh,Sri Sathya Sai,2026-01-25,1001.7202005688071,883.9803091714505,1126.3297261745813
+Andhra Pradesh,Sri Sathya Sai,2026-02-01,3114.623315379962,2990.7973773164244,3237.109811692325
+Andhra Pradesh,Srikakulam,2026-01-11,4391.7793096990135,3157.497778178305,5624.859450320893
+Andhra Pradesh,Srikakulam,2026-01-18,33080.362007507574,31846.628780659114,34311.09464752561
+Andhra Pradesh,Srikakulam,2026-01-25,98663.8102080563,97340.19598676467,99791.88668051802
+Andhra Pradesh,Srikakulam,2026-02-01,179465.32015461975,178215.7065691567,180627.91757880195
+Andhra Pradesh,Tirupati,2026-01-11,255.16743429115945,129.8519456172315,368.3474118237736
+Andhra Pradesh,Tirupati,2026-01-18,1699.7168832073114,1581.4036438994187,1817.670069652212
+Andhra Pradesh,Tirupati,2026-01-25,4805.095957233439,4683.058875560418,4923.221483435771
+Andhra Pradesh,Tirupati,2026-02-01,8399.523835507382,8277.19123452262,8515.232386495853
+Andhra Pradesh,Visakhapatnam,2026-01-11,3516.2012772474845,2834.50250018316,4252.038535619244
+Andhra Pradesh,Visakhapatnam,2026-01-18,37874.716856221814,37191.06674451635,38532.267058316436
+Andhra Pradesh,Visakhapatnam,2026-01-25,129320.1680907931,128640.25821098353,129997.51222244918
+Andhra Pradesh,Visakhapatnam,2026-02-01,258938.38071183494,258290.0071807059,259660.93120292682
+Andhra Pradesh,Vizianagaram,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Vizianagaram,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Vizianagaram,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Vizianagaram,2026-02-01,0.0,0.0,0.0
+Andhra Pradesh,Warangal,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Warangal,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Warangal,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Warangal,2026-02-01,444.1305187350881,342.5609023933618,537.5511713142712
+Andhra Pradesh,West Godavari,2026-01-11,6007.620593807369,4464.891509610382,7632.374222113075
+Andhra Pradesh,West Godavari,2026-01-18,41791.337946935724,40326.33259154756,43373.58824989388
+Andhra Pradesh,West Godavari,2026-01-25,120160.11669359516,118614.84165810466,121728.51595565346
+Andhra Pradesh,West Godavari,2026-02-01,212977.0842479912,211414.90038590183,214480.9088130953
+Andhra Pradesh,Y. S. R,2026-01-11,0.0,0.0,0.0
+Andhra Pradesh,Y. S. R,2026-01-18,0.0,0.0,0.0
+Andhra Pradesh,Y. S. R,2026-01-25,0.0,0.0,0.0
+Andhra Pradesh,Y. S. R,2026-02-01,866.5645562409385,778.6271173681755,945.5357954321958
+Arunachal Pradesh,Anjaw,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Anjaw,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Anjaw,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Anjaw,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Changlang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Changlang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Changlang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Changlang,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Dibang Valley,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Dibang Valley,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Dibang Valley,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Dibang Valley,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,East Kameng,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,East Kameng,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,East Kameng,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,East Kameng,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,East Siang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,East Siang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,East Siang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,East Siang,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Kamle,2026-01-11,6.391334434099274,6.315733281615097,6.4550718736317245
+Arunachal Pradesh,Kamle,2026-01-18,36.4535151956799,36.215574046218066,36.637167715524505
+Arunachal Pradesh,Kamle,2026-01-25,102.53697830328889,102.08529844309057,102.90800319761516
+Arunachal Pradesh,Kamle,2026-02-01,185.59901769795505,184.9492673633468,186.21506288973845
+Arunachal Pradesh,Kra Daadi,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Kra Daadi,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Kra Daadi,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Kra Daadi,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Kurung Kumey,2026-01-11,0.0,0.0,8.548483042920774
+Arunachal Pradesh,Kurung Kumey,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Kurung Kumey,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Kurung Kumey,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Leparada,2026-01-04,38.109239494298464,36.20206123652491,40.02225408852735
+Arunachal Pradesh,Leparada,2026-01-11,182.65401697852104,180.783324485307,184.5653792202474
+Arunachal Pradesh,Leparada,2026-01-18,403.26037438718004,401.2260013528,405.2480582575323
+Arunachal Pradesh,Leparada,2026-01-25,527.7042321202324,525.8379836103173,529.7577118457835
+Arunachal Pradesh,Lohit,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Lohit,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Lohit,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Lohit,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Longding,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Longding,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Longding,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Longding,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Lower Dibang Valley,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Lower Dibang Valley,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Lower Dibang Valley,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Lower Dibang Valley,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Lower Siang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Lower Siang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Lower Siang,2026-01-25,160.53956409014117,142.7774627456826,177.77412235376028
+Arunachal Pradesh,Lower Siang,2026-02-01,668.4865431751637,650.5084902212293,684.7283969321747
+Arunachal Pradesh,Lower Subansiri,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Lower Subansiri,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Lower Subansiri,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Lower Subansiri,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Namsai,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Namsai,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Namsai,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Namsai,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Pakke Kessang,2026-01-11,1.02947918069842,1.0263163090414145,1.032936212834883
+Arunachal Pradesh,Pakke Kessang,2026-01-18,7.177630600599924,7.166355392717629,7.188008049384447
+Arunachal Pradesh,Pakke Kessang,2026-01-25,24.232642642947532,24.210165853824428,24.253910864984846
+Arunachal Pradesh,Pakke Kessang,2026-02-01,53.79956972132528,53.76685486496525,53.83378066344865
+Arunachal Pradesh,Papum Pare,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Papum Pare,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Papum Pare,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Papum Pare,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Shi-yomi,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Shi-yomi,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Shi-yomi,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Shi-yomi,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Siang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Siang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Siang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Siang,2026-02-01,258.567039235524,247.76756502347837,269.4216031252647
+Arunachal Pradesh,Tawang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Tawang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Tawang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Tawang,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Tirap,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Tirap,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Tirap,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Tirap,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Upper Siang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Upper Siang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Upper Siang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Upper Siang,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,Upper Subansiri,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,Upper Subansiri,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,Upper Subansiri,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,Upper Subansiri,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,West Kameng,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,West Kameng,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,West Kameng,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,West Kameng,2026-02-01,0.0,0.0,0.0
+Arunachal Pradesh,West Siang,2026-01-11,0.0,0.0,0.0
+Arunachal Pradesh,West Siang,2026-01-18,0.0,0.0,0.0
+Arunachal Pradesh,West Siang,2026-01-25,0.0,0.0,0.0
+Arunachal Pradesh,West Siang,2026-02-01,0.0,0.0,0.0
+Assam,Bajali,2026-01-11,0.0,0.0,2.127568843552033e-09
+Assam,Bajali,2026-01-18,0.0,0.0,2.803941487295015e-09
+Assam,Bajali,2026-01-25,0.0,0.0,4.847463886089607e-09
+Assam,Bajali,2026-02-01,0.0,0.0,6.686751775462856e-09
+Assam,Baksa,2026-01-11,0.0,0.0,0.0
+Assam,Baksa,2026-01-18,0.0,0.0,0.0
+Assam,Baksa,2026-01-25,0.0,0.0,0.0
+Assam,Baksa,2026-02-01,0.0,0.0,0.0
+Assam,Barpeta,2026-01-11,2021.8280945124134,1829.0143402180852,2202.7567504242484
+Assam,Barpeta,2026-01-18,26125.87531819191,25945.337069863464,26315.20435972674
+Assam,Barpeta,2026-01-25,102973.31716554672,102789.23994354789,103172.79878971339
+Assam,Barpeta,2026-02-01,237239.97052822576,237068.6000906082,237429.3815284068
+Assam,Biswanath,2026-01-11,0.0,0.0,0.0
+Assam,Biswanath,2026-01-18,0.0,0.0,0.0
+Assam,Biswanath,2026-01-25,0.0,0.0,0.0
+Assam,Biswanath,2026-02-01,0.0,0.0,0.0
+Assam,Bongaigaon,2026-01-11,0.0,0.0,0.0
+Assam,Bongaigaon,2026-01-18,0.0,0.0,0.0
+Assam,Bongaigaon,2026-01-25,0.0,0.0,0.0
+Assam,Bongaigaon,2026-02-01,0.0,0.0,0.0
+Assam,Cachar,2026-01-11,0.0,0.0,0.0
+Assam,Cachar,2026-01-18,0.0,0.0,0.0
+Assam,Cachar,2026-01-25,0.0,0.0,0.0
+Assam,Cachar,2026-02-01,0.0,0.0,0.0
+Assam,Charaideo,2026-01-11,0.0,0.0,0.0
+Assam,Charaideo,2026-01-18,0.0,0.0,0.0
+Assam,Charaideo,2026-01-25,27.080526741237918,12.649970599885265,42.134098196068194
+Assam,Charaideo,2026-02-01,1092.9146788803605,1077.3505728089988,1108.193927247096
+Assam,Chirang,2026-01-11,0.0,0.0,0.0
+Assam,Chirang,2026-01-18,0.0,0.0,0.0
+Assam,Chirang,2026-01-25,4332.6729050459435,4164.568297619914,4501.989764833389
+Assam,Chirang,2026-02-01,24614.507401342904,24437.06293695176,24792.23039474618
+Assam,Darrang,2026-01-11,0.0,0.0,0.0
+Assam,Darrang,2026-01-18,0.0,0.0,0.0
+Assam,Darrang,2026-01-25,0.0,0.0,0.0
+Assam,Darrang,2026-02-01,0.0,0.0,0.0
+Assam,Dhemaji,2026-01-11,0.0,0.0,0.0
+Assam,Dhemaji,2026-01-18,0.0,0.0,0.0
+Assam,Dhemaji,2026-01-25,0.0,0.0,0.0
+Assam,Dhemaji,2026-02-01,11430.077190757724,11367.796913368284,11495.161210199887
+Assam,Dhubri,2026-01-11,0.0,0.0,0.0
+Assam,Dhubri,2026-01-18,0.0,0.0,0.0
+Assam,Dhubri,2026-01-25,0.0,0.0,0.0
+Assam,Dhubri,2026-02-01,26612.663023661957,26452.373670695943,26765.00851242959
+Assam,Dibrugarh,2026-01-11,292.9166888517502,232.9686876137078,354.7329542168322
+Assam,Dibrugarh,2026-01-18,3734.4906727554317,3672.077324103298,3793.0150078065517
+Assam,Dibrugarh,2026-01-25,15477.08169282983,15407.940186364098,15537.330910879351
+Assam,Dibrugarh,2026-02-01,37090.44358657414,37028.75754812691,37156.79730887422
+Assam,Dima Hasao,2026-01-11,0.0,0.0,2.0036688421433823e-09
+Assam,Dima Hasao,2026-01-18,0.0,0.0,2.288020337860156e-09
+Assam,Dima Hasao,2026-01-25,0.0,0.0,2.7507451234928185e-09
+Assam,Dima Hasao,2026-02-01,0.0,0.0,3.3511543247478477e-09
+Assam,Goalpara,2026-01-11,0.0,0.0,0.0
+Assam,Goalpara,2026-01-18,0.0,0.0,0.0
+Assam,Goalpara,2026-01-25,0.0,0.0,0.0
+Assam,Goalpara,2026-02-01,0.0,0.0,0.0
+Assam,Golaghat,2026-01-11,0.0,0.0,0.0
+Assam,Golaghat,2026-01-18,0.0,0.0,0.0
+Assam,Golaghat,2026-01-25,0.0,0.0,0.0
+Assam,Golaghat,2026-02-01,0.0,0.0,0.0
+Assam,Hailakandi,2026-01-11,0.0,0.0,0.0
+Assam,Hailakandi,2026-01-18,0.0,0.0,0.0
+Assam,Hailakandi,2026-01-25,0.0,0.0,0.0
+Assam,Hailakandi,2026-02-01,0.0,0.0,0.0
+Assam,Hojai,2026-01-11,0.0,0.0,0.0
+Assam,Hojai,2026-01-18,0.0,0.0,0.0
+Assam,Hojai,2026-01-25,0.0,0.0,0.0
+Assam,Hojai,2026-02-01,0.0,0.0,0.0
+Assam,Jorhat,2026-01-11,0.0,0.0,0.0
+Assam,Jorhat,2026-01-18,0.0,0.0,0.0
+Assam,Jorhat,2026-01-25,0.0,0.0,0.0
+Assam,Jorhat,2026-02-01,2974.912769585751,2837.976427399959,3105.1811811938774
+Assam,Kamrup,2026-01-11,0.0,0.0,0.0
+Assam,Kamrup,2026-01-18,0.0,0.0,0.0
+Assam,Kamrup,2026-01-25,0.0,0.0,0.0
+Assam,Kamrup,2026-02-01,0.0,0.0,0.0
+Assam,Kamrup Metro,2026-01-11,0.0,0.0,0.0
+Assam,Kamrup Metro,2026-01-18,2097.549926711441,2060.9401694612206,2134.8115856457553
+Assam,Kamrup Metro,2026-01-25,13624.492465087189,13586.125076868546,13661.16148409607
+Assam,Kamrup Metro,2026-02-01,37907.002562908514,37868.897325163125,37944.49173733267
+Assam,Karbi Anglong,2026-01-11,0.0,0.0,0.0
+Assam,Karbi Anglong,2026-01-18,0.0,0.0,0.0
+Assam,Karbi Anglong,2026-01-25,0.0,0.0,0.0
+Assam,Karbi Anglong,2026-02-01,0.0,0.0,0.0
+Assam,Karimganj,2026-01-11,0.0,0.0,0.0
+Assam,Karimganj,2026-01-18,0.0,0.0,0.0
+Assam,Karimganj,2026-01-25,0.0,0.0,0.0
+Assam,Karimganj,2026-02-01,0.0,0.0,0.0
+Assam,Kokrajhar,2026-01-11,0.0,0.0,0.0
+Assam,Kokrajhar,2026-01-18,0.0,0.0,0.0
+Assam,Kokrajhar,2026-01-25,0.0,0.0,0.0
+Assam,Kokrajhar,2026-02-01,0.0,0.0,0.0
+Assam,Lakhimpur,2026-01-11,0.0,0.0,0.0
+Assam,Lakhimpur,2026-01-18,0.0,0.0,0.0
+Assam,Lakhimpur,2026-01-25,0.0,0.0,0.0
+Assam,Lakhimpur,2026-02-01,0.0,0.0,0.0
+Assam,Majuli,2026-01-11,0.0,0.0,0.0
+Assam,Majuli,2026-01-18,0.0,0.0,0.0
+Assam,Majuli,2026-01-25,0.0,0.0,0.0
+Assam,Majuli,2026-02-01,0.0,0.0,0.0
+Assam,Marigaon,2026-01-11,0.0,0.0,0.0
+Assam,Marigaon,2026-01-18,0.0,0.0,0.0
+Assam,Marigaon,2026-01-25,0.0,0.0,0.0
+Assam,Marigaon,2026-02-01,0.0,0.0,0.0
+Assam,Nagaon,2026-01-11,0.0,0.0,0.0
+Assam,Nagaon,2026-01-18,0.0,0.0,0.0
+Assam,Nagaon,2026-01-25,0.0,0.0,0.0
+Assam,Nagaon,2026-02-01,0.0,0.0,0.0
+Assam,Nalbari,2026-01-11,0.0,0.0,0.0
+Assam,Nalbari,2026-01-18,0.0,0.0,0.0
+Assam,Nalbari,2026-01-25,0.0,0.0,0.0
+Assam,Nalbari,2026-02-01,0.0,0.0,0.0
+Assam,North Cachar Hills,2026-01-11,51.34717932098647,30.486310790024437,72.83257120173248
+Assam,North Cachar Hills,2026-01-18,593.3302676928818,571.7962709021895,613.5739918595276
+Assam,North Cachar Hills,2026-01-25,2671.6628028643086,2650.8544471094046,2693.971200093573
+Assam,North Cachar Hills,2026-02-01,6726.553085274769,6705.529613476574,6746.680567844771
+Assam,Sibsagar,2026-01-11,0.0,0.0,0.0
+Assam,Sibsagar,2026-01-18,0.0,0.0,0.0
+Assam,Sibsagar,2026-01-25,0.0,0.0,0.0
+Assam,Sibsagar,2026-02-01,0.0,0.0,0.0
+Assam,Sivasagar,2025-07-14,0.0,0.0,0.0
+Assam,Sivasagar,2025-07-21,0.0,0.0,0.0
+Assam,Sivasagar,2025-07-28,0.0,0.0,0.0
+Assam,Sivasagar,2025-08-04,0.0,0.0,0.0
+Assam,Sonitpur,2026-01-11,0.0,0.0,0.0
+Assam,Sonitpur,2026-01-18,0.0,0.0,0.0
+Assam,Sonitpur,2026-01-25,0.0,0.0,0.0
+Assam,Sonitpur,2026-02-01,0.0,0.0,0.0
+Assam,South Salmara Mankachar,2026-01-11,0.0,0.0,0.0
+Assam,South Salmara Mankachar,2026-01-18,0.0,0.0,0.0
+Assam,South Salmara Mankachar,2026-01-25,0.0,0.0,0.0
+Assam,South Salmara Mankachar,2026-02-01,0.0,0.0,0.0
+Assam,Sribhumi,2026-01-11,0.0,0.0,2.1191991161244468e-09
+Assam,Sribhumi,2026-01-18,0.0,0.0,3.086041427249592e-09
+Assam,Sribhumi,2026-01-25,0.0,0.0,5.0668833915618735e-09
+Assam,Sribhumi,2026-02-01,0.0,0.0,7.324656591027224e-09
+Assam,Tamulpur District,2026-01-11,0.0,0.0,2.057739272190335e-09
+Assam,Tamulpur District,2026-01-18,0.0,0.0,2.891043558723977e-09
+Assam,Tamulpur District,2026-01-25,0.0,0.0,4.3398186768736245e-09
+Assam,Tamulpur District,2026-02-01,0.0,0.0,5.923452212112819e-09
+Assam,Tinsukia,2026-01-11,0.0,0.0,0.0
+Assam,Tinsukia,2026-01-18,0.0,0.0,0.0
+Assam,Tinsukia,2026-01-25,0.0,0.0,0.0
+Assam,Tinsukia,2026-02-01,0.0,0.0,0.0
+Assam,Udalguri,2026-01-11,0.0,0.0,0.0
+Assam,Udalguri,2026-01-18,0.0,0.0,0.0
+Assam,Udalguri,2026-01-25,0.0,0.0,0.0
+Assam,Udalguri,2026-02-01,0.0,0.0,0.0
+Assam,West Karbi Anglong,2026-01-11,0.0,0.0,0.0
+Assam,West Karbi Anglong,2026-01-18,0.0,0.0,0.0
+Assam,West Karbi Anglong,2026-01-25,0.0,0.0,0.0
+Assam,West Karbi Anglong,2026-02-01,0.0,0.0,0.0
+Bihar,Araria,2026-01-11,0.0,0.0,0.0
+Bihar,Araria,2026-01-18,0.0,0.0,0.0
+Bihar,Araria,2026-01-25,0.0,0.0,0.0
+Bihar,Araria,2026-02-01,0.0,0.0,0.0
+Bihar,Arwal,2026-01-11,0.0,0.0,0.0
+Bihar,Arwal,2026-01-18,0.0,0.0,0.0
+Bihar,Arwal,2026-01-25,0.0,0.0,0.0
+Bihar,Arwal,2026-02-01,0.0,0.0,0.0
+Bihar,Aurangabad,2026-01-11,0.0,0.0,0.0
+Bihar,Aurangabad,2026-01-18,0.0,0.0,0.0
+Bihar,Aurangabad,2026-01-25,0.0,0.0,0.0
+Bihar,Aurangabad,2026-02-01,0.0,0.0,0.0
+Bihar,Aurangabad(BH),2026-01-11,0.0,0.0,2.0407420009133223e-09
+Bihar,Aurangabad(BH),2026-01-18,0.0,0.0,2.6554184822819355e-09
+Bihar,Aurangabad(BH),2026-01-25,0.0,0.0,4.367387462471605e-09
+Bihar,Aurangabad(BH),2026-02-01,0.0,0.0,6.068180594543839e-09
+Bihar,Aurangabad(bh),2026-01-11,0.0,0.0,1.967650860849162e-09
+Bihar,Aurangabad(bh),2026-01-18,0.0,0.0,2.776129092822266e-09
+Bihar,Aurangabad(bh),2026-01-25,0.0,0.0,4.486306428482489e-09
+Bihar,Aurangabad(bh),2026-02-01,0.0,0.0,6.281153935193229e-09
+Bihar,Banka,2026-01-11,0.0,0.0,0.0
+Bihar,Banka,2026-01-18,0.0,0.0,0.0
+Bihar,Banka,2026-01-25,0.0,0.0,0.0
+Bihar,Banka,2026-02-01,0.0,0.0,0.0
+Bihar,Begusarai,2026-01-11,0.0,0.0,0.0
+Bihar,Begusarai,2026-01-18,0.0,0.0,0.0
+Bihar,Begusarai,2026-01-25,0.0,0.0,0.0
+Bihar,Begusarai,2026-02-01,0.0,0.0,0.0
+Bihar,Bhabua,2026-01-11,0.0,0.0,2.044286454301841e-09
+Bihar,Bhabua,2026-01-18,0.0,0.0,2.6736208691087403e-09
+Bihar,Bhabua,2026-01-25,0.0,0.0,4.447199769258724e-09
+Bihar,Bhabua,2026-02-01,0.0,0.0,6.351217096256497e-09
+Bihar,Bhagalpur,2026-01-11,0.0,0.0,0.0
+Bihar,Bhagalpur,2026-01-18,0.0,0.0,0.0
+Bihar,Bhagalpur,2026-01-25,0.0,0.0,0.0
+Bihar,Bhagalpur,2026-02-01,0.0,0.0,0.0
+Bihar,Bhojpur,2026-01-11,0.0,0.0,0.0
+Bihar,Bhojpur,2026-01-18,0.0,0.0,0.0
+Bihar,Bhojpur,2026-01-25,0.0,0.0,0.0
+Bihar,Bhojpur,2026-02-01,0.0,0.0,0.0
+Bihar,Buxar,2026-01-11,0.0,0.0,0.0
+Bihar,Buxar,2026-01-18,0.0,0.0,0.0
+Bihar,Buxar,2026-01-25,0.0,0.0,0.0
+Bihar,Buxar,2026-02-01,0.0,0.0,0.0
+Bihar,Darbhanga,2026-01-11,0.0,0.0,0.0
+Bihar,Darbhanga,2026-01-18,0.0,0.0,0.0
+Bihar,Darbhanga,2026-01-25,0.0,0.0,0.0
+Bihar,Darbhanga,2026-02-01,0.0,0.0,0.0
+Bihar,East Champaran,2026-01-11,0.0,0.0,0.0
+Bihar,East Champaran,2026-01-18,0.0,0.0,0.0
+Bihar,East Champaran,2026-01-25,0.0,0.0,0.0
+Bihar,East Champaran,2026-02-01,0.0,0.0,0.0
+Bihar,Gaya,2026-01-11,0.0,0.0,0.0
+Bihar,Gaya,2026-01-18,0.0,0.0,0.0
+Bihar,Gaya,2026-01-25,0.0,0.0,0.0
+Bihar,Gaya,2026-02-01,0.0,0.0,0.0
+Bihar,Gopalganj,2026-01-11,0.0,0.0,0.0
+Bihar,Gopalganj,2026-01-18,0.0,0.0,0.0
+Bihar,Gopalganj,2026-01-25,0.0,0.0,0.0
+Bihar,Gopalganj,2026-02-01,0.0,0.0,0.0
+Bihar,Jamui,2026-01-11,0.0,0.0,0.0
+Bihar,Jamui,2026-01-18,0.0,0.0,0.0
+Bihar,Jamui,2026-01-25,0.0,0.0,0.0
+Bihar,Jamui,2026-02-01,0.0,0.0,0.0
+Bihar,Jehanabad,2026-01-11,0.0,0.0,0.0
+Bihar,Jehanabad,2026-01-18,0.0,0.0,0.0
+Bihar,Jehanabad,2026-01-25,0.0,0.0,0.0
+Bihar,Jehanabad,2026-02-01,0.0,0.0,0.0
+Bihar,Kaimur (Bhabua),2026-01-11,0.0,0.0,0.0
+Bihar,Kaimur (Bhabua),2026-01-18,0.0,0.0,0.0
+Bihar,Kaimur (Bhabua),2026-01-25,0.0,0.0,0.0
+Bihar,Kaimur (Bhabua),2026-02-01,0.0,0.0,0.0
+Bihar,Katihar,2026-01-11,0.0,0.0,0.0
+Bihar,Katihar,2026-01-18,0.0,0.0,0.0
+Bihar,Katihar,2026-01-25,0.0,0.0,0.0
+Bihar,Katihar,2026-02-01,0.0,0.0,0.0
+Bihar,Khagaria,2026-01-11,0.0,0.0,0.0
+Bihar,Khagaria,2026-01-18,0.0,0.0,0.0
+Bihar,Khagaria,2026-01-25,0.0,0.0,0.0
+Bihar,Khagaria,2026-02-01,0.0,0.0,0.0
+Bihar,Kishanganj,2026-01-11,0.0,0.0,0.0
+Bihar,Kishanganj,2026-01-18,0.0,0.0,0.0
+Bihar,Kishanganj,2026-01-25,0.0,0.0,0.0
+Bihar,Kishanganj,2026-02-01,0.0,0.0,0.0
+Bihar,Lakhisarai,2026-01-11,0.0,0.0,0.0
+Bihar,Lakhisarai,2026-01-18,0.0,0.0,0.0
+Bihar,Lakhisarai,2026-01-25,0.0,0.0,0.0
+Bihar,Lakhisarai,2026-02-01,0.0,0.0,0.0
+Bihar,Madhepura,2026-01-11,0.0,0.0,0.0
+Bihar,Madhepura,2026-01-18,0.0,0.0,0.0
+Bihar,Madhepura,2026-01-25,0.0,0.0,0.0
+Bihar,Madhepura,2026-02-01,0.0,0.0,0.0
+Bihar,Madhubani,2026-01-11,0.0,0.0,0.0
+Bihar,Madhubani,2026-01-18,0.0,0.0,0.0
+Bihar,Madhubani,2026-01-25,0.0,0.0,0.0
+Bihar,Madhubani,2026-02-01,0.0,0.0,0.0
+Bihar,Monghyr,2026-01-11,0.0,0.0,1.9527996708128076e-09
+Bihar,Monghyr,2026-01-18,0.0,0.0,2.7152214030917187e-09
+Bihar,Monghyr,2026-01-25,0.0,0.0,4.1125712677151366e-09
+Bihar,Monghyr,2026-02-01,0.0,0.0,5.9795016279252986e-09
+Bihar,Munger,2026-01-11,0.0,0.0,0.0
+Bihar,Munger,2026-01-18,0.0,0.0,0.0
+Bihar,Munger,2026-01-25,0.0,0.0,0.0
+Bihar,Munger,2026-02-01,0.0,0.0,0.0
+Bihar,Muzaffarpur,2026-01-11,0.0,0.0,0.0
+Bihar,Muzaffarpur,2026-01-18,0.0,0.0,0.0
+Bihar,Muzaffarpur,2026-01-25,0.0,0.0,0.0
+Bihar,Muzaffarpur,2026-02-01,0.0,0.0,0.0
+Bihar,Nalanda,2026-01-11,0.0,0.0,0.0
+Bihar,Nalanda,2026-01-18,0.0,0.0,0.0
+Bihar,Nalanda,2026-01-25,0.0,0.0,0.0
+Bihar,Nalanda,2026-02-01,0.0,0.0,0.0
+Bihar,Nawada,2026-01-11,0.0,0.0,0.0
+Bihar,Nawada,2026-01-18,0.0,0.0,0.0
+Bihar,Nawada,2026-01-25,0.0,0.0,0.0
+Bihar,Nawada,2026-02-01,0.0,0.0,0.0
+Bihar,Pashchim Champaran,2026-01-11,0.0,0.0,0.0
+Bihar,Pashchim Champaran,2026-01-18,0.0,0.0,0.0
+Bihar,Pashchim Champaran,2026-01-25,0.0,0.0,0.0
+Bihar,Pashchim Champaran,2026-02-01,0.0,0.0,0.0
+Bihar,Patna,2026-01-11,0.0,0.0,0.0
+Bihar,Patna,2026-01-18,0.0,0.0,0.0
+Bihar,Patna,2026-01-25,0.0,0.0,0.0
+Bihar,Patna,2026-02-01,0.0,0.0,0.0
+Bihar,Purba Champaran,2026-01-11,0.0,0.0,2.0567071458500737e-09
+Bihar,Purba Champaran,2026-01-18,0.0,0.0,3.1360427943505375e-09
+Bihar,Purba Champaran,2026-01-25,0.0,0.0,4.6305712540031795e-09
+Bihar,Purba Champaran,2026-02-01,0.0,0.0,6.026072663535286e-09
+Bihar,Purbi Champaran,2025-07-13,0.0,0.0,1.905062038019735e-09
+Bihar,Purbi Champaran,2025-07-20,0.0,0.0,2.299660100220929e-09
+Bihar,Purbi Champaran,2025-07-27,0.0,0.0,2.6325666093419598e-09
+Bihar,Purbi Champaran,2025-08-03,0.0,0.0,3.3744862232480836e-09
+Bihar,Purnea,2026-01-11,0.0,0.0,0.0
+Bihar,Purnea,2026-01-18,0.0,0.0,0.0
+Bihar,Purnea,2026-01-25,0.0,0.0,0.0
+Bihar,Purnea,2026-02-01,0.0,0.0,0.0
+Bihar,Purnia,2026-01-11,0.0,0.0,0.0
+Bihar,Purnia,2026-01-18,0.0,0.0,0.0
+Bihar,Purnia,2026-01-25,0.0,0.0,0.0
+Bihar,Purnia,2026-02-01,0.0,0.0,0.0
+Bihar,Rohtas,2026-01-11,0.0,0.0,0.0
+Bihar,Rohtas,2026-01-18,0.0,0.0,0.0
+Bihar,Rohtas,2026-01-25,0.0,0.0,0.0
+Bihar,Rohtas,2026-02-01,0.0,0.0,0.0
+Bihar,Saharsa,2026-01-11,0.0,0.0,0.0
+Bihar,Saharsa,2026-01-18,0.0,0.0,0.0
+Bihar,Saharsa,2026-01-25,0.0,0.0,0.0
+Bihar,Saharsa,2026-02-01,0.0,0.0,0.0
+Bihar,Samastipur,2026-01-11,0.0,0.0,0.0
+Bihar,Samastipur,2026-01-18,0.0,0.0,0.0
+Bihar,Samastipur,2026-01-25,0.0,0.0,0.0
+Bihar,Samastipur,2026-02-01,0.0,0.0,0.0
+Bihar,Samstipur,2026-01-11,0.0,0.0,2.081270025692071e-09
+Bihar,Samstipur,2026-01-18,0.0,0.0,3.0446916015068264e-09
+Bihar,Samstipur,2026-01-25,0.0,0.0,5.150555390137704e-09
+Bihar,Samstipur,2026-02-01,0.0,0.0,6.766049426494699e-09
+Bihar,Saran,2026-01-11,0.0,0.0,0.0
+Bihar,Saran,2026-01-18,0.0,0.0,0.0
+Bihar,Saran,2026-01-25,0.0,0.0,0.0
+Bihar,Saran,2026-02-01,0.0,0.0,0.0
+Bihar,Sheikhpura,2026-01-11,0.0,0.0,0.0
+Bihar,Sheikhpura,2026-01-18,0.0,0.0,0.0
+Bihar,Sheikhpura,2026-01-25,0.0,0.0,0.0
+Bihar,Sheikhpura,2026-02-01,0.0,0.0,0.0
+Bihar,Sheikpura,2026-01-11,0.0,0.0,2.029046890848943e-09
+Bihar,Sheikpura,2026-01-18,0.0,0.0,2.801283645961363e-09
+Bihar,Sheikpura,2026-01-25,0.0,0.0,4.585234034266303e-09
+Bihar,Sheikpura,2026-02-01,0.0,0.0,6.953791288404914e-09
+Bihar,Sheohar,2026-01-11,0.0,0.0,0.0
+Bihar,Sheohar,2026-01-18,0.0,0.0,0.0
+Bihar,Sheohar,2026-01-25,0.0,0.0,0.0
+Bihar,Sheohar,2026-02-01,0.0,0.0,0.0
+Bihar,Sitamarhi,2026-01-11,0.0,0.0,0.0
+Bihar,Sitamarhi,2026-01-18,0.0,0.0,0.0
+Bihar,Sitamarhi,2026-01-25,0.0,0.0,0.0
+Bihar,Sitamarhi,2026-02-01,0.0,0.0,0.0
+Bihar,Siwan,2026-01-11,0.0,0.0,0.0
+Bihar,Siwan,2026-01-18,0.0,0.0,0.0
+Bihar,Siwan,2026-01-25,0.0,0.0,0.0
+Bihar,Siwan,2026-02-01,0.0,0.0,0.0
+Bihar,Supaul,2026-01-11,0.0,0.0,0.0
+Bihar,Supaul,2026-01-18,0.0,0.0,0.0
+Bihar,Supaul,2026-01-25,0.0,0.0,0.0
+Bihar,Supaul,2026-02-01,0.0,0.0,0.0
+Bihar,Vaishali,2026-01-11,0.0,0.0,0.0
+Bihar,Vaishali,2026-01-18,0.0,0.0,0.0
+Bihar,Vaishali,2026-01-25,0.0,0.0,0.0
+Bihar,Vaishali,2026-02-01,0.0,0.0,0.0
+Bihar,West Champaran,2026-01-11,0.0,0.0,0.0
+Bihar,West Champaran,2026-01-18,0.0,0.0,0.0
+Bihar,West Champaran,2026-01-25,0.0,0.0,0.0
+Bihar,West Champaran,2026-02-01,0.0,0.0,0.0
+Chandigarh,Chandigarh,2026-01-11,0.0,0.0,0.0
+Chandigarh,Chandigarh,2026-01-18,0.0,0.0,0.0
+Chandigarh,Chandigarh,2026-01-25,0.0,0.0,0.0
+Chandigarh,Chandigarh,2026-02-01,0.0,0.0,0.0
+Chandigarh,Mohali,2026-01-04,0.0,0.0,2.0893252246726722e-09
+Chandigarh,Mohali,2026-01-11,0.0,0.0,2.792060022908863e-09
+Chandigarh,Mohali,2026-01-18,0.0,0.0,4.14060582493975e-09
+Chandigarh,Mohali,2026-01-25,0.0,0.0,6.173534810899589e-09
+Chandigarh,Rupnagar,2026-01-04,0.0,0.0,2.044065771233656e-09
+Chandigarh,Rupnagar,2026-01-11,0.0,0.0,2.9807336386960916e-09
+Chandigarh,Rupnagar,2026-01-18,0.0,0.0,4.522229274609904e-09
+Chandigarh,Rupnagar,2026-01-25,0.0,0.0,7.022450169921213e-09
+Chhatisgarh,Raipur,2025-12-21,0.0,0.0,2.009911306001738e-09
+Chhatisgarh,Raipur,2025-12-28,0.0,0.0,2.7325213647704873e-09
+Chhatisgarh,Raipur,2026-01-04,0.0,0.0,4.1962252008134815e-09
+Chhatisgarh,Raipur,2026-01-11,0.0,0.0,6.6446540121634906e-09
+Chhattisgarh,Balod,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Balod,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Balod,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Balod,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Baloda Bazar,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Baloda Bazar,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Baloda Bazar,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Baloda Bazar,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Balrampur,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Balrampur,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Balrampur,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Balrampur,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Bastar,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Bastar,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Bastar,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Bastar,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Bemetara,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Bemetara,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Bemetara,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Bemetara,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Bijapur,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Bijapur,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Bijapur,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Bijapur,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Bilaspur,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Bilaspur,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Bilaspur,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Bilaspur,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Dakshin Bastar Dantewada,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Dakshin Bastar Dantewada,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Dakshin Bastar Dantewada,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Dakshin Bastar Dantewada,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Dantewada,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Dantewada,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Dantewada,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Dantewada,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Dhamtari,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Dhamtari,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Dhamtari,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Dhamtari,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Durg,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Durg,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Durg,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Durg,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Gariyaband,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Gariyaband,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Gariyaband,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Gariyaband,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Gaurela-pendra-marwahi,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Gaurela-pendra-marwahi,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Gaurela-pendra-marwahi,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Gaurela-pendra-marwahi,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Gaurella Pendra Marwahi,2025-07-14,0.0,0.0,0.0
+Chhattisgarh,Gaurella Pendra Marwahi,2025-07-21,0.0,0.0,0.0
+Chhattisgarh,Gaurella Pendra Marwahi,2025-07-28,0.0,0.0,0.0
+Chhattisgarh,Gaurella Pendra Marwahi,2025-08-04,0.0,0.0,0.0
+Chhattisgarh,Janjgir - Champa,2026-01-11,0.0,0.0,1.887710122521568e-09
+Chhattisgarh,Janjgir - Champa,2026-01-18,0.0,0.0,2.9671258330713747e-09
+Chhattisgarh,Janjgir - Champa,2026-01-25,0.0,0.0,4.354376075891905e-09
+Chhattisgarh,Janjgir - Champa,2026-02-01,0.0,0.0,6.66918385560798e-09
+Chhattisgarh,Janjgir Champa,2026-01-11,0.0,0.0,2.0832154392677315e-09
+Chhattisgarh,Janjgir Champa,2026-01-18,0.0,0.0,2.9011950544620165e-09
+Chhattisgarh,Janjgir Champa,2026-01-25,0.0,0.0,4.371389549330082e-09
+Chhattisgarh,Janjgir Champa,2026-02-01,0.0,0.0,5.9617604620436865e-09
+Chhattisgarh,Janjgir-champa,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Janjgir-champa,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Janjgir-champa,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Janjgir-champa,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Jashpur,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Jashpur,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Jashpur,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Jashpur,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Kabeerdham,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Kabeerdham,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Kabeerdham,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Kabeerdham,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Kanker,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Kanker,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Kanker,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Kanker,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Kawardha,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Kawardha,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Kawardha,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Kawardha,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Khairagarh Chhuikhadan Gandai,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Khairagarh Chhuikhadan Gandai,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Khairagarh Chhuikhadan Gandai,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Khairagarh Chhuikhadan Gandai,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Kondagaon,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Kondagaon,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Kondagaon,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Kondagaon,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Korba,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Korba,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Korba,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Korba,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Koriya,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Koriya,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Koriya,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Koriya,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Mahasamund,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Mahasamund,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Mahasamund,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Mahasamund,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,ManendragarhChirmiriBharatpur,2025-07-14,14.666666666666666,7.450364135437656,21.882969197895676
+Chhattisgarh,ManendragarhChirmiriBharatpur,2025-07-21,14.666666666666666,7.450364135437656,21.882969197895676
+Chhattisgarh,ManendragarhChirmiriBharatpur,2025-07-28,14.666666666666666,7.450364135437656,21.882969197895676
+Chhattisgarh,ManendragarhChirmiriBharatpur,2025-08-04,14.666666666666666,7.450364135437656,21.882969197895676
+Chhattisgarh,Manendragarh–Chirmiri–Bharatpur,2026-01-11,0.0,0.0,2.0493363091484785e-09
+Chhattisgarh,Manendragarh–Chirmiri–Bharatpur,2026-01-18,0.0,0.0,3.1269375223214866e-09
+Chhattisgarh,Manendragarh–Chirmiri–Bharatpur,2026-01-25,0.0,0.0,5.2557691402777245e-09
+Chhattisgarh,Manendragarh–Chirmiri–Bharatpur,2026-02-01,0.0,0.0,7.107042892432809e-09
+Chhattisgarh,Mohalla-Manpur-Ambagarh Chowki,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Mohalla-Manpur-Ambagarh Chowki,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Mohalla-Manpur-Ambagarh Chowki,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Mohalla-Manpur-Ambagarh Chowki,2026-02-01,0.0,0.0,0.0
+Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,2026-01-11,0.0,0.0,0.0
+Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,2026-01-18,0.0,0.0,0.0
+Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,2026-01-25,0.0,0.0,0.0
+Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,2026-02-01,0.0,0.0,0.0

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "generated_at": "2026-01-09T21:56:32.539576",
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "device_upgrade"
+  },
+  "rationale": {
+    "bottleneck_type": "NORMAL",
+    "priority_score": 0.5004459770348356,
+    "why_selected": "Highest cost-effectiveness ratio (0.3626) for this district's NORMAL bottleneck"
+  },
+  "intervention_details": {
+    "name": "device_upgrade",
+    "description": "Upgrade biometric devices at 5 permanent centers",
+    "targets": [
+      "success_rate_improvement"
+    ],
+    "duration_weeks": 52
+  },
+  "cost_breakdown": {
+    "total_cost": 250000,
+    "cost_per_update": 1.3803382730285187,
+    "currency": "INR"
+  },
+  "expected_impact": {
+    "backlog_reduction": {
+      "median": 29640.00000000016,
+      "range_90pct": [
+        19239.999999999316,
+        34840.000000000786
+      ]
+    },
+    "reduction_percentage": {
+      "median": 4.775024139067787,
+      "range_90pct": [
+        2.526778330741928,
+        5.916783888189971
+      ]
+    }
+  },
+  "confidence": "90% based on Monte Carlo simulation with 500 runs"
+}

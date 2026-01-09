@@ -1,0 +1,76 @@
+{
+    "mobile_camp": {
+        "description": "Deploy a temporary Aadhaar update camp with 2 biometric devices",
+        "cost": 150000,
+        "capacity_per_week": 1000,
+        "effectiveness": {
+            "conservative": 0.25,
+            "median": 0.35,
+            "optimistic": 0.45
+        },
+        "duration_weeks": 4,
+        "target": [
+            "backlog_reduction",
+            "rural_coverage"
+        ]
+    },
+    "device_upgrade": {
+        "description": "Upgrade biometric devices at 5 permanent centers",
+        "cost": 250000,
+        "capacity_per_week": 2000,
+        "effectiveness": {
+            "conservative": 0.15,
+            "median": 0.25,
+            "optimistic": 0.30
+        },
+        "duration_weeks": 52,
+        "target": [
+            "success_rate_improvement"
+        ]
+    },
+    "staff_training": {
+        "description": "Intensive training program for enrollment operators",
+        "cost": 75000,
+        "capacity_per_week": 500,
+        "effectiveness": {
+            "conservative": 0.10,
+            "median": 0.20,
+            "optimistic": 0.30
+        },
+        "duration_weeks": 8,
+        "target": [
+            "success_rate_improvement",
+            "operator_efficiency"
+        ]
+    },
+    "awareness_campaign": {
+        "description": "Community outreach and school-based awareness for child biometric updates",
+        "cost": 50000,
+        "capacity_per_week": 300,
+        "effectiveness": {
+            "conservative": 0.15,
+            "median": 0.25,
+            "optimistic": 0.35
+        },
+        "duration_weeks": 6,
+        "target": [
+            "demand_generation",
+            "child_coverage"
+        ]
+    },
+    "extended_hours": {
+        "description": "Extend operating hours at existing Aadhaar Seva Kendras",
+        "cost": 100000,
+        "capacity_per_week": 800,
+        "effectiveness": {
+            "conservative": 0.20,
+            "median": 0.30,
+            "optimistic": 0.40
+        },
+        "duration_weeks": 12,
+        "target": [
+            "backlog_reduction",
+            "accessibility"
+        ]
+    }
+}

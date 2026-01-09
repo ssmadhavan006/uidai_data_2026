@@ -1,0 +1,201 @@
+"""
+pdf_exporter.py
+Generate Action Pack PDFs for decision-makers.
+"""
+import json
+from pathlib import Path
+from datetime import datetime
+
+
+def generate_action_pack_html(district_data: dict, intervention: dict, 
+                               intervention_name: str, mc_result: dict) -> str:
+    """Generate HTML content for action pack."""
+    html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Action Pack: {district_data['district']}</title>
+        <style>
+            body {{
+                font-family: 'Segoe UI', Arial, sans-serif;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 40px;
+                color: #333;
+            }}
+            .header {{
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+            }}
+            .header h1 {{
+                margin: 0;
+                font-size: 28px;
+            }}
+            .header p {{
+                margin: 10px 0 0 0;
+                opacity: 0.9;
+            }}
+            .section {{
+                margin: 25px 0;
+                padding: 20px;
+                background: #f8f9fa;
+                border-radius: 8px;
+                border-left: 4px solid #667eea;
+            }}
+            .section h2 {{
+                margin-top: 0;
+                color: #667eea;
+                font-size: 18px;
+            }}
+            .metric-row {{
+                display: flex;
+                justify-content: space-between;
+                margin: 15px 0;
+            }}
+            .metric {{
+                text-align: center;
+                padding: 15px;
+                background: white;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex: 1;
+                margin: 0 5px;
+            }}
+            .metric-value {{
+                font-size: 24px;
+                font-weight: bold;
+                color: #667eea;
+            }}
+            .metric-label {{
+                font-size: 12px;
+                color: #666;
+                margin-top: 5px;
+            }}
+            .confidence {{
+                background: #e8f5e9;
+                border-color: #4caf50;
+            }}
+            .cost {{
+                background: #fff3e0;
+                border-color: #ff9800;
+            }}
+            table {{
+                width: 100%;
+                border-collapse: collapse;
+                margin: 15px 0;
+            }}
+            th, td {{
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }}
+            th {{
+                background: #667eea;
+                color: white;
+            }}
+            .footer {{
+                margin-top: 40px;
+                padding-top: 20px;
+                border-top: 1px solid #ddd;
+                font-size: 12px;
+                color: #666;
+            }}
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>📋 Action Pack: {district_data['district']}</h1>
+            <p>State: {district_data['state']} | Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}</p>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Recommended Intervention</h2>
+            <h3>{intervention_name.replace('_', ' ').title()}</h3>
+            <p>{intervention.get('description', '')}</p>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td>{intervention.get('duration_weeks', 4)} weeks</td>
+                </tr>
+                <tr>
+                    <td>Capacity per Week</td>
+                    <td>{intervention.get('capacity_per_week', 0):,} updates</td>
+                </tr>
+                <tr>
+                    <td>Target Areas</td>
+                    <td>{', '.join(intervention.get('target', []))}</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="section confidence">
+            <h2>📊 Expected Impact (90% Confidence)</h2>
+            <div class="metric-row">
+                <div class="metric">
+                    <div class="metric-value">{mc_result['backlog_reduction']['p50']:,.0f}</div>
+                    <div class="metric-label">Median Reduction</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">{mc_result['reduction_pct']['p50']:.1f}%</div>
+                    <div class="metric-label">Reduction %</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">{mc_result['backlog_reduction']['p5']:,.0f} - {mc_result['backlog_reduction']['p95']:,.0f}</div>
+                    <div class="metric-label">90% Range</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section cost">
+            <h2>💰 Cost Analysis</h2>
+            <div class="metric-row">
+                <div class="metric">
+                    <div class="metric-value">₹{intervention.get('cost', 0):,}</div>
+                    <div class="metric-label">Total Cost</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value">₹{mc_result['cost_per_update']['p50']:.0f}</div>
+                    <div class="metric-label">Cost per Update</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📝 Rationale</h2>
+            <p><strong>Bottleneck Type:</strong> {district_data.get('bottleneck_label', 'UNKNOWN')}</p>
+            <p><strong>Priority Score:</strong> {district_data.get('priority_score', 0):.2f}</p>
+            <p>This intervention was selected based on the highest cost-effectiveness ratio for addressing the identified bottleneck in child biometric updates.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Generated by Aadhaar Pulse: Child Update Intelligence Platform</p>
+            <p>This report is based on Monte Carlo simulation with 500 runs. Actual results may vary.</p>
+        </div>
+    </body>
+    </html>
+    """
+    return html
+
+
+def save_action_pack_html(district_data: dict, intervention: dict,
+                          intervention_name: str, mc_result: dict,
+                          output_dir: str = 'outputs/action_packs') -> str:
+    """Save action pack as HTML file."""
+    html = generate_action_pack_html(district_data, intervention, intervention_name, mc_result)
+    
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    filename = f"action_pack_{district_data['district'].replace(' ', '_')}.html"
+    filepath = Path(output_dir) / filename
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(html)
+    
+    return str(filepath)

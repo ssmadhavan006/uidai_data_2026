@@ -1,0 +1,1102 @@
+state,district,year,week_number,bottleneck_label,rationale,current_bio_updates,current_demo_updates,update_backlog,completion_rate
+Chhattisgarh,Dhamtari,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.040,280,-1,-281,-280.0
+Chhattisgarh,Kabeerdham,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.035,215,-1,-216,-215.0
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,2026,1,NORMAL,No bottleneck indicators detected,19,-1,-20,-19.0
+Andhra Pradesh,Tirupati,2026,1,NORMAL,No bottleneck indicators detected,30,-1,-31,-30.0
+Chhattisgarh,Gariyaband,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.050,231,-1,-232,-231.0
+Chandigarh,Chandigarh,2026,1,NORMAL,No bottleneck indicators detected,97,-1,-98,-97.0
+Andhra Pradesh,Annamayya,2026,1,NORMAL,No bottleneck indicators detected,34,-1,-35,-34.0
+Andhra Pradesh,Nalgonda,2026,1,NORMAL,No bottleneck indicators detected,55,-1,-56,-55.0
+Assam,North Cachar Hills,2026,1,NORMAL,No bottleneck indicators detected,26,-1,-27,-26.0
+Chhattisgarh,Dakshin Bastar Dantewada,2026,1,NORMAL,No bottleneck indicators detected,97,-1,-98,-97.0
+Chhattisgarh,Dantewada,2026,1,NORMAL,No bottleneck indicators detected,40,-1,-41,-40.0
+Andhra Pradesh,Kakinada,2026,1,NORMAL,No bottleneck indicators detected,34,-1,-35,-34.0
+Andhra Pradesh,Medak,2026,1,NORMAL,No bottleneck indicators detected,33,-1,-34,-33.0
+Andhra Pradesh,N. T. R,2026,1,NORMAL,No bottleneck indicators detected,30,-1,-31,-30.0
+Arunachal Pradesh,Changlang,2026,1,NORMAL,No bottleneck indicators detected,28,-1,-29,-28.0
+Andhra Pradesh,Bapatla,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Andhra Pradesh,Alluri Sitharama Raju,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Andhra Pradesh,Karimnagar,2026,1,NORMAL,No bottleneck indicators detected,22,-1,-23,-22.0
+Andhra Pradesh,Y. S. R,2026,1,NORMAL,No bottleneck indicators detected,21,-1,-22,-21.0
+Assam,South Salmara Mankachar,2026,1,NORMAL,No bottleneck indicators detected,18,-1,-19,-18.0
+Andhra Pradesh,Sri Sathya Sai,2026,1,OPERATIONAL_BOTTLENECK,Low completion rate (-0.10); Significant backlog (11); Bio/Demo ratio low (-0.10),-1,10,11,-0.1
+Andhra Pradesh,Eluru,2026,1,NORMAL,No bottleneck indicators detected,16,-1,-17,-16.0
+Andhra Pradesh,Parvathipuram Manyam,2026,1,NORMAL,No bottleneck indicators detected,14,-1,-15,-14.0
+Andhra Pradesh,Palnadu,2026,1,NORMAL,No bottleneck indicators detected,13,-1,-14,-13.0
+Andhra Pradesh,Anakapalli,2026,1,NORMAL,No bottleneck indicators detected,12,-1,-13,-12.0
+Assam,Majuli,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Andaman and Nicobar Islands,North And Middle Andaman,2026,1,NORMAL,No bottleneck indicators detected,10,-1,-11,-10.0
+Chhattisgarh,Khairagarh Chhuikhadan Gandai,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Chhattisgarh,Mohalla-Manpur-Ambagarh Chowki,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Andhra Pradesh,Srikakulam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.95),250,42,-208,5.9523809523809526
+Andhra Pradesh,Ananthapuramu,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.22),220,18,-202,12.222222222222221
+Andhra Pradesh,West Godavari,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.14),407,57,-350,7.140350877192983
+Andhra Pradesh,Kurnool,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.67),704,48,-656,14.666666666666666
+Andhra Pradesh,Visakhapatnam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.18),510,71,-439,7.183098591549296
+Andhra Pradesh,Chittoor,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.56),565,66,-499,8.56060606060606
+Andhra Pradesh,East Godavari,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.09),499,82,-417,6.085365853658536
+Andhra Pradesh,Nellore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.71),356,28,-328,12.714285714285714
+Andhra Pradesh,Ananthapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.28),154,36,-118,4.277777777777778
+Assam,Nalbari,2026,1,NORMAL,No bottleneck indicators detected,48,-1,-49,-48.0
+Assam,Barpeta,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.82),191,50,-141,3.82
+Assam,Biswanath,2026,1,NORMAL,No bottleneck indicators detected,29,-1,-30,-29.0
+Bihar,Kishanganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (31.18),873,28,-845,31.178571428571427
+Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,2026,1,OPERATIONAL_BOTTLENECK,Low completion rate (0.29); Significant backlog (29); Bio/Demo ratio low (0.29),12,41,29,0.2926829268292683
+Assam,Charaideo,2026,1,CAPACITY_STRAIN,High child saturation (0.52); Bio updates declining week-over-week,25,-1,-26,-25.0
+Arunachal Pradesh,Lower Subansiri,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Arunachal Pradesh,Tirap,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Bihar,Sheikhpura,2026,1,CAPACITY_STRAIN,High child saturation (0.75); Bio updates declining week-over-week,83,-1,-84,-83.0
+Chhattisgarh,Bilaspur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.42),745,116,-629,6.422413793103448
+Bihar,Madhubani,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.33),940,91,-849,10.32967032967033
+Chhattisgarh,Janjgir-champa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (23.79),666,28,-638,23.785714285714285
+Bihar,Katihar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.57),787,58,-729,13.568965517241379
+Andaman and Nicobar Islands,South Andaman,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,52,-1,-53,-52.0
+Arunachal Pradesh,Tawang,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,51,-1,-52,-51.0
+Arunachal Pradesh,Leparada,2025,52,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Arunachal Pradesh,Papum Pare,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,30,-1,-31,-30.0
+Chhattisgarh,Baloda Bazar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (26.65),613,23,-590,26.652173913043477
+Arunachal Pradesh,Lohit,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,13,-1,-14,-13.0
+Arunachal Pradesh,East Kameng,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,10,-1,-11,-10.0
+Chhattisgarh,Gaurela-pendra-marwahi,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,10,-1,-11,-10.0
+Arunachal Pradesh,Kurung Kumey,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,0,-1,-1,-0.0
+Assam,Sribhumi,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Andhra Pradesh,K.V.Rangareddy,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,0,-1,-1,-0.0
+Bihar,Pashchim Champaran,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Andhra Pradesh,Guntur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.51),518,69,-449,7.507246376811594
+Andhra Pradesh,Cuddapah,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.35),488,34,-454,14.352941176470589
+Chhattisgarh,Durg,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.06),512,34,-478,15.058823529411764
+Andhra Pradesh,Krishna,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.04),462,46,-416,10.043478260869565
+Chhattisgarh,Bemetara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (43.55),479,11,-468,43.54545454545455
+Bihar,Sitamarhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.27),640,88,-552,7.2727272727272725
+Andhra Pradesh,Prakasam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.48),421,65,-356,6.476923076923077
+Bihar,West Champaran,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.27),721,115,-606,6.269565217391304
+Chhattisgarh,Balod,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (19.17),345,18,-327,19.166666666666668
+Andhra Pradesh,Sri Potti Sriramulu Nellore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.36),26,11,-15,2.3636363636363638
+Andhra Pradesh,Vizianagaram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.69),313,36,-277,8.694444444444445
+Bihar,Darbhanga,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.63),550,83,-467,6.626506024096385
+Chhattisgarh,Mahasamund,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (28.57),400,14,-386,28.571428571428573
+Bihar,Jamui,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (33.62),538,16,-522,33.625
+Assam,Nagaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.23),405,56,-349,7.232142857142857
+Chhattisgarh,Korba,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.45),361,29,-332,12.448275862068966
+Chhattisgarh,Bastar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (18.65),373,20,-353,18.65
+Bihar,Purnia,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.40),479,57,-422,8.403508771929825
+Chhattisgarh,Balrampur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.76),428,29,-399,14.758620689655173
+Chhattisgarh,Kanker,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (21.50),215,10,-205,21.5
+Chhattisgarh,Kawardha,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.83),280,41,-239,6.829268292682927
+Bihar,Araria,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.58),449,98,-351,4.581632653061225
+Bihar,East Champaran,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.88),574,148,-426,3.8783783783783785
+Bihar,Vaishali,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.45),490,76,-414,6.447368421052632
+Bihar,Samastipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.55),428,94,-334,4.553191489361702
+Assam,Dhubri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.55),296,65,-231,4.553846153846154
+Bihar,Khagaria,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.95),417,60,-357,6.95
+Chhattisgarh,Koriya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.24),268,29,-239,9.241379310344827
+Bihar,Nalanda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.67),506,66,-440,7.666666666666667
+Arunachal Pradesh,West Kameng,2026,1,NORMAL,No bottleneck indicators detected,94,0,-94,
+Assam,Goalpara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.14),201,22,-179,9.136363636363637
+Bihar,Muzaffarpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.06),398,130,-268,3.0615384615384613
+Bihar,Supaul,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.31),372,59,-313,6.305084745762712
+Bihar,Begusarai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.69),347,74,-273,4.6891891891891895
+Andhra Pradesh,Adilabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.00),56,14,-42,4.0
+Assam,Kamrup,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.80),145,25,-120,5.8
+Assam,Dibrugarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.00),77,11,-66,7.0
+Andhra Pradesh,Anantapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.05),121,20,-101,6.05
+Bihar,Siwan,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.06),420,83,-337,5.0602409638554215
+Andhra Pradesh,Warangal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.27),47,11,-36,4.2727272727272725
+Assam,Cachar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.94),250,36,-214,6.944444444444445
+Andhra Pradesh,Khammam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.29),46,14,-32,3.2857142857142856
+Chhattisgarh,Kondagaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.55),248,29,-219,8.551724137931034
+Bihar,Bhagalpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.73),336,71,-265,4.732394366197183
+Assam,Darrang,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.96),167,28,-139,5.964285714285714
+Assam,Marigaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.05),123,60,-63,2.05
+Assam,Golaghat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.50),175,10,-165,17.5
+Bihar,Patna,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.73),436,117,-319,3.7264957264957266
+Andhra Pradesh,Nandyal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.27),25,11,-14,2.272727272727273
+Andhra Pradesh,Hyderabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.33),148,12,-136,12.333333333333334
+Arunachal Pradesh,Namsai,2026,1,NORMAL,No bottleneck indicators detected,21,0,-21,
+Assam,Karimganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.78),231,40,-191,5.775
+Assam,Lakhimpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.77),83,30,-53,2.7666666666666666
+Arunachal Pradesh,Kamle,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Andhra Pradesh,Mahabubnagar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Assam,Sonitpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.03),88,29,-59,3.0344827586206895
+Chhattisgarh,Janjgir Champa,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Andhra Pradesh,K.v. Rangareddy,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Andaman & Nicobar Islands,Andamans,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Andhra Pradesh,Karim Nagar,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Andaman & Nicobar Islands,South Andaman,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Bihar,Purnea,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+100000,100000,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Aurangabad(BH),2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Assam,Bajali,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Andhra Pradesh,Mahbubnagar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Chhattisgarh,Bijapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.00),143,11,-132,13.0
+Assam,Bongaigaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.04),105,26,-79,4.038461538461538
+Bihar,Madhepura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.57),302,46,-256,6.565217391304348
+Bihar,Gaya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.45),396,89,-307,4.449438202247191
+Bihar,Saran,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.25),383,73,-310,5.2465753424657535
+Chhattisgarh,Jashpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.22),287,68,-219,4.220588235294118
+Andhra Pradesh,Rangareddi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.71),80,14,-66,5.714285714285714
+Bihar,Banka,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.52),285,63,-222,4.523809523809524
+Assam,Kamrup Metro,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.56),57,16,-41,3.5625
+Assam,Tinsukia,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.91),86,45,-41,1.9111111111111112
+Assam,Jorhat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.18),79,11,-68,7.181818181818182
+Assam,Hojai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.58),103,40,-63,2.575
+Assam,Udalguri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.21),99,19,-80,5.2105263157894735
+Assam,Hailakandi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.25),125,20,-105,6.25
+Assam,Sibsagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.17),98,12,-86,8.166666666666666
+Assam,Sivasagar,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Assam,Baksa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.33),64,12,-52,5.333333333333333
+Assam,Kokrajhar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.60),76,10,-66,7.6
+Bihar,Rohtas,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.74),270,57,-213,4.7368421052631575
+Assam,Dhemaji,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.36),66,28,-38,2.357142857142857
+Bihar,Saharsa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.06),177,35,-142,5.057142857142857
+Bihar,Aurangabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.01),281,70,-211,4.014285714285714
+Chhattisgarh,Gaurella Pendra Marwahi,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Gopalganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.80),232,61,-171,3.80327868852459
+Assam,Karbi Anglong,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.92),83,12,-71,6.916666666666667
+Andhra Pradesh,Spsr Nellore,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Kaimur (Bhabua),2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.36),145,14,-131,10.357142857142858
+Bihar,Sheohar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.83),82,12,-70,6.833333333333333
+Bihar,Bhojpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.09),227,32,-195,7.09375
+Chhattisgarh,ManendragarhChirmiriBharatpur,2025,27,NORMAL,No bottleneck indicators detected,10,0,-10,
+Bihar,Nawada,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.36),192,44,-148,4.363636363636363
+Bihar,Buxar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.98),111,56,-55,1.9821428571428572
+Assam,Chirang,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.59),61,17,-44,3.588235294117647
+Arunachal Pradesh,Pakke Kessang,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Andaman and Nicobar Islands,Nicobar,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Assam,Tamulpur District,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Andaman & Nicobar Islands,Nicobars,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Arunachal Pradesh,Dibang Valley,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Assam,Dima Hasao,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Chhatisgarh,Raipur,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Chandigarh,Rupnagar,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Chandigarh,Mohali,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Arunachal Pradesh,Longding,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Arunachal Pradesh,Siang,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Arunachal Pradesh,Anjaw,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Bihar,Lakhisarai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.41),109,17,-92,6.411764705882353
+Andhra Pradesh,Mahabub Nagar,2026,1,CAPACITY_STRAIN,High child saturation (0.55); Bio updates declining week-over-week,-1,-1,0,1.0
+Bihar,Munger,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.24),89,21,-68,4.238095238095238
+Bihar,Purbi Champaran,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.061,0,0,0,
+Bihar,Jehanabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.67),68,12,-56,5.666666666666667
+Bihar,Arwal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.26),52,23,-29,2.260869565217391
+Andhra Pradesh,Nizamabad,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,35,0,-35,
+Chhattisgarh,Manendragarh–Chirmiri–Bharatpur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Arunachal Pradesh,Kra Daadi,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Bihar,Aurangabad(bh),2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Arunachal Pradesh,Lower Dibang Valley,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Chhattisgarh,Janjgir - Champa,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Samstipur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Sheikpura,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Monghyr,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Purba Champaran,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Arunachal Pradesh,Shi-yomi,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Bihar,Bhabua,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Assam,West Karbi Anglong,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Arunachal Pradesh,Upper Subansiri,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Arunachal Pradesh,Upper Siang,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Arunachal Pradesh,Lower Siang,2026,1,DEMOGRAPHIC_SURGE,Bio updates 50%+ above 4-week average; Completion rate healthy (1.00),-1,-1,0,1.0
+Arunachal Pradesh,West Siang,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Arunachal Pradesh,East Siang,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Andhra Pradesh,Visakhapatanam,2025,22,NORMAL,No bottleneck indicators detected,0,0,0,
+BALANAGAR,IDPL COLONY,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Chhattisgarh,Mungeli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (16.35),376,23,-353,16.347826086956523
+Chhattisgarh,Narayanpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.70),97,10,-87,9.7
+Chhattisgarh,Raigarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.07),422,28,-394,15.071428571428571
+Chhattisgarh,Raipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.04),926,71,-855,13.04225352112676
+Chhattisgarh,Rajnandgaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.81),582,121,-461,4.809917355371901
+Chhattisgarh,Sakti,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Chhattisgarh,Sarangarh-Bilaigarh,2026,1,OPERATIONAL_BOTTLENECK,Low completion rate (-0.03); Significant backlog (37); Bio/Demo ratio low (-0.03),-1,36,37,-0.027777777777777776
+Chhattisgarh,Sukma,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.80),138,10,-128,13.8
+Chhattisgarh,Surajpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.12),315,26,-289,12.115384615384615
+Chhattisgarh,Surguja,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.28),492,53,-439,9.283018867924529
+Chhattisgarh,Uttar Bastar Kanker,2026,1,NORMAL,No bottleneck indicators detected,57,-1,-58,-57.0
+Dadra & Nagar Haveli,Dadra & Nagar Haveli,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Dadra and Nagar Haveli,Dadra and Nagar Haveli,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Dadra and Nagar Haveli and Daman and Diu,Dadra and Nagar Haveli,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Dadra and Nagar Haveli and Daman and Diu,Daman,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Dadra and Nagar Haveli and Daman and Diu,Diu,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Daman & Diu,Daman,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Daman & Diu,Diu,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Daman and Diu,Daman,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Daman and Diu,Diu,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Darbhanga,Near University Thana,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+Delhi,Central Delhi,2026,1,NORMAL,No bottleneck indicators detected,98,-1,-99,-98.0
+Delhi,East Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.76),287,37,-250,7.756756756756757
+Delhi,Najafgarh,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Delhi,New Delhi,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,13,0,-13,
+Delhi,North Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.59),122,34,-88,3.588235294117647
+Delhi,North East,2026,1,NORMAL,No bottleneck indicators detected,10,0,-10,
+Delhi,North East Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.42),377,33,-344,11.424242424242424
+Delhi,North West Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.32),549,75,-474,7.32
+Delhi,Shahdara,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Delhi,South Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.74),333,43,-290,7.744186046511628
+Delhi,South East Delhi,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Delhi,South West Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.63),267,35,-232,7.628571428571429
+Delhi,West Delhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.11),271,53,-218,5.113207547169812
+Goa,Bardez,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Goa,Bicholim,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Goa,North Goa,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.004,132,-1,-133,-132.0
+Goa,South Goa,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.011,138,-1,-139,-138.0
+Goa,Tiswadi,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Gujarat,Ahmadabad,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Gujarat,Ahmedabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.33),480,206,-274,2.3300970873786406
+Gujarat,Amreli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.57),92,14,-78,6.571428571428571
+Gujarat,Anand,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.59),112,17,-95,6.588235294117647
+Gujarat,Arvalli,2026,1,NORMAL,No bottleneck indicators detected,61,-1,-62,-61.0
+Gujarat,Banas Kantha,2026,1,DEMOGRAPHIC_SURGE,Bio updates 50%+ above 4-week average; Completion rate healthy (1.00),-1,-1,0,1.0
+Gujarat,Banaskantha,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.01),277,69,-208,4.0144927536231885
+Gujarat,Bharuch,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.29),115,35,-80,3.2857142857142856
+Gujarat,Bhavnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.85),160,33,-127,4.848484848484849
+Gujarat,Botad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.82),31,11,-20,2.8181818181818183
+Gujarat,Chhotaudepur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.25),36,16,-20,2.25
+Gujarat,Dahod,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.44),167,16,-151,10.4375
+Gujarat,Dang,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Gujarat,Devbhumi Dwarka,2026,1,NORMAL,No bottleneck indicators detected,60,-1,-61,-60.0
+Gujarat,Dohad,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Gujarat,Gandhinagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.75),77,28,-49,2.75
+Gujarat,Gir Somnath,2026,1,NORMAL,No bottleneck indicators detected,108,-1,-109,-108.0
+Gujarat,Jamnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.29),112,34,-78,3.2941176470588234
+Gujarat,Junagadh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.48),160,46,-114,3.4782608695652173
+Gujarat,Kachchh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.79),191,33,-158,5.787878787878788
+Gujarat,Kheda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.97),149,30,-119,4.966666666666667
+Gujarat,Mahesana,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.76),127,46,-81,2.760869565217391
+Gujarat,Mahisagar,2026,1,NORMAL,No bottleneck indicators detected,68,-1,-69,-68.0
+Gujarat,Morbi,2026,1,NORMAL,No bottleneck indicators detected,47,-1,-48,-47.0
+Gujarat,Narmada,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.55),28,11,-17,2.5454545454545454
+Gujarat,Navsari,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.14),45,21,-24,2.142857142857143
+Gujarat,Panch Mahals,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Gujarat,Panchmahals,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.04),162,23,-139,7.043478260869565
+Gujarat,Patan,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.40),66,15,-51,4.4
+Gujarat,Porbandar,2026,1,NORMAL,No bottleneck indicators detected,44,-1,-45,-44.0
+Gujarat,Rajkot,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.73),194,52,-142,3.730769230769231
+Gujarat,Sabar Kantha,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Gujarat,Sabarkantha,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.79),95,34,-61,2.7941176470588234
+Gujarat,Surat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.17),368,116,-252,3.1724137931034484
+Gujarat,Surendra Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.60),106,10,-96,10.6
+Gujarat,Surendranagar,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Gujarat,Tapi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.57),64,14,-50,4.571428571428571
+Gujarat,The Dangs,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Gujarat,Vadodara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.11),313,44,-269,7.113636363636363
+Gujarat,Valsad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.26),115,27,-88,4.2592592592592595
+Haryana,Akhera,2025,45,NORMAL,No bottleneck indicators detected,0,0,0,
+Haryana,Ambala,2026,1,NORMAL,No bottleneck indicators detected,115,-1,-116,-115.0
+Haryana,Bhiwani,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.08),145,12,-133,12.083333333333334
+Haryana,Charkhi Dadri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.00),22,11,-11,2.0
+Haryana,Faridabad,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.052,291,-1,-292,-291.0
+Haryana,Fatehabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.30),83,10,-73,8.3
+Haryana,Gurgaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.56),258,27,-231,9.555555555555555
+Haryana,Gurugram,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Haryana,Hisar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.90),159,10,-149,15.9
+Haryana,Jhajjar,2026,1,NORMAL,No bottleneck indicators detected,111,0,-111,
+Haryana,Jind,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (16.58),199,12,-187,16.583333333333332
+Haryana,Kaithal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.20),142,10,-132,14.2
+Haryana,Karnal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.73),176,15,-161,11.733333333333333
+Haryana,Kurukshetra,2026,1,NORMAL,No bottleneck indicators detected,75,-1,-76,-75.0
+Haryana,Mahendragarh,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.029,161,-1,-162,-161.0
+Haryana,Mewat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.55),190,29,-161,6.551724137931035
+Haryana,Nuh,2025,22,NORMAL,No bottleneck indicators detected,0,0,0,
+Haryana,Palwal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.93),164,15,-149,10.933333333333334
+Haryana,Panchkula,2026,1,NORMAL,No bottleneck indicators detected,65,-1,-66,-65.0
+Haryana,Panipat,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.003,126,-1,-127,-126.0
+Haryana,Rewari,2026,1,NORMAL,No bottleneck indicators detected,99,-1,-100,-99.0
+Haryana,Rohtak,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.73),96,11,-85,8.727272727272727
+Haryana,Sirsa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.14),128,14,-114,9.142857142857142
+Haryana,Sonipat,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.024,151,-1,-152,-151.0
+Haryana,Yamuna Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.18),189,11,-178,17.181818181818183
+Haryana,Yamunanagar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Himachal Pradesh,Bilaspur,2026,1,NORMAL,No bottleneck indicators detected,27,-1,-28,-27.0
+Himachal Pradesh,Chamba,2026,1,NORMAL,No bottleneck indicators detected,53,-1,-54,-53.0
+Himachal Pradesh,Hamirpur,2026,1,NORMAL,No bottleneck indicators detected,52,-1,-53,-52.0
+Himachal Pradesh,Kangra,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (18.75),225,12,-213,18.75
+Himachal Pradesh,Kinnaur,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Himachal Pradesh,Kullu,2026,1,NORMAL,No bottleneck indicators detected,52,-1,-53,-52.0
+Himachal Pradesh,Lahaul and Spiti,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Himachal Pradesh,Lahul & Spiti,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Himachal Pradesh,Lahul and Spiti,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Himachal Pradesh,Mandi,2026,1,NORMAL,No bottleneck indicators detected,78,-1,-79,-78.0
+Himachal Pradesh,Shimla,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.00),72,12,-60,6.0
+Himachal Pradesh,Sirmaur,2026,1,NORMAL,No bottleneck indicators detected,36,-1,-37,-36.0
+Himachal Pradesh,Solan,2026,1,NORMAL,No bottleneck indicators detected,67,-1,-68,-67.0
+Himachal Pradesh,Una,2026,1,NORMAL,No bottleneck indicators detected,64,-1,-65,-64.0
+Jaipur,Near meera hospital,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Anantnag,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Badgam,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+Jammu & Kashmir,Bandipur,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Baramula,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Doda,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Jammu,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Kargil,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Kathua,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Kupwara,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Leh (ladakh),2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Pulwama,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Punch,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Rajauri,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Srinagar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu & Kashmir,Udhampur,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu And Kashmir,Doda,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu And Kashmir,Shopian,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu and Kashmir,?,2025,47,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu and Kashmir,Anantnag,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.72),585,46,-539,12.717391304347826
+Jammu and Kashmir,Badgam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.44),26,18,-8,1.4444444444444444
+Jammu and Kashmir,Bandipore,2026,1,NORMAL,No bottleneck indicators detected,187,0,-187,
+Jammu and Kashmir,Bandipur,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu and Kashmir,Baramula,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.33),198,27,-171,7.333333333333333
+Jammu and Kashmir,Budgam,2026,1,NORMAL,No bottleneck indicators detected,105,-1,-106,-105.0
+Jammu and Kashmir,Doda,2026,1,NORMAL,No bottleneck indicators detected,106,-1,-107,-106.0
+Jammu and Kashmir,Ganderbal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.30),143,10,-133,14.3
+Jammu and Kashmir,Jammu,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.040,214,-1,-215,-214.0
+Jammu and Kashmir,Kargil,2026,1,NORMAL,No bottleneck indicators detected,10,-1,-11,-10.0
+Jammu and Kashmir,Kathua,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.032,145,-1,-146,-145.0
+Jammu and Kashmir,Kishtwar,2026,1,NORMAL,No bottleneck indicators detected,89,0,-89,
+Jammu and Kashmir,Kulgam,2026,1,NORMAL,No bottleneck indicators detected,152,0,-152,
+Jammu and Kashmir,Kupwara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.09),195,32,-163,6.09375
+Jammu and Kashmir,Leh,2026,1,NORMAL,No bottleneck indicators detected,10,-1,-11,-10.0
+Jammu and Kashmir,Poonch,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+Jammu and Kashmir,Pulwama,2026,1,NORMAL,No bottleneck indicators detected,110,-1,-111,-110.0
+Jammu and Kashmir,Punch,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.50),190,20,-170,9.5
+Jammu and Kashmir,Rajouri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.82),184,17,-167,10.823529411764707
+Jammu and Kashmir,Ramban,2026,1,NORMAL,No bottleneck indicators detected,63,-1,-64,-63.0
+Jammu and Kashmir,Reasi,2026,1,NORMAL,No bottleneck indicators detected,52,0,-52,
+Jammu and Kashmir,Samba,2026,1,NORMAL,No bottleneck indicators detected,37,0,-37,
+Jammu and Kashmir,Shupiyan,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.39),43,18,-25,2.388888888888889
+Jammu and Kashmir,Srinagar,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.044,300,-1,-301,-300.0
+Jammu and Kashmir,Udhampur,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.001,122,-1,-123,-122.0
+Jammu and Kashmir,punch,2025,47,NORMAL,No bottleneck indicators detected,0,0,0,
+Jammu and Kashmir,udhampur,2025,38,NORMAL,No bottleneck indicators detected,0,0,0,
+Jharkhand,Bokaro,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.91),228,23,-205,9.91304347826087
+Jharkhand,Chatra,2026,1,CAPACITY_STRAIN,High child saturation (0.64); Bio updates declining week-over-week,93,-1,-94,-93.0
+Jharkhand,Deoghar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.28),154,36,-118,4.277777777777778
+Jharkhand,Dhanbad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.00),210,30,-180,7.0
+Jharkhand,Dumka,2026,1,CAPACITY_STRAIN,High child saturation (0.74); Bio updates declining week-over-week,113,-1,-114,-113.0
+Jharkhand,East Singhbhum,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.72),211,18,-193,11.722222222222221
+Jharkhand,East Singhbum,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Jharkhand,Garhwa,2026,1,NORMAL,No bottleneck indicators detected,182,0,-182,
+Jharkhand,Giridih,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.63),221,84,-137,2.630952380952381
+Jharkhand,Godda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.42),161,12,-149,13.416666666666666
+Jharkhand,Gumla,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.71),248,14,-234,17.714285714285715
+Jharkhand,Hazaribag,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Jharkhand,Hazaribagh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.83),195,18,-177,10.833333333333334
+Jharkhand,Jamtara,2026,1,NORMAL,No bottleneck indicators detected,92,-1,-93,-92.0
+Jharkhand,Khunti,2026,1,CAPACITY_STRAIN,High child saturation (0.55); Bio updates declining week-over-week,87,-1,-88,-87.0
+Jharkhand,Kodarma,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Jharkhand,Koderma,2026,1,CAPACITY_STRAIN,High child saturation (0.51); Bio updates declining week-over-week,90,-1,-91,-90.0
+Jharkhand,Latehar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.50),77,22,-55,3.5
+Jharkhand,Lohardaga,2026,1,NORMAL,No bottleneck indicators detected,87,-1,-88,-87.0
+Jharkhand,Pakaur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Jharkhand,Pakur,2026,1,NORMAL,No bottleneck indicators detected,80,0,-80,
+Jharkhand,Palamau,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Jharkhand,Palamu,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.35),262,49,-213,5.346938775510204
+Jharkhand,Pashchimi Singhbhum,2026,1,CAPACITY_STRAIN,High child saturation (0.77); Bio updates declining week-over-week,16,-1,-17,-16.0
+Jharkhand,Purbi Singhbhum,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Jharkhand,Ramgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.09),67,11,-56,6.090909090909091
+Jharkhand,Ranchi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.06),312,31,-281,10.064516129032258
+Jharkhand,Sahebganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.64),150,11,-139,13.636363636363637
+Jharkhand,Sahibganj,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Jharkhand,Seraikela-Kharsawan,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.62),122,16,-106,7.625
+Jharkhand,Seraikela-kharsawan,2026,1,CAPACITY_STRAIN,High child saturation (0.57); Bio updates declining week-over-week,14,0,-14,
+Jharkhand,Simdega,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.21),115,14,-101,8.214285714285714
+Jharkhand,West Singhbhum,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.81),180,31,-149,5.806451612903226
+Karnataka,Bagalkot,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.00),216,18,-198,12.0
+Karnataka,Ballari,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.022,149,-1,-150,-149.0
+Karnataka,Bangalore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (22.23),289,13,-276,22.23076923076923
+Karnataka,Belagavi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (25.24),631,25,-606,25.24
+Karnataka,Belgaum,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (29.95),569,19,-550,29.94736842105263
+Karnataka,Bellary,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.022,149,-1,-150,-149.0
+Karnataka,Bengaluru,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (31.46),1510,48,-1462,31.458333333333332
+Karnataka,Bengaluru Rural,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.58),163,12,-151,13.583333333333334
+Karnataka,Bengaluru South,2026,1,DEMOGRAPHIC_SURGE,Bio updates 50%+ above 4-week average; Completion rate healthy (1.00),-1,-1,0,1.0
+Karnataka,Bengaluru Urban,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.048,0,0,0,
+Karnataka,Bidar,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.047,311,-1,-312,-311.0
+Karnataka,Bijapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.20),172,10,-162,17.2
+Karnataka,Bijapur(KAR),2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Karnataka,Chamarajanagar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Karnataka,Chamrajanagar,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.024,159,-1,-160,-159.0
+Karnataka,Chamrajnagar,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Karnataka,Chickmagalur,2026,1,NORMAL,No bottleneck indicators detected,32,-1,-33,-32.0
+Karnataka,Chikkaballapur,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.041,208,-1,-209,-208.0
+Karnataka,Chikkamagaluru,2026,1,NORMAL,No bottleneck indicators detected,52,0,-52,
+Karnataka,Chikmagalur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Karnataka,Chitradurga,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.69),283,16,-267,17.6875
+Karnataka,Dakshina Kannada,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (25.54),332,13,-319,25.53846153846154
+Karnataka,Davanagere,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Karnataka,Davangere,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.93),223,14,-209,15.928571428571429
+Karnataka,Dharwad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.89),214,18,-196,11.88888888888889
+Karnataka,Gadag,2026,1,NORMAL,No bottleneck indicators detected,102,-1,-103,-102.0
+Karnataka,Gulbarga,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.035,171,-1,-172,-171.0
+Karnataka,Hasan,2026,1,NORMAL,No bottleneck indicators detected,13,-1,-14,-13.0
+Karnataka,Hassan,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.037,160,-1,-161,-160.0
+Karnataka,Haveri,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.028,179,-1,-180,-179.0
+Karnataka,Kalaburagi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (20.62),330,16,-314,20.625
+Karnataka,Kodagu,2026,1,NORMAL,No bottleneck indicators detected,62,-1,-63,-62.0
+Karnataka,Kolar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.79),193,14,-179,13.785714285714286
+Karnataka,Koppal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (23.25),279,12,-267,23.25
+Karnataka,Mandya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (27.60),276,10,-266,27.6
+Karnataka,Mysuru,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.043,685,-1,-686,-685.0
+Karnataka,Raichur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (41.80),418,10,-408,41.8
+Karnataka,Ramanagar,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.011,138,-1,-139,-138.0
+Karnataka,Ramanagara,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Karnataka,Shimoga,2026,1,NORMAL,No bottleneck indicators detected,46,-1,-47,-46.0
+Karnataka,Shivamogga,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.004,132,-1,-133,-132.0
+Karnataka,Tumakuru,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.030,197,-1,-198,-197.0
+Karnataka,Tumkur,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.010,133,-1,-134,-133.0
+Karnataka,Udupi,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.048,216,-1,-217,-216.0
+Karnataka,Uttara Kannada,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.035,208,-1,-209,-208.0
+Karnataka,Vijayanagara,2026,1,NORMAL,No bottleneck indicators detected,25,-1,-26,-25.0
+Karnataka,Vijayapura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (36.60),366,10,-356,36.6
+Karnataka,Yadgir,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.057,277,-1,-278,-277.0
+Karnataka,yadgir,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Kerala,Alappuzha,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.049,602,-1,-603,-602.0
+Kerala,Ernakulam,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.053,472,-1,-473,-472.0
+Kerala,Idukki,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.029,182,-1,-183,-182.0
+Kerala,Kannur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (21.85),437,20,-417,21.85
+Kerala,Kasaragod,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.050,231,-1,-232,-231.0
+Kerala,Kasargod,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Kerala,Kollam,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.063,378,-1,-379,-378.0
+Kerala,Kottayam,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.049,408,-1,-409,-408.0
+Kerala,Kozhikode,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (25.06),426,17,-409,25.058823529411764
+Kerala,Malappuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (20.72),601,29,-572,20.724137931034484
+Kerala,Palakkad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (39.27),432,11,-421,39.27272727272727
+Kerala,Pathanamthitta,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.044,228,-1,-229,-228.0
+Kerala,Thiruvananthapuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (22.16),554,25,-529,22.16
+Kerala,Thrissur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (20.29),426,21,-405,20.285714285714285
+Kerala,Wayanad,2026,1,NORMAL,No bottleneck indicators detected,102,-1,-103,-102.0
+Ladakh,Kargil,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Ladakh,Leh,2026,1,NORMAL,No bottleneck indicators detected,12,0,-12,
+Lakshadweep,Lakshadweep,2026,1,NORMAL,No bottleneck indicators detected,13,-1,-14,-13.0
+Madanapalle,Kadiri Road,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Madhya Pradesh,Agar Malwa,2026,1,NORMAL,No bottleneck indicators detected,18,-1,-19,-18.0
+Madhya Pradesh,Alirajpur,2026,1,CAPACITY_STRAIN,High child saturation (0.57); Bio updates declining week-over-week,149,-1,-150,-149.0
+Madhya Pradesh,Anuppur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.60),86,10,-76,8.6
+Madhya Pradesh,Ashok Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.90),119,10,-109,11.9
+Madhya Pradesh,Ashoknagar,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Madhya Pradesh,Balaghat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (28.00),364,13,-351,28.0
+Madhya Pradesh,Barwani,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.76),149,17,-132,8.764705882352942
+Madhya Pradesh,Betul,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (28.07),393,14,-379,28.071428571428573
+Madhya Pradesh,Bhind,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (23.00),299,13,-286,23.0
+Madhya Pradesh,Bhopal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.40),360,25,-335,14.4
+Madhya Pradesh,Burhanpur,2026,1,NORMAL,No bottleneck indicators detected,96,-1,-97,-96.0
+Madhya Pradesh,Chhatarpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (30.46),396,13,-383,30.46153846153846
+Madhya Pradesh,Chhindwara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (30.40),304,10,-294,30.4
+Madhya Pradesh,Damoh,2026,1,NORMAL,No bottleneck indicators detected,96,-1,-97,-96.0
+Madhya Pradesh,Datia,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.003,107,-1,-108,-107.0
+Madhya Pradesh,Dewas,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.20),213,15,-198,14.2
+Madhya Pradesh,Dhar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.57),197,23,-174,8.565217391304348
+Madhya Pradesh,Dindori,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.80),88,10,-78,8.8
+Madhya Pradesh,East Nimar,2026,1,NORMAL,No bottleneck indicators detected,43,-1,-44,-43.0
+Madhya Pradesh,Guna,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.050,162,-1,-163,-162.0
+Madhya Pradesh,Gwalior,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.54),323,28,-295,11.535714285714286
+Madhya Pradesh,Harda,2026,1,NORMAL,No bottleneck indicators detected,40,0,-40,
+Madhya Pradesh,Hoshangabad,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.030,145,-1,-146,-145.0
+Madhya Pradesh,Indore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.00),495,55,-440,9.0
+Madhya Pradesh,Jabalpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (23.86),334,14,-320,23.857142857142858
+Madhya Pradesh,Jhabua,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.77),166,13,-153,12.76923076923077
+Madhya Pradesh,Katni,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (28.19),451,16,-435,28.1875
+Madhya Pradesh,Khandwa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.70),127,10,-117,12.7
+Madhya Pradesh,Khargone,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.15),158,13,-145,12.153846153846153
+Madhya Pradesh,Maihar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Madhya Pradesh,Mandla,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.78),140,18,-122,7.777777777777778
+Madhya Pradesh,Mandsaur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.42),185,12,-173,15.416666666666666
+Madhya Pradesh,Mauganj,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Madhya Pradesh,Morena,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.44),236,25,-211,9.44
+Madhya Pradesh,Narmadapuram,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Madhya Pradesh,Narsimhapur,2026,1,NORMAL,No bottleneck indicators detected,19,0,-19,
+Madhya Pradesh,Narsinghpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.60),129,15,-114,8.6
+Madhya Pradesh,Neemuch,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.034,146,-1,-147,-146.0
+Madhya Pradesh,Niwari,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Madhya Pradesh,Pandhurna,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Madhya Pradesh,Panna,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.037,134,-1,-135,-134.0
+Madhya Pradesh,Raisen,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.62),164,13,-151,12.615384615384615
+Madhya Pradesh,Rajgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.59),197,17,-180,11.588235294117647
+Madhya Pradesh,Ratlam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (49.88),798,16,-782,49.875
+Madhya Pradesh,Rewa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.35),420,34,-386,12.352941176470589
+Madhya Pradesh,Sagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.21),304,33,-271,9.212121212121213
+Madhya Pradesh,Satna,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.76),435,37,-398,11.756756756756756
+Madhya Pradesh,Sehore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (18.38),239,13,-226,18.384615384615383
+Madhya Pradesh,Seoni,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.13),137,15,-122,9.133333333333333
+Madhya Pradesh,Shahdol,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.06),225,16,-209,14.0625
+Madhya Pradesh,Shajapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.10),128,21,-107,6.095238095238095
+Madhya Pradesh,Sheopur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.83),105,18,-87,5.833333333333333
+Madhya Pradesh,Shivpuri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.89),132,27,-105,4.888888888888889
+Madhya Pradesh,Sidhi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (16.82),185,11,-174,16.818181818181817
+Madhya Pradesh,Singrauli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.32),181,34,-147,5.323529411764706
+Madhya Pradesh,Tikamgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.92),173,25,-148,6.92
+Madhya Pradesh,Ujjain,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (19.15),498,26,-472,19.153846153846153
+Madhya Pradesh,Umaria,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.17),74,12,-62,6.166666666666667
+Madhya Pradesh,Vidisha,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.00),220,22,-198,10.0
+Madhya Pradesh,West Nimar,2026,1,NORMAL,No bottleneck indicators detected,10,0,-10,
+Maharashtra,Ahilyanagar,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Maharashtra,Ahmadnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.41),794,64,-730,12.40625
+Maharashtra,Ahmed Nagar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Maharashtra,Ahmednagar,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Maharashtra,Akola,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.03),349,29,-320,12.03448275862069
+Maharashtra,Amravati,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.33),140,15,-125,9.333333333333334
+Maharashtra,Aurangabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (26.04),599,23,-576,26.043478260869566
+Maharashtra,Beed,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.73),393,45,-348,8.733333333333333
+Maharashtra,Bhandara,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.004,132,-1,-133,-132.0
+Maharashtra,Bid,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Maharashtra,Buldana,2026,1,NORMAL,No bottleneck indicators detected,12,-1,-13,-12.0
+Maharashtra,Buldhana,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.09),324,23,-301,14.08695652173913
+Maharashtra,Chandrapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.76),217,17,-200,12.764705882352942
+Maharashtra,Chatrapati Sambhaji Nagar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Maharashtra,Chhatrapati Sambhajinagar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Maharashtra,Dharashiv,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Maharashtra,Dhule,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.19),329,27,-302,12.185185185185185
+Maharashtra,Dist : Thane,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+Maharashtra,Gadchiroli,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.004,130,-1,-131,-130.0
+Maharashtra,Gondia,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Maharashtra,Gondiya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.10),141,10,-131,14.1
+Maharashtra,Hingoli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (19.20),192,10,-182,19.2
+Maharashtra,Jalgaon,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (39.17),705,18,-687,39.166666666666664
+Maharashtra,Jalna,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (21.80),327,15,-312,21.8
+Maharashtra,Kolhapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (27.60),414,15,-399,27.6
+Maharashtra,Latur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.72),242,36,-206,6.722222222222222
+Maharashtra,Mumbai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.71),610,48,-562,12.708333333333334
+Maharashtra,Mumbai City,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.15),163,20,-143,8.15
+Maharashtra,Mumbai Suburban,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.69),482,72,-410,6.694444444444445
+Maharashtra,Mumbai( Sub Urban ),2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Maharashtra,Nagpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.38),485,76,-409,6.381578947368421
+Maharashtra,Nanded,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (16.45),625,38,-587,16.44736842105263
+Maharashtra,Nandurbar,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.049,310,-1,-311,-310.0
+Maharashtra,Nashik,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.02),916,61,-855,15.01639344262295
+Maharashtra,Osmanabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (18.59),316,17,-299,18.58823529411765
+Maharashtra,Palghar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.91),449,76,-373,5.907894736842105
+Maharashtra,Parbhani,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.07),256,15,-241,17.066666666666666
+Maharashtra,Pune,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.23),1284,156,-1128,8.23076923076923
+Maharashtra,Raigad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.93),27,14,-13,1.9285714285714286
+Maharashtra,Raigarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.15),283,20,-263,14.15
+Maharashtra,Raigarh(MH),2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Maharashtra,Ratnagiri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.69),126,13,-113,9.692307692307692
+Maharashtra,Sangli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (21.53),323,15,-308,21.533333333333335
+Maharashtra,Satara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (23.67),355,15,-340,23.666666666666668
+Maharashtra,Sindhudurg,2026,1,NORMAL,No bottleneck indicators detected,95,-1,-96,-95.0
+Maharashtra,Solapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (24.88),647,26,-621,24.884615384615383
+Maharashtra,Thane,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.72),845,179,-666,4.720670391061453
+Maharashtra,Wardha,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.030,190,-1,-191,-190.0
+Maharashtra,Washim,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.046,239,-1,-240,-239.0
+Maharashtra,Yavatmal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (20.69),331,16,-315,20.6875
+Manipur,Bishnupur,2026,1,CAPACITY_STRAIN,High child saturation (0.71); Bio updates declining week-over-week,37,-1,-38,-37.0
+Manipur,Chandel,2026,1,CAPACITY_STRAIN,High child saturation (0.91); Bio updates declining week-over-week,15,-1,-16,-15.0
+Manipur,Churachandpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.10),41,10,-31,4.1
+Manipur,Imphal East,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.52),111,44,-67,2.522727272727273
+Manipur,Imphal West,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.86),110,59,-51,1.8644067796610169
+Manipur,Jiribam,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Manipur,Kakching,2026,1,OPERATIONAL_BOTTLENECK,Low completion rate (-0.08); Significant backlog (13); Bio/Demo ratio low (-0.08),-1,12,13,-0.08333333333333333
+Manipur,Kangpokpi,2025,52,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Manipur,Pherzawl,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Manipur,Senapati,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.07),46,15,-31,3.066666666666667
+Manipur,Tamenglong,2026,1,CAPACITY_STRAIN,High child saturation (0.97); Bio updates declining week-over-week,-1,-1,0,1.0
+Manipur,Thoubal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.41),141,22,-119,6.409090909090909
+Manipur,Ukhrul,2026,1,CAPACITY_STRAIN,High child saturation (0.86); Bio updates declining week-over-week,-1,-1,0,1.0
+Meghalaya,East Garo Hills,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Meghalaya,East Jaintia Hills,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,East Khasi Hills,2026,1,CAPACITY_STRAIN,High child saturation (0.76); Bio updates declining week-over-week,16,-1,-17,-16.0
+Meghalaya,Eastern West Khasi Hills,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,Jaintia Hills,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,Kamrup,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,North Garo Hills,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,Ri Bhoi,2026,1,CAPACITY_STRAIN,High child saturation (0.78); Bio updates declining week-over-week,-1,0,1,
+Meghalaya,South Garo Hills,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Meghalaya,South West Garo Hills,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Meghalaya,South West Khasi Hills,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Meghalaya,West Garo Hills,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Meghalaya,West Jaintia Hills,2026,1,CAPACITY_STRAIN,High child saturation (0.97); Bio updates declining week-over-week,0,-1,-1,-0.0
+Meghalaya,West Khasi Hills,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Mizoram,Aizawl,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Mizoram,Champhai,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Mizoram,Hnahthial,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Mizoram,Khawzawl,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Mizoram,Kolasib,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Mizoram,Lawngtlai,2026,1,NORMAL,No bottleneck indicators detected,16,-1,-17,-16.0
+Mizoram,Lunglei,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Mizoram,Mamit,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Mizoram,Mammit,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Mizoram,Saiha,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Mizoram,Saitual,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Mizoram,Serchhip,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Nagaland,Chumukedima,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Dimapur,2026,1,CAPACITY_STRAIN,High child saturation (0.94); Bio updates declining week-over-week,11,-1,-12,-11.0
+Nagaland,Kiphire,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Kohima,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Nagaland,Longleng,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Meluri,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Nagaland,Mokokchung,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Nagaland,Mon,2026,1,CAPACITY_STRAIN,High child saturation (0.79); Bio updates declining week-over-week,-1,-1,0,1.0
+Nagaland,Niuland,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Noklak,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Peren,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Nagaland,Phek,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Shamator,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Nagaland,Tseminyu,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Nagaland,Tuensang,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Nagaland,Wokha,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Nagaland,Zunheboto,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Nagpur,Near Uday nagar NIT garden,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+ODISHA,NUAPADA,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Odisha,ANGUL,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,ANUGUL,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Angul,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.58),171,26,-145,6.576923076923077
+Odisha,Anugal,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Anugul,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Odisha,BALANGIR,2025,37,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Balangir,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.50),155,10,-145,15.5
+Odisha,Baleshwar,2026,1,CAPACITY_STRAIN,High child saturation (0.61); Bio updates declining week-over-week,12,-1,-13,-12.0
+Odisha,Baleswar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.18),224,17,-207,13.176470588235293
+Odisha,Balianta,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Bargarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.40),156,15,-141,10.4
+Odisha,Baudh,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Odisha,Bhadrak,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.78),133,23,-110,5.782608695652174
+Odisha,Bhadrak(R),2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Boudh,2026,1,NORMAL,No bottleneck indicators detected,69,-1,-70,-69.0
+Odisha,Cuttack,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.60),258,30,-228,8.6
+Odisha,Debagarh,2026,1,NORMAL,No bottleneck indicators detected,39,-1,-40,-39.0
+Odisha,Dhenkanal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.24),174,17,-157,10.235294117647058
+Odisha,Gajapati,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.45),104,11,-93,9.454545454545455
+Odisha,Ganjam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.32),439,60,-379,7.316666666666666
+Odisha,JAJPUR,2026,1,NORMAL,No bottleneck indicators detected,82,-1,-83,-82.0
+Odisha,Jagatsinghapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.19),99,16,-83,6.1875
+Odisha,Jagatsinghpur,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Odisha,Jajapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.37),83,19,-64,4.368421052631579
+Odisha,Jajpur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Jharsuguda,2026,1,NORMAL,No bottleneck indicators detected,69,-1,-70,-69.0
+Odisha,Kalahandi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.92),173,25,-148,6.92
+Odisha,Kandhamal,2026,1,NORMAL,No bottleneck indicators detected,122,-1,-123,-122.0
+Odisha,Kendrapara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.43),171,23,-148,7.434782608695652
+Odisha,Kendujhar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.47),224,30,-194,7.466666666666667
+Odisha,Khorda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.67),190,15,-175,12.666666666666666
+Odisha,Khordha,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Odisha,Koraput,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.38),140,26,-114,5.384615384615385
+Odisha,Malkangiri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.14),91,22,-69,4.136363636363637
+Odisha,Mayurbhanj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.20),254,41,-213,6.195121951219512
+Odisha,NAYAGARH,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,NUAPADA,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Odisha,Nabarangapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.48),115,21,-94,5.476190476190476
+Odisha,Nabarangpur,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Odisha,Nayagarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.63),126,19,-107,6.631578947368421
+Odisha,Nuapada,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.47),82,15,-67,5.466666666666667
+Odisha,Puri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.80),192,15,-177,12.8
+Odisha,Rayagada,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.06),120,17,-103,7.0588235294117645
+Odisha,Sambalpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.22),130,18,-112,7.222222222222222
+Odisha,Sonapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.00),50,10,-40,5.0
+Odisha,Subarnapur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,10,0,-10,
+Odisha,Sundargarh,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Odisha,Sundergarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (19.43),272,14,-258,19.428571428571427
+Odisha,jajpur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Angul,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Anugul,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Orissa,Balangir,2026,1,CAPACITY_STRAIN,High child saturation (0.69); Bio updates declining week-over-week,10,-1,-11,-10.0
+Orissa,Baleshwar,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Baleswar,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Bargarh,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Baudh,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Bhadrak,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Orissa,Cuttack,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Orissa,Debagarh,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Dhenkanal,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Gajapati,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Ganjam,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Jagatsinghapur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Orissa,Jajapur,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Jharsuguda,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Kalahandi,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Kandhamal,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Kendrapara,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Kendujhar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Khorda,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Khordha,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Orissa,Koraput,2026,1,DEMOGRAPHIC_SURGE,Bio updates 50%+ above 4-week average; Completion rate healthy (1.00),-1,-1,0,1.0
+Orissa,Malkangiri,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Mayurbhanj,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Nabarangapur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Nayagarh,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Orissa,Nuapada,2025,46,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Puri,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Orissa,Rayagada,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Sambalpur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Sonapur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Orissa,Subarnapur,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Sundargarh,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Orissa,Sundergarh,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+Pondicherry,Cuddalore,2025,46,NORMAL,No bottleneck indicators detected,0,0,0,
+Pondicherry,Karaikal,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Pondicherry,Pondicherry,2026,1,NORMAL,No bottleneck indicators detected,19,-1,-20,-19.0
+Pondicherry,Viluppuram,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Pondicherry,Yanam,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Puducherry,Karaikal,2026,1,NORMAL,No bottleneck indicators detected,39,-1,-40,-39.0
+Puducherry,Pondicherry,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Puducherry,Puducherry,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.50),91,14,-77,6.5
+Puducherry,Yanam,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Punjab,Amritsar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.78),185,32,-153,5.78125
+Punjab,Barnala,2026,1,NORMAL,No bottleneck indicators detected,37,-1,-38,-37.0
+Punjab,Bathinda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.79),109,14,-95,7.785714285714286
+Punjab,Faridkot,2026,1,NORMAL,No bottleneck indicators detected,45,0,-45,
+Punjab,Fatehgarh Sahib,2026,1,NORMAL,No bottleneck indicators detected,28,-1,-29,-28.0
+Punjab,Fazilka,2026,1,NORMAL,No bottleneck indicators detected,74,-1,-75,-74.0
+Punjab,Ferozepur,2026,1,NORMAL,No bottleneck indicators detected,45,-1,-46,-45.0
+Punjab,Firozpur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Punjab,Gurdaspur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.09),89,11,-78,8.090909090909092
+Punjab,Hoshiarpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.10),131,10,-121,13.1
+Punjab,Jalandhar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.84),244,19,-225,12.842105263157896
+Punjab,Kapurthala,2026,1,NORMAL,No bottleneck indicators detected,54,-1,-55,-54.0
+Punjab,Ludhiana,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.83),355,30,-325,11.833333333333334
+Punjab,Malerkotla,2026,1,NORMAL,No bottleneck indicators detected,17,-1,-18,-17.0
+Punjab,Mansa,2026,1,NORMAL,No bottleneck indicators detected,37,-1,-38,-37.0
+Punjab,Moga,2026,1,NORMAL,No bottleneck indicators detected,59,-1,-60,-59.0
+Punjab,Muktsar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Punjab,Nawanshahr,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Punjab,Pathankot,2026,1,NORMAL,No bottleneck indicators detected,35,-1,-36,-35.0
+Punjab,Patiala,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.031,164,-1,-165,-164.0
+Punjab,Rupnagar,2026,1,NORMAL,No bottleneck indicators detected,57,-1,-58,-57.0
+Punjab,S.A.S Nagar,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Punjab,S.A.S Nagar(Mohali),2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Punjab,SAS Nagar (Mohali),2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.004,123,-1,-124,-123.0
+Punjab,Sangrur,2026,1,NORMAL,No bottleneck indicators detected,115,-1,-116,-115.0
+Punjab,Shaheed Bhagat Singh Nagar,2026,1,NORMAL,No bottleneck indicators detected,44,-1,-45,-44.0
+Punjab,Sri Muktsar Sahib,2026,1,NORMAL,No bottleneck indicators detected,47,-1,-48,-47.0
+Punjab,Tarn Taran,2026,1,NORMAL,No bottleneck indicators detected,68,-1,-69,-68.0
+Puttenahalli,5th cross,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+Raja Annamalai Puram,Near Dhyana Ashram,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Rajasthan,Ajmer,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.36),456,44,-412,10.363636363636363
+Rajasthan,Alwar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.46),668,79,-589,8.455696202531646
+Rajasthan,Balotra,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Rajasthan,Banswara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.88),174,16,-158,10.875
+Rajasthan,Baran,2026,1,NORMAL,No bottleneck indicators detected,66,-1,-67,-66.0
+Rajasthan,Barmer,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.43),537,40,-497,13.425
+Rajasthan,Beawar,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Rajasthan,Bharatpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.93),357,45,-312,7.933333333333334
+Rajasthan,Bhilwara,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.58),335,60,-275,5.583333333333333
+Rajasthan,Bikaner,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.46),347,41,-306,8.463414634146341
+Rajasthan,Bundi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.58),171,26,-145,6.576923076923077
+Rajasthan,Chittaurgarh,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Rajasthan,Chittorgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (15.36),169,11,-158,15.363636363636363
+Rajasthan,Churu,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (22.19),466,21,-445,22.19047619047619
+Rajasthan,Dausa,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.20),284,20,-264,14.2
+Rajasthan,Deeg,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Rajasthan,Dhaulpur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Rajasthan,Dholpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.60),172,20,-152,8.6
+Rajasthan,Didwana-Kuchaman,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Rajasthan,Dungarpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.20),198,15,-183,13.2
+Rajasthan,Ganganagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.00),260,20,-240,13.0
+Rajasthan,Hanumangarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (26.00),260,10,-250,26.0
+Rajasthan,Jaipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.63),1053,122,-931,8.631147540983607
+Rajasthan,Jaisalmer,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.92),107,12,-95,8.916666666666666
+Rajasthan,Jalor,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.78),208,36,-172,5.777777777777778
+Rajasthan,Jalore,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Rajasthan,Jhalawar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.63),109,30,-79,3.6333333333333333
+Rajasthan,Jhunjhunu,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Rajasthan,Jhunjhunun,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (12.80),320,25,-295,12.8
+Rajasthan,Jodhpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.15),822,81,-741,10.148148148148149
+Rajasthan,Karauli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.13),276,45,-231,6.133333333333334
+Rajasthan,Khairthal-Tijara,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Rajasthan,Kota,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.25),234,55,-179,4.254545454545455
+Rajasthan,Kotputli-Behror,2026,1,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Rajasthan,Nagaur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (9.49),598,63,-535,9.492063492063492
+Rajasthan,Pali,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.56),231,27,-204,8.555555555555555
+Rajasthan,Phalodi,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Rajasthan,Pratapgarh,2026,1,NORMAL,No bottleneck indicators detected,84,-1,-85,-84.0
+Rajasthan,Rajsamand,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.043,157,-1,-158,-157.0
+Rajasthan,Salumbar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Rajasthan,Sawai Madhopur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.59),162,29,-133,5.586206896551724
+Rajasthan,Sikar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.25),406,56,-350,7.25
+Rajasthan,Sirohi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.44),135,16,-119,8.4375
+Rajasthan,Tonk,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.93),208,30,-178,6.933333333333334
+Rajasthan,Udaipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.53),307,47,-260,6.531914893617022
+Sikkim,East,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Sikkim,East Sikkim,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Sikkim,Mangan,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Sikkim,Namchi,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Sikkim,North,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Sikkim,North Sikkim,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Sikkim,South,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Sikkim,South Sikkim,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Sikkim,West,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Sikkim,West Sikkim,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Tamil Nadu,Ariyalur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.75),248,32,-216,7.75
+Tamil Nadu,Chengalpattu,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.84),54,19,-35,2.8421052631578947
+Tamil Nadu,Chennai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.21),695,62,-633,11.209677419354838
+Tamil Nadu,Coimbatore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.26),719,87,-632,8.264367816091953
+Tamil Nadu,Cuddalore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.05),765,95,-670,8.052631578947368
+Tamil Nadu,Dharmapuri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.55),347,53,-294,6.547169811320755
+Tamil Nadu,Dindigul,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.25),486,67,-419,7.253731343283582
+Tamil Nadu,Erode,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.75),374,65,-309,5.753846153846154
+Tamil Nadu,Kallakurichi,2026,1,NORMAL,No bottleneck indicators detected,36,-1,-37,-36.0
+Tamil Nadu,Kancheepuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.60),955,111,-844,8.603603603603604
+Tamil Nadu,Kanchipuram,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Tamil Nadu,Kanniyakumari,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.04),112,55,-57,2.036363636363636
+Tamil Nadu,Kanyakumari,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.07),151,15,-136,10.066666666666666
+Tamil Nadu,Karur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.76),195,41,-154,4.7560975609756095
+Tamil Nadu,Krishnagiri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.31),430,81,-349,5.308641975308642
+Tamil Nadu,Madurai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.51),799,145,-654,5.510344827586207
+Tamil Nadu,Mayiladuthurai,2026,1,NORMAL,No bottleneck indicators detected,66,-1,-67,-66.0
+Tamil Nadu,Nagapattinam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.06),203,50,-153,4.06
+Tamil Nadu,Namakkal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.41),224,93,-131,2.4086021505376345
+Tamil Nadu,Perambalur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.13),157,38,-119,4.131578947368421
+Tamil Nadu,Pudukkottai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.34),477,65,-412,7.338461538461538
+Tamil Nadu,Ramanathapuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.08),292,48,-244,6.083333333333333
+Tamil Nadu,Ranipet,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Tamil Nadu,Salem,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.46),879,161,-718,5.459627329192546
+Tamil Nadu,Sivaganga,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.59),356,54,-302,6.592592592592593
+Tamil Nadu,Tenkasi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.30),46,20,-26,2.3
+Tamil Nadu,Thanjavur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.88),547,93,-454,5.881720430107527
+Tamil Nadu,The Nilgiris,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (11.14),156,14,-142,11.142857142857142
+Tamil Nadu,Theni,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.75),305,53,-252,5.754716981132075
+Tamil Nadu,Thiruvallur,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,16,-1,-17,-16.0
+Tamil Nadu,Thiruvarur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.22),255,41,-214,6.219512195121951
+Tamil Nadu,Thoothukkudi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.81),372,64,-308,5.8125
+Tamil Nadu,Tiruchirappalli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.60),483,105,-378,4.6
+Tamil Nadu,Tirunelveli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.66),435,119,-316,3.6554621848739495
+Tamil Nadu,Tirupathur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Tamil Nadu,Tirupattur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.07),43,14,-29,3.0714285714285716
+Tamil Nadu,Tiruppur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.31),543,126,-417,4.309523809523809
+Tamil Nadu,Tiruvallur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.93),676,137,-539,4.934306569343065
+Tamil Nadu,Tiruvannamalai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.60),347,62,-285,5.596774193548387
+Tamil Nadu,Tiruvarur,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Tamil Nadu,Tuticorin,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+Tamil Nadu,Vellore,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.08),533,105,-428,5.076190476190476
+Tamil Nadu,Villupuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.65),562,65,-497,8.646153846153846
+Tamil Nadu,Viluppuram,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.62),134,29,-105,4.620689655172414
+Tamil Nadu,Virudhunagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.39),184,77,-107,2.3896103896103895
+Tamilnadu,Chennai,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+Telangana,Adilabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.58),134,24,-110,5.583333333333333
+Telangana,Bhadradri Kothagudem,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.78),50,18,-32,2.7777777777777777
+Telangana,Hanumakonda,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Telangana,Hyderabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.48),473,73,-400,6.47945205479452
+Telangana,Jagitial,2026,1,NORMAL,No bottleneck indicators detected,15,-1,-16,-15.0
+Telangana,Jangaon,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Telangana,Jangoan,2026,1,NORMAL,No bottleneck indicators detected,21,-1,-22,-21.0
+Telangana,Jayashankar Bhupalpally,2026,1,NORMAL,No bottleneck indicators detected,11,-1,-12,-11.0
+Telangana,Jogulamba Gadwal,2026,1,NORMAL,No bottleneck indicators detected,24,-1,-25,-24.0
+Telangana,K.v. Rangareddy,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.34),486,91,-395,5.34065934065934
+Telangana,Kamareddy,2026,1,NORMAL,No bottleneck indicators detected,42,-1,-43,-42.0
+Telangana,Karimnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.50),209,38,-171,5.5
+Telangana,Khammam,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.97),115,29,-86,3.9655172413793105
+Telangana,Komaram Bheem,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.50),25,10,-15,2.5
+Telangana,Mahabubabad,2026,1,NORMAL,No bottleneck indicators detected,19,-1,-20,-19.0
+Telangana,Mahabubnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.20),332,79,-253,4.2025316455696204
+Telangana,Mancherial,2026,1,NORMAL,No bottleneck indicators detected,54,-1,-55,-54.0
+Telangana,Medak,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.36),209,25,-184,8.36
+Telangana,Medchal Malkajgiri,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Telangana,Medchal-malkajgiri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (0.92),49,53,4,0.9245283018867925
+Telangana,Medchal?malkajgiri,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Telangana,Medchalâmalkajgiri,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Telangana,Medchal−malkajgiri,2026,1,NORMAL,No bottleneck indicators detected,30,-1,-31,-30.0
+Telangana,Mulugu,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.27),14,11,-3,1.2727272727272727
+Telangana,Nagarkurnool,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.82),42,11,-31,3.8181818181818183
+Telangana,Nalgonda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.09),225,55,-170,4.090909090909091
+Telangana,Narayanpet,2026,1,NORMAL,No bottleneck indicators detected,26,-1,-27,-26.0
+Telangana,Nirmal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.41),24,17,-7,1.411764705882353
+Telangana,Nizamabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.27),372,45,-327,8.266666666666667
+Telangana,Peddapalli,2026,1,NORMAL,No bottleneck indicators detected,26,-1,-27,-26.0
+Telangana,Rajanna Sircilla,2026,1,NORMAL,No bottleneck indicators detected,13,-1,-14,-13.0
+Telangana,Ranga Reddy,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Telangana,Rangareddy,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Telangana,Sangareddy,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.94),63,16,-47,3.9375
+Telangana,Siddipet,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.90),69,10,-59,6.9
+Telangana,Suryapet,2026,1,NORMAL,No bottleneck indicators detected,14,19,5,0.7368421052631579
+Telangana,Vikarabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.00),40,20,-20,2.0
+Telangana,Wanaparthy,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.07),16,15,-1,1.0666666666666667
+Telangana,Warangal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.00),130,26,-104,5.0
+Telangana,Warangal (urban),2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Telangana,Warangal Rural,2026,1,NORMAL,No bottleneck indicators detected,17,-1,-18,-17.0
+Telangana,Warangal Urban,2026,1,NORMAL,No bottleneck indicators detected,25,-1,-26,-25.0
+Telangana,Yadadri.,2026,1,NORMAL,No bottleneck indicators detected,32,-1,-33,-32.0
+The Dadra And Nagar Haveli And Daman And Diu,Dadra And Nagar Haveli,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Tripura,Dhalai,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.56),46,18,-28,2.5555555555555554
+Tripura,Gomati,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.10),45,41,-4,1.0975609756097562
+Tripura,Khowai,2026,1,CAPACITY_STRAIN,High child saturation (0.58); Bio updates declining week-over-week,25,-1,-26,-25.0
+Tripura,North Tripura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.57),78,14,-64,5.571428571428571
+Tripura,Sepahijala,2026,1,CAPACITY_STRAIN,High child saturation (0.61); Bio updates declining week-over-week,11,15,4,0.7333333333333333
+Tripura,South Tripura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.11),57,27,-30,2.111111111111111
+Tripura,Unakoti,2026,1,CAPACITY_STRAIN,High child saturation (0.62); Bio updates declining week-over-week,14,-1,-15,-14.0
+Tripura,West Tripura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.85),127,33,-94,3.8484848484848486
+Uttar Pradesh,Agra,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.62),377,144,-233,2.6180555555555554
+Uttar Pradesh,Aligarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.83),337,88,-249,3.8295454545454546
+Uttar Pradesh,Allahabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.38),314,132,-182,2.378787878787879
+Uttar Pradesh,Ambedkar Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.72),177,65,-112,2.723076923076923
+Uttar Pradesh,Amethi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.44),144,59,-85,2.440677966101695
+Uttar Pradesh,Amroha,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.85),185,48,-137,3.8541666666666665
+Uttar Pradesh,Auraiya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.00),114,38,-76,3.0
+Uttar Pradesh,Ayodhya,2026,1,NORMAL,No bottleneck indicators detected,14,18,4,0.7777777777777778
+Uttar Pradesh,Azamgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.41),316,131,-185,2.4122137404580153
+Uttar Pradesh,Baghpat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.14),91,29,-62,3.1379310344827585
+Uttar Pradesh,Bagpat,2025,51,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+Uttar Pradesh,Bahraich,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.54),326,92,-234,3.5434782608695654
+Uttar Pradesh,Ballia,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.68),148,88,-60,1.6818181818181819
+Uttar Pradesh,Balrampur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.67),201,43,-158,4.674418604651163
+Uttar Pradesh,Banda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.32),72,31,-41,2.3225806451612905
+Uttar Pradesh,Bara Banki,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.85),212,55,-157,3.8545454545454545
+Uttar Pradesh,Barabanki,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+Uttar Pradesh,Bareilly,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.96),219,112,-107,1.9553571428571428
+Uttar Pradesh,Basti,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.80),288,60,-228,4.8
+Uttar Pradesh,Bhadohi,2026,1,CAPACITY_STRAIN,High child saturation (0.74); Bio updates declining week-over-week,-1,-1,0,1.0
+Uttar Pradesh,Bijnor,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.03),355,88,-267,4.034090909090909
+Uttar Pradesh,Budaun,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.69),332,90,-242,3.688888888888889
+Uttar Pradesh,Bulandshahar,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Uttar Pradesh,Bulandshahr,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.12),242,114,-128,2.1228070175438596
+Uttar Pradesh,Chandauli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.46),99,68,-31,1.4558823529411764
+Uttar Pradesh,Chitrakoot,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.78),57,32,-25,1.78125
+Uttar Pradesh,Deoria,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.10),245,79,-166,3.1012658227848102
+Uttar Pradesh,Etah,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.55),132,29,-103,4.551724137931035
+Uttar Pradesh,Etawah,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.21),109,34,-75,3.2058823529411766
+Uttar Pradesh,Faizabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.70),171,30,-141,5.7
+Uttar Pradesh,Farrukhabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.86),164,28,-136,5.857142857142857
+Uttar Pradesh,Fatehpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.84),182,64,-118,2.84375
+Uttar Pradesh,Firozabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.05),77,73,-4,1.0547945205479452
+Uttar Pradesh,Gautam Buddha Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.19),169,77,-92,2.1948051948051948
+Uttar Pradesh,Ghaziabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.19),345,108,-237,3.1944444444444446
+Uttar Pradesh,Ghazipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.44),292,85,-207,3.4352941176470586
+Uttar Pradesh,Gonda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.73),345,73,-272,4.726027397260274
+Uttar Pradesh,Gorakhpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.17),234,108,-126,2.1666666666666665
+Uttar Pradesh,Hamirpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.33),64,12,-52,5.333333333333333
+Uttar Pradesh,Hapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.94),97,33,-64,2.9393939393939394
+Uttar Pradesh,Hardoi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.44),424,78,-346,5.435897435897436
+Uttar Pradesh,Hathras,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.54),191,54,-137,3.537037037037037
+Uttar Pradesh,Jalaun,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.61),137,38,-99,3.6052631578947367
+Uttar Pradesh,Jaunpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.88),438,113,-325,3.8761061946902653
+Uttar Pradesh,Jhansi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (7.07),198,28,-170,7.071428571428571
+Uttar Pradesh,Jyotiba Phule Nagar,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttar Pradesh,Kannauj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.44),189,55,-134,3.4363636363636365
+Uttar Pradesh,Kanpur Dehat,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.94),138,47,-91,2.9361702127659575
+Uttar Pradesh,Kanpur Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.98),277,93,-184,2.978494623655914
+Uttar Pradesh,Kasganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.80),203,35,-168,5.8
+Uttar Pradesh,Kaushambi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.36),229,36,-193,6.361111111111111
+Uttar Pradesh,Kheri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.28),377,88,-289,4.284090909090909
+Uttar Pradesh,Kushi Nagar,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttar Pradesh,Kushinagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.32),248,107,-141,2.317757009345794
+Uttar Pradesh,Lalitpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.12),128,25,-103,5.12
+Uttar Pradesh,Lucknow,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.33),513,81,-432,6.333333333333333
+Uttar Pradesh,Maharajganj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.62),382,68,-314,5.617647058823529
+Uttar Pradesh,Mahoba,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (10.23),133,13,-120,10.23076923076923
+Uttar Pradesh,Mahrajganj,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+Uttar Pradesh,Mainpuri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.48),114,46,-68,2.4782608695652173
+Uttar Pradesh,Mathura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.41),291,66,-225,4.409090909090909
+Uttar Pradesh,Mau,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.23),158,71,-87,2.2253521126760565
+Uttar Pradesh,Meerut,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.54),285,112,-173,2.544642857142857
+Uttar Pradesh,Mirzapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.84),286,49,-237,5.836734693877551
+Uttar Pradesh,Moradabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.75),368,64,-304,5.75
+Uttar Pradesh,Muzaffarnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.37),328,75,-253,4.373333333333333
+Uttar Pradesh,Pilibhit,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.27),258,49,-209,5.26530612244898
+Uttar Pradesh,Pratapgarh,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.99),206,69,-137,2.9855072463768115
+Uttar Pradesh,Prayagraj,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (0.96),25,26,1,0.9615384615384616
+Uttar Pradesh,Rae Bareli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.96),213,72,-141,2.9583333333333335
+Uttar Pradesh,Raebareli,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttar Pradesh,Rampur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.44),253,57,-196,4.43859649122807
+Uttar Pradesh,Saharanpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.44),327,95,-232,3.442105263157895
+Uttar Pradesh,Sambhal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.57),200,56,-144,3.5714285714285716
+Uttar Pradesh,Sant Kabir Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.93),202,41,-161,4.926829268292683
+Uttar Pradesh,Sant Ravidas Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.07),118,29,-89,4.068965517241379
+Uttar Pradesh,Sant Ravidas Nagar Bhadohi,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,0,1,
+Uttar Pradesh,Shahjahanpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.92),231,59,-172,3.9152542372881354
+Uttar Pradesh,Shamli,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.71),231,49,-182,4.714285714285714
+Uttar Pradesh,Shravasti,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttar Pradesh,Shrawasti,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.24),65,29,-36,2.2413793103448274
+Uttar Pradesh,Siddharth Nagar,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.028,0,0,0,
+Uttar Pradesh,Siddharthnagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.69),347,74,-273,4.6891891891891895
+Uttar Pradesh,Sitapur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.32),500,94,-406,5.319148936170213
+Uttar Pradesh,Sonbhadra,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.83),249,65,-184,3.830769230769231
+Uttar Pradesh,Sultanpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.11),196,63,-133,3.111111111111111
+Uttar Pradesh,Unnao,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.49),265,59,-206,4.491525423728813
+Uttar Pradesh,Varanasi,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.26),468,89,-379,5.258426966292135
+Uttarakhand,Almora,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (13.29),186,14,-172,13.285714285714286
+Uttarakhand,Bageshwar,2026,1,NORMAL,No bottleneck indicators detected,47,-1,-48,-47.0
+Uttarakhand,Chamoli,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.030,198,-1,-199,-198.0
+Uttarakhand,Champawat,2026,1,NORMAL,No bottleneck indicators detected,123,-1,-124,-123.0
+Uttarakhand,Dehradun,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.53),654,45,-609,14.533333333333333
+Uttarakhand,Garhwal,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttarakhand,Hardwar,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+Uttarakhand,Haridwar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (19.84),1210,61,-1149,19.83606557377049
+Uttarakhand,Nainital,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (8.84),336,38,-298,8.842105263157896
+Uttarakhand,Pauri Garhwal,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (17.77),231,13,-218,17.76923076923077
+Uttarakhand,Pithoragarh,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.035,220,-1,-221,-220.0
+Uttarakhand,Rudraprayag,2026,1,NORMAL,No bottleneck indicators detected,104,-1,-105,-104.0
+Uttarakhand,Tehri Garhwal,2026,1,ANOMALY_DETECTED,Isolation Forest score: -0.049,295,-1,-296,-295.0
+Uttarakhand,Udham Singh Nagar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (14.91),835,56,-779,14.910714285714286
+Uttarakhand,Uttarkashi,2026,1,NORMAL,No bottleneck indicators detected,118,-1,-119,-118.0
+Uttaranchal,Almora,2025,37,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttaranchal,Garhwal,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttaranchal,Tehri Garhwal,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+Uttaranchal,Udham Singh Nagar,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+WEST BENGAL,HOOGHLY,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+WEST BENGAL,HOWRAH,2025,52,NORMAL,No bottleneck indicators detected,-1,0,1,
+WEST BENGAL,hooghly,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+WESTBENGAL,HOOGHLY,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West  Bengal,Hooghly,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+West Bangal,Hooghly,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bangal,Howrah,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bangal,South 24 Parganas,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,24 Paraganas North,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.026,0,0,0,
+West Bengal,24 Paraganas South,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Alipurduar,2026,1,NORMAL,No bottleneck indicators detected,22,-1,-23,-22.0
+West Bengal,Bally Jagachha,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Bankura,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.62),286,79,-207,3.6202531645569622
+West Bengal,Barddhaman,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.28),417,79,-338,5.2784810126582276
+West Bengal,Bardhaman,2026,1,NORMAL,No bottleneck indicators detected,18,-1,-19,-18.0
+West Bengal,Birbhum,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.88),317,65,-252,4.876923076923077
+West Bengal,Burdwan,2025,44,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Cooch Behar,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.41),113,80,-33,1.4125
+West Bengal,Coochbehar,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.026,0,0,0,
+West Bengal,Dakshin Dinajpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.06),107,35,-72,3.057142857142857
+West Bengal,Darjeeling,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (6.50),104,16,-88,6.5
+West Bengal,Darjiling,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+West Bengal,Dinajpur Dakshin,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Dinajpur Uttar,2025,27,ANOMALY_DETECTED,Isolation Forest score: -0.048,0,0,0,
+West Bengal,Domjur,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,East Midnapore,2026,1,NORMAL,No bottleneck indicators detected,17,-1,-18,-17.0
+West Bengal,East Midnapur,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,East midnapore,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,HOOGHLY,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,HOWRAH,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Haora,2026,1,CAPACITY_STRAIN,High child saturation (0.58); Bio updates declining week-over-week,35,-1,-36,-35.0
+West Bengal,Hawrah,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Hooghiy,2025,52,NORMAL,No bottleneck indicators detected,0,-1,-1,-0.0
+West Bengal,Hooghly,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.27),340,104,-236,3.269230769230769
+West Bengal,Howrah,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.26),163,50,-113,3.26
+West Bengal,Hugli,2026,1,CAPACITY_STRAIN,High child saturation (1.00); Bio updates declining week-over-week,-1,-1,0,1.0
+West Bengal,Jalpaiguri,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.75),236,63,-173,3.746031746031746
+West Bengal,Jhargram,2026,1,NORMAL,No bottleneck indicators detected,13,-1,-14,-13.0
+West Bengal,KOLKATA,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Kalimpong,2026,1,NORMAL,No bottleneck indicators detected,10,-1,-11,-10.0
+West Bengal,Koch Bihar,2026,1,NORMAL,No bottleneck indicators detected,20,-1,-21,-20.0
+West Bengal,Kolkata,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (5.32),202,38,-164,5.315789473684211
+West Bengal,MALDA,2026,1,NORMAL,No bottleneck indicators detected,-1,0,1,
+West Bengal,Malda,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.41),292,121,-171,2.4132231404958677
+West Bengal,Maldah,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.44),23,16,-7,1.4375
+West Bengal,Medinipur,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Medinipur West,2025,27,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Murshidabad,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (2.94),508,173,-335,2.9364161849710984
+West Bengal,NADIA,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,Nadia,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.44),234,68,-166,3.4411764705882355
+West Bengal,Naihati Anandabazar,2025,44,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,North 24 Parganas,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.52),520,115,-405,4.521739130434782
+West Bengal,North Dinajpur,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+West Bengal,North Twenty Four Parganas,2026,1,NORMAL,No bottleneck indicators detected,15,-1,-16,-15.0
+West Bengal,Paschim Bardhaman,2026,1,NORMAL,No bottleneck indicators detected,19,-1,-20,-19.0
+West Bengal,Paschim Medinipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (4.41),331,75,-256,4.413333333333333
+West Bengal,Purba Bardhaman,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.59),35,22,-13,1.5909090909090908
+West Bengal,Purba Medinipur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.93),236,60,-176,3.933333333333333
+West Bengal,Purulia,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+West Bengal,Puruliya,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.80),182,101,-81,1.801980198019802
+West Bengal,South  Twenty Four Parganas,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,South 24 Pargana,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,South 24 Parganas,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (3.08),443,144,-299,3.076388888888889
+West Bengal,South 24 pargana,2025,45,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,South 24 parganas,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,South Dinajpur,2026,1,NORMAL,No bottleneck indicators detected,-1,-1,0,1.0
+West Bengal,South DumDum(M),2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,South Twenty Four Parganas,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.67),25,15,-10,1.6666666666666667
+West Bengal,Uttar Dinajpur,2026,1,DEMOGRAPHIC_SURGE,Demo updates 50%+ above 4-week average; Completion rate healthy (1.89),142,75,-67,1.8933333333333333
+West Bengal,West Medinipur,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,West Midnapore,2026,1,NORMAL,No bottleneck indicators detected,20,-1,-21,-20.0
+West Bengal,east midnapore,2025,44,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,hooghly,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengal,nadia,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,
+West Bengli,Hooghly,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+West bengal,Hooghly,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+West bengal,South 24 Parganas,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+West bengal,hooghly,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Westbengal,Hooghly,2026,1,NORMAL,No bottleneck indicators detected,0,0,0,
+Westbengal,Howrah,2025,49,NORMAL,No bottleneck indicators detected,0,0,0,
+andhra pradesh,chittoor,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+andhra pradesh,rangareddi,2025,52,NORMAL,No bottleneck indicators detected,0,0,0,
+odisha,Gajapati,2025,50,NORMAL,No bottleneck indicators detected,0,0,0,
+west Bengal,South 24 Parganas,2025,51,NORMAL,No bottleneck indicators detected,0,0,0,

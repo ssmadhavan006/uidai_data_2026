@@ -1,0 +1,1252 @@
+[
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.534,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.534,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.534,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.534,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Dhamtari",
+    "state": "Chhattisgarh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.534,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Kabeerdham",
+    "state": "Chhattisgarh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5145,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Kabeerdham",
+    "state": "Chhattisgarh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5145,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Kabeerdham",
+    "state": "Chhattisgarh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5145,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Kabeerdham",
+    "state": "Chhattisgarh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5145,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Kabeerdham",
+    "state": "Chhattisgarh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5145,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 12931.924953856527,
+      "p50": 13331.92495385653,
+      "p95": 13731.92495385653
+    },
+    "reduction_pct": {
+      "p5": -2513.3651034572463,
+      "p50": -2178.6254680133584,
+      "p95": -1882.9096581807025
+    },
+    "cost_per_update": {
+      "p5": 10.923450317711895,
+      "p50": 11.251188445717245,
+      "p95": 11.599201243065314
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5004459770348356,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 170715.02440013486,
+      "p50": 181115.02440013492,
+      "p95": 186315.02440013492
+    },
+    "reduction_pct": {
+      "p5": -31375.92113188738,
+      "p50": -23811.067045837743,
+      "p95": -19665.891336838642
+    },
+    "cost_per_update": {
+      "p5": 1.3418134195291405,
+      "p50": 1.3803382730285187,
+      "p95": 1.4644288098160076
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5004459770348356,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 24263.849907713055,
+      "p50": 24663.849907713055,
+      "p95": 25063.849907713062
+    },
+    "reduction_pct": {
+      "p5": -6065.837612388732,
+      "p50": -5576.183340637287,
+      "p95": -5201.505214216194
+    },
+    "cost_per_update": {
+      "p5": 2.992357529914818,
+      "p50": 3.0408877884285794,
+      "p95": 3.0910181313048257
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5004459770348356,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 18167.88743078479,
+      "p50": 18347.887430784795,
+      "p95": 18527.887430784795
+    },
+    "reduction_pct": {
+      "p5": -4539.970478271863,
+      "p50": -4268.634910453347,
+      "p95": -4016.4060601659185
+    },
+    "cost_per_update": {
+      "p5": 2.6986347033241946,
+      "p50": 2.725109372325234,
+      "p95": 2.7521086417167524
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5004459770348356,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dr. B. R. Ambedkar Konaseema",
+    "state": "Andhra Pradesh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 37715.77486156958,
+      "p50": 38675.77486156958,
+      "p95": 39635.77486156959
+    },
+    "reduction_pct": {
+      "p5": -8262.136039853765,
+      "p50": -7454.752067685895,
+      "p95": -6610.830353721608
+    },
+    "cost_per_update": {
+      "p5": 2.5229732570955457,
+      "p50": 2.5855978414892875,
+      "p95": 2.65141046066363
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.5004459770348356,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Tirupati",
+    "state": "Andhra Pradesh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 11611.652877167504,
+      "p50": 12011.652877167504,
+      "p95": 12411.652877167504
+    },
+    "reduction_pct": {
+      "p5": -1498.9683404027403,
+      "p50": -1211.2037070017448,
+      "p95": -938.1588258970635
+    },
+    "cost_per_update": {
+      "p5": 12.085416945227355,
+      "p50": 12.487873362135641,
+      "p95": 12.918057539848741
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4919348456719631,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Tirupati",
+    "state": "Andhra Pradesh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 153551.48740317754,
+      "p50": 163951.4874031776,
+      "p95": 169151.4874031776
+    },
+    "reduction_pct": {
+      "p5": -18009.99413877634,
+      "p50": -12967.807943492813,
+      "p95": -9645.762570749639
+    },
+    "cost_per_update": {
+      "p5": 1.4779651295889455,
+      "p50": 1.5248413049478375,
+      "p95": 1.628118387050067
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4919348456719631,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Tirupati",
+    "state": "Andhra Pradesh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 21623.305754335008,
+      "p50": 22023.305754335008,
+      "p95": 22423.305754335008
+    },
+    "reduction_pct": {
+      "p5": -3661.1564153609133,
+      "p50": -3247.056821474134,
+      "p95": -2877.8476668440003
+    },
+    "cost_per_update": {
+      "p5": 3.3447343055338994,
+      "p50": 3.4054833019442228,
+      "p95": 3.4684798361584512
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4919348456719631,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Tirupati",
+    "state": "Andhra Pradesh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 16187.479315751254,
+      "p50": 16367.479315751254,
+      "p95": 16547.479315751258
+    },
+    "reduction_pct": {
+      "p5": -2763.1100566971563,
+      "p50": -2491.062220230633,
+      "p95": -2254.786704205995
+    },
+    "cost_per_update": {
+      "p5": 3.0216082489618747,
+      "p50": 3.054838135758782,
+      "p95": 3.088807035654242
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4919348456719631,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Tirupati",
+    "state": "Andhra Pradesh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 33754.95863150251,
+      "p50": 34714.95863150251,
+      "p95": 35674.958631502515
+    },
+    "reduction_pct": {
+      "p5": -4781.626140711733,
+      "p50": -4159.042113302963,
+      "p95": -3484.944175432329
+    },
+    "cost_per_update": {
+      "p5": 2.803086642171905,
+      "p50": 2.8806025973268414,
+      "p95": 2.9625277012389204
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4919348456719631,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Gariyaband",
+    "state": "Chhattisgarh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4801695652173912,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Gariyaband",
+    "state": "Chhattisgarh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4801695652173912,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Gariyaband",
+    "state": "Chhattisgarh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4801695652173912,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Gariyaband",
+    "state": "Chhattisgarh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4801695652173912,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Gariyaband",
+    "state": "Chhattisgarh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4801695652173912,
+    "bottleneck_label": "ANOMALY_DETECTED"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4790999999999999,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4790999999999999,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4790999999999999,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4790999999999999,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Chandigarh",
+    "state": "Chandigarh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4790999999999999,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Annamayya",
+    "state": "Andhra Pradesh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 4340.2377815310265,
+      "p50": 4740.184874127066,
+      "p95": 5098.041786187916
+    },
+    "reduction_pct": {
+      "p5": -850.0755226478633,
+      "p50": 7.724706118009968,
+      "p95": 100.0
+    },
+    "cost_per_update": {
+      "p5": 29.423106333273623,
+      "p50": 31.644335400802305,
+      "p95": 34.56031847800911
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.472187812169144,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Annamayya",
+    "state": "Andhra Pradesh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 58701.648741508376,
+      "p50": 60898.57673942223,
+      "p95": 66126.09925896944
+    },
+    "reduction_pct": {
+      "p5": -6347.017641637079,
+      "p50": 100.0,
+      "p95": 100.0
+    },
+    "cost_per_update": {
+      "p5": 3.7806554902082694,
+      "p50": 4.105186254628062,
+      "p95": 4.2588260919220255
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.472187812169144,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Annamayya",
+    "state": "Andhra Pradesh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 7080.475563062053,
+      "p50": 7480.475563062053,
+      "p95": 7880.475563062053
+    },
+    "reduction_pct": {
+      "p5": -3808.9749027506905,
+      "p50": -2734.2891646473527,
+      "p95": -1666.7504892497561
+    },
+    "cost_per_update": {
+      "p5": 9.517192128803185,
+      "p50": 10.026100529001603,
+      "p95": 10.592508840969037
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.472187812169144,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Annamayya",
+    "state": "Andhra Pradesh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 5280.35667229654,
+      "p50": 5460.35667229654,
+      "p95": 5640.35667229654
+    },
+    "reduction_pct": {
+      "p5": -3072.6427272552573,
+      "p50": -2337.1123661350666,
+      "p95": -1581.9993389888941
+    },
+    "cost_per_update": {
+      "p5": 8.864687626153597,
+      "p50": 9.1569109859944,
+      "p95": 9.46905731999614
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.472187812169144,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Annamayya",
+    "state": "Andhra Pradesh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 11940.71334459308,
+      "p50": 12900.71334459308,
+      "p95": 13860.71334459308
+    },
+    "reduction_pct": {
+      "p5": -4102.5787418352975,
+      "p50": -1755.9291914748962,
+      "p95": 100.0
+    },
+    "cost_per_update": {
+      "p5": 7.214635893109281,
+      "p50": 7.751509341296373,
+      "p95": 8.374709040752697
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.472187812169144,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4665,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4665,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4665,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4665,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Nalgonda",
+    "state": "Andhra Pradesh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4665,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "North Cachar Hills",
+    "state": "Assam",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 8030.02533460706,
+      "p50": 8430.02533460706,
+      "p95": 8830.02533460706
+    },
+    "reduction_pct": {
+      "p5": -3993.1257661839795,
+      "p50": -3167.467539308309,
+      "p95": -2279.0564347838717
+    },
+    "cost_per_update": {
+      "p5": 16.987493729164374,
+      "p50": 17.793540831273408,
+      "p95": 18.679891251842488
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4654041537962959,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "North Cachar Hills",
+    "state": "Assam",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 106990.32934989175,
+      "p50": 117390.32934989179,
+      "p95": 122590.3293498918
+    },
+    "reduction_pct": {
+      "p5": -46738.378891187174,
+      "p50": -25602.12499491666,
+      "p95": -13985.01136509561
+    },
+    "cost_per_update": {
+      "p5": 2.03931257323293,
+      "p50": 2.1296473174962656,
+      "p95": 2.336659785226215
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4654041537962959,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "North Cachar Hills",
+    "state": "Assam",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 14460.05066921412,
+      "p50": 14860.05066921412,
+      "p95": 15260.050669214123
+    },
+    "reduction_pct": {
+      "p5": -11136.677092171947,
+      "p50": -10055.191732043284,
+      "p95": -9129.761633185222
+    },
+    "cost_per_update": {
+      "p5": 4.914793641629659,
+      "p50": 5.047089116282697,
+      "p95": 5.186703816998182
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4654041537962959,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "North Cachar Hills",
+    "state": "Assam",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 10815.03800191059,
+      "p50": 10995.03800191059,
+      "p95": 11175.038001910592
+    },
+    "reduction_pct": {
+      "p5": -8413.571114729815,
+      "p50": -7931.183871062507,
+      "p95": -7420.355456675507
+    },
+    "cost_per_update": {
+      "p5": 4.474257715405667,
+      "p50": 4.547505883227649,
+      "p95": 4.623192261660751
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4654041537962959,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "North Cachar Hills",
+    "state": "Assam",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 23010.076003821177,
+      "p50": 23970.07600382118,
+      "p95": 24930.07600382118
+    },
+    "reduction_pct": {
+      "p5": -14176.60403766668,
+      "p50": -11997.205399736053,
+      "p95": -9912.245647974858
+    },
+    "cost_per_update": {
+      "p5": 4.011219219093935,
+      "p50": 4.171868290449246,
+      "p95": 4.345922194407068
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4654041537962959,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dakshin Bastar Dantewada",
+    "state": "Chhattisgarh",
+    "intervention": "mobile_camp",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 150000.0,
+      "p50": 150000.0,
+      "p95": 150000.0
+    },
+    "total_cost": 150000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4625645669291338,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dakshin Bastar Dantewada",
+    "state": "Chhattisgarh",
+    "intervention": "device_upgrade",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 250000.0,
+      "p50": 250000.0,
+      "p95": 250000.0
+    },
+    "total_cost": 250000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4625645669291338,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dakshin Bastar Dantewada",
+    "state": "Chhattisgarh",
+    "intervention": "staff_training",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 75000.0,
+      "p50": 75000.0,
+      "p95": 75000.0
+    },
+    "total_cost": 75000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4625645669291338,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dakshin Bastar Dantewada",
+    "state": "Chhattisgarh",
+    "intervention": "awareness_campaign",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 50000.0,
+      "p50": 50000.0,
+      "p95": 50000.0
+    },
+    "total_cost": 50000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4625645669291338,
+    "bottleneck_label": "NORMAL"
+  },
+  {
+    "district": "Dakshin Bastar Dantewada",
+    "state": "Chhattisgarh",
+    "intervention": "extended_hours",
+    "n_runs": 200,
+    "backlog_reduction": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "reduction_pct": {
+      "p5": 0.0,
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "cost_per_update": {
+      "p5": 100000.0,
+      "p50": 100000.0,
+      "p95": 100000.0
+    },
+    "total_cost": 100000,
+    "confidence_interval": "90%",
+    "priority_score": 0.4625645669291338,
+    "bottleneck_label": "NORMAL"
+  }
+]
