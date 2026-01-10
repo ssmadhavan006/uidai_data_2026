@@ -1,41 +1,92 @@
 # Privacy Checklist
+## Aadhaar Pulse - Child Update Intelligence Platform
 
-## Data Classification
-- **Data Type**: Pre-aggregated counts (enrolment, demographic updates, biometric updates)
-- **PII Level**: None - All data is aggregated at pincode/district level
-- **Sensitivity**: Low - No individual-level information present
-
-## Safeguards
-
-### 1. K-Anonymity (k=10)
-All aggregated outputs (tables, charts, exports) must represent **at least 10 individuals** per cell. Any district-week combination with fewer than 10 transactions will be:
-- Suppressed from public outputs
-- Flagged in internal analysis
-- Not used for individual-level inference
-
-### 2. Analytical Minimization
-This analysis will:
-- ✅ Use only aggregated metrics (counts, ratios, rates)
-- ✅ Focus on district/state-level patterns
-- ✅ Avoid any disaggregation attempts
-- ❌ NOT attempt to derive individual-level information
-- ❌ NOT link data to external sources that could enable re-identification
-
-### 3. Output Review Protocol
-Before sharing any results:
-1. Review all figures for small-count cells
-2. Verify no district-week has < 10 transactions in displayed data
-3. Ensure bottleneck districts are identified by aggregate patterns, not individual cases
-4. Dashboard filters will enforce minimum aggregation levels
-
-## Compliance Statement
-This analysis complies with:
-- UIDAI data handling guidelines for aggregated statistics
-- Hackathon data usage terms
-- General privacy best practices for government data
+**Version:** 2.0  
+**Last Updated:** 2026-01-10
 
 ---
 
-**Reviewed by**: [Analyst Name]  
-**Date**: [Date]  
-**Status**: ☐ Pending Review  ☑ Approved
+## Data Classification
+
+| Attribute | Value |
+|-----------|-------|
+| Data Type | Pre-aggregated counts (enrolment, demographic, biometric) |
+| PII Level | None - district-level aggregates only |
+| Sensitivity | Low - no individual information |
+
+---
+
+## Technical Safeguards
+
+### 1. K-Anonymity (k=10)
+
+- **Threshold:** k = 10 minimum per cell
+- **Method:** Values < k replaced with -1 (suppression marker)
+- **Code:** `src/01_privacy_guard.py::apply_k_anonymity()`
+- **Logging:** All suppressions logged to `suppression_log.csv`
+
+### 2. Secure Hashing
+
+- **Algorithm:** SHA-256
+- **Salt Management:** 
+  - Production: Streamlit `secrets.toml` → `privacy.hash_salt`
+  - Dev/CI: `AADHAAR_SALT` environment variable
+  - Rotation: Annual recommended
+- **Code:** `src/01_privacy_guard.py::hash_identifier()`
+
+### 3. Differential Privacy (Exports)
+
+- **Counts:** Laplace mechanism (sensitivity = 1)
+- **Rates:** Gaussian mechanism (δ = 10⁻⁵)
+- **Budget:** ε = 1.0 (configurable)
+- **Code:** `src/dp_export.py::dp_export_dataframe()`
+
+---
+
+## Access Controls
+
+### Role-Based Access
+
+| Role | Dashboard | Export | Simulation | Admin |
+|------|-----------|--------|------------|-------|
+| Analyst | Full | With DP | Yes | No |
+| Viewer | Masked | No | No | No |
+| Admin | Full | Full | Yes | Yes |
+
+### Audit Logging
+
+- **Format:** JSON
+- **Location:** `outputs/audit_logs/audit_YYYY-MM-DD.json`
+- **Events:** login, logout, export, simulation, view
+- **Code:** `app/utils/audit_logger.py`
+
+---
+
+## Analytical Minimization
+
+- ✅ Only aggregated metrics (counts, ratios, rates)
+- ✅ District/state-level patterns only
+- ✅ No disaggregation attempts
+- ❌ No individual-level inference
+- ❌ No external data linkage
+
+---
+
+## Output Review Protocol
+
+1. Review all figures for small-count cells
+2. Verify no district-week has < k transactions
+3. Apply DP noise before public export
+4. Log all exports in audit trail
+
+---
+
+## Compliance References
+
+- [Data Governance Policy](data_governance.md)
+- [Privacy Impact Assessment](privacy_impact_assessment.md)
+- UIDAI Data Handling Guidelines
+
+---
+
+**Reviewed by:** _________________ | **Date:** __________ | **Status:** ☐ Pending ☑ Approved

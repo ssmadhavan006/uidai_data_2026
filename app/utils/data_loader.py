@@ -67,7 +67,7 @@ def get_district_list(priority_df: pd.DataFrame) -> list:
 
 
 def get_district_data(district: str, state: str, priority_df: pd.DataFrame, labels_df: pd.DataFrame) -> dict:
-    """Get combined data for a district."""
+    """Get combined data for a district with sensible defaults."""
     priority_row = priority_df[
         (priority_df['district'] == district) & (priority_df['state'] == state)
     ]
@@ -81,19 +81,38 @@ def get_district_data(district: str, state: str, priority_df: pd.DataFrame, labe
     p = priority_row.iloc[0]
     l = labels_row.iloc[0] if not labels_row.empty else pd.Series()
     
+    # Get values with sensible defaults, handling NaN
+    def safe_get(row, key, default):
+        val = row.get(key, default)
+        return default if pd.isna(val) else val
+    
+    # Forecast demand - fallback to a reasonable estimate
+    forecast = safe_get(p, 'forecasted_demand_next_4w', 0)
+    if forecast <= 0:
+        forecast = safe_get(l, 'current_bio_updates', 500) * 4  # 4 weeks
+    if forecast <= 0:
+        forecast = 1000  # Default minimum
+    
+    weekly_demand = forecast / 4
+    
+    # Backlog - use update_backlog or estimate from forecast
+    backlog = safe_get(l, 'update_backlog', 0)
+    if backlog <= 0:
+        backlog = weekly_demand * 2  # Assume 2 weeks backlog if not available
+    
     return {
         'district': district,
         'state': state,
-        'priority_score': p.get('priority_score', 0),
-        'priority_rank': p.get('priority_rank', 999),
-        'bottleneck_label': p.get('bottleneck_label', 'UNKNOWN'),
-        'forecasted_demand': p.get('forecasted_demand_next_4w', 0),
-        'rationale': l.get('rationale', 'No rationale available'),
-        'current_bio_updates': l.get('current_bio_updates', 0),
-        'current_demo_updates': l.get('current_demo_updates', 0),
-        'update_backlog': l.get('update_backlog', 0),
-        'completion_rate': l.get('completion_rate', 0),
-        'backlog': max(l.get('update_backlog', 0), 0),
-        'weekly_demand': p.get('forecasted_demand_next_4w', 100) / 4,
-        'baseline_capacity': p.get('forecasted_demand_next_4w', 100) / 4 * 0.7
+        'priority_score': safe_get(p, 'priority_score', 0.5),
+        'priority_rank': safe_get(p, 'priority_rank', 999),
+        'bottleneck_label': safe_get(p, 'bottleneck_label', 'UNKNOWN'),
+        'forecasted_demand': forecast,
+        'rationale': safe_get(l, 'rationale', 'No rationale available'),
+        'current_bio_updates': safe_get(l, 'current_bio_updates', weekly_demand),
+        'current_demo_updates': safe_get(l, 'current_demo_updates', 0),
+        'update_backlog': backlog,
+        'completion_rate': safe_get(l, 'completion_rate', 0.7),
+        'backlog': max(backlog, weekly_demand),  # Ensure non-zero for simulation
+        'weekly_demand': max(weekly_demand, 100),  # Minimum 100/week
+        'baseline_capacity': max(weekly_demand * 0.7, 70)  # 70% of demand
     }
