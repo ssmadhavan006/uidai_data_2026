@@ -129,6 +129,40 @@ def flag_anomaly_driven(row: pd.Series) -> tuple:
     return False, None, None
 
 
+def flag_inclusion_gap(row: pd.Series) -> tuple:
+    """
+    Detect inclusion gaps - low enrollment/update coverage for vulnerable groups.
+    
+    Triggers:
+    - Low saturation despite center availability
+    - Low child update rate compared to state average
+    - Potential gender or rural access barriers
+    """
+    rationale = []
+    
+    # Low saturation = potential underserved population
+    saturation = row.get('saturation_proxy', 0)
+    if pd.notna(saturation) and saturation < 0.3:
+        rationale.append(f"Low child enrollment saturation ({saturation:.2f})")
+    
+    # Very low bio updates despite having enrolled population
+    bio_child = row.get('bio_update_child', 0)
+    demo_child = row.get('demo_update_child', 0)
+    
+    # Low activity overall
+    if bio_child < 50 and demo_child < 50:
+        rationale.append(f"Very low update activity (bio:{bio_child:.0f}, demo:{demo_child:.0f})")
+    
+    # Check for potential access barrier indicators
+    completion = row.get('completion_rate_child', 1)
+    if pd.notna(completion) and completion < 0.5:
+        rationale.append(f"Very low completion rate ({completion:.2f}) - possible access barrier")
+    
+    if len(rationale) >= 2:
+        return True, "INCLUSION_GAP", "; ".join(rationale)
+    return False, None, None
+
+
 def calculate_priority_score(
     row: pd.Series,
     forecasted_demand: float = None,
@@ -189,6 +223,7 @@ def apply_all_rules(row: pd.Series) -> tuple:
         flag_operational_bottleneck,
         flag_demographic_surge,
         flag_capacity_strain,
+        flag_inclusion_gap,  # NEW: detect inclusion gaps
         flag_anomaly_driven
     ]
     

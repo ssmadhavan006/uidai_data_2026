@@ -1,0 +1,160 @@
+# Aadhaar Pulse - Automated Retraining Pipeline
+# Triggers weekly or on new data push
+
+name: Model Retraining Pipeline
+
+on:
+  schedule:
+    # Weekly on Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+  push:
+    paths:
+      - 'data/raw/**'
+      - 'src/02_features.py'
+      - 'src/03_model.py'
+  workflow_dispatch:
+    inputs:
+      force_retrain:
+        description: 'Force model retraining'
+        required: false
+        default: 'false'
+
+env:
+  PYTHON_VERSION: '3.11'
+  MAPE_THRESHOLD: 70  # Fail if MAPE exceeds this
+
+jobs:
+  etl:
+    name: ETL Pipeline
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run ETL
+        run: |
+          python src/01_agg_etl.py
+          python src/02_features.py
+      
+      - name: Upload processed data
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-data
+          path: data/processed/
+
+  train:
+    name: Model Training
+    runs-on: ubuntu-latest
+    needs: etl
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download processed data
+        uses: actions/download-artifact@v4
+        with:
+          name: processed-data
+          path: data/processed/
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Train model and generate forecasts
+        run: |
+          python src/03_model.py
+          python src/04_priority.py
+      
+      - name: Upload outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-outputs
+          path: outputs/
+
+  validate:
+    name: Model Validation
+    runs-on: ubuntu-latest
+    needs: train
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: processed-data
+          path: data/processed/
+      
+      - name: Download outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: model-outputs
+          path: outputs/
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Run validation
+        id: validation
+        run: |
+          python src/validation_forecast.py | tee validation.log
+          MAPE=$(grep "Mean SMAPE" validation.log | grep -oP '\d+\.\d+' | head -1)
+          echo "mape=$MAPE" >> $GITHUB_OUTPUT
+          
+      - name: Check MAPE threshold
+        run: |
+          MAPE=${{ steps.validation.outputs.mape }}
+          if (( $(echo "$MAPE > ${{ env.MAPE_THRESHOLD }}" | bc -l) )); then
+            echo "❌ MAPE ($MAPE%) exceeds threshold (${{ env.MAPE_THRESHOLD }}%)"
+            echo "Manual review required!"
+            exit 1
+          else
+            echo "✅ MAPE ($MAPE%) is within threshold"
+          fi
+      
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: outputs/forecast_validation.csv
+
+  deploy:
+    name: Deploy Model
+    runs-on: ubuntu-latest
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Download model outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: model-outputs
+          path: outputs/
+      
+      - name: Tag release
+        run: |
+          echo "Model deployed at $(date)"
+          echo "Would tag as v$(date +%Y%m%d)"

@@ -1,34 +1,131 @@
-# Aadhaar Data Analysis Project
+# Aadhaar Pulse
+## Child Update Intelligence Platform
 
-## Project Overview
-This project aims to analyze Aadhaar enrolment and update data to simpler proactive planning for Aadhaar Seva Kendras. It predicts biometric update surges to avoid service denial and reduce operational strain.
+*Fusion-driven, AI-first decision support for proactive, equitable Aadhaar service delivery*
 
-## Setup Instructions
+---
 
-### Prerequisites
-- Conda or Mamba installed
-- Python 3.10+
+## 🚀 Quick Start
 
-### Installation
-1. Clone the repository
-2. Create the environment:
-    ```bash
-    conda env create -f environment.yml
-    conda activate aadhaar_hackathon
-    ```
-    OR using pip:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+# Clone and setup
+git clone <repo-url>
+cd aadhaar-pulse
 
-## Directory Structure
-- `data/raw`: Place CSV files here (`Aadhaar_Enrolment_dataset.csv`, `Aadhaar_Demographic_Update_dataset.csv`, `Aadhaar_Biometric_Update_dataset.csv`)
-- `data/processed`: For parquet files
-- `notebooks`: Jupyter notebooks for analysis and forecasting
-- `src`: Source code for ETL, features, and modeling
-- `app`: Streamlit dashboard
+# Create virtual environment
+python -m venv .venv
+.venv\Scripts\Activate.ps1  # Windows
+source .venv/bin/activate   # Linux/Mac
 
-## Deliverables
-- `environment.yml`: Reproducible Python environment
-- `notebooks/00_schema_analysis.ipynb`: Data exploration notebook
-- `data_dictionary.md`: Documentation of data schemas
+# Install dependencies
+pip install -r requirements.txt
+
+# Run dashboard
+streamlit run app/dashboard.py
+```
+
+**Demo Credentials:**
+- Analyst: `analyst` / `analyst123` (full access)
+- Viewer: `viewer` / `viewer123` (read-only)
+
+---
+
+## 📁 Project Structure
+
+```
+aadhaar-pulse/
+├── app/                    # Streamlit dashboards
+│   ├── dashboard.py       # Main unified dashboard (6 tabs)
+│   ├── components/        # Reusable view components
+│   └── utils/             # Auth, data loading, export
+├── api/                    # FastAPI endpoints
+│   └── main.py            # /forecast, /bottleneck/analyze, /recommend
+├── src/                    # Core analytics modules
+│   ├── 01_agg_etl.py      # ETL pipeline
+│   ├── 01_privacy_guard.py # K-anonymity enforcement
+│   ├── 02_features.py     # Feature engineering
+│   ├── 03_model.py        # LightGBM forecasting
+│   ├── bottleneck_fusion.py # 5-type bottleneck detection
+│   ├── simulator.py       # Monte Carlo policy simulator
+│   └── fairness_audit.py  # Equity analysis
+├── notebooks/              # Analysis & validation
+├── config/                 # Intervention definitions
+├── docs/                   # Documentation, runbooks, SLAs
+├── outputs/                # Generated files (priority_scores, etc.)
+└── data/                   # Raw and processed data
+```
+
+---
+
+## 🎯 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **Bottleneck Fusion** | 5 diagnostic types: Operational, Demographic Surge, Capacity Strain, Inclusion Gap, Anomaly |
+| **Demand Forecasting** | LightGBM with hierarchical reconciliation, SMAPE <70% |
+| **Policy Simulator** | Monte Carlo simulation with 90% confidence intervals |
+| **Explainability** | SHAP feature importance, per-district rationale |
+| **Privacy-First** | k=10 anonymity, SHA-256 hashing, differential privacy exports |
+| **RBAC** | Analyst (full) / Viewer (masked) role-based access |
+| **Pilot Framework** | Treatment/control selection, DiD causal analysis |
+
+---
+
+## 🛠️ Run Commands
+
+```bash
+# Main dashboard
+streamlit run app/dashboard.py
+
+# FastAPI
+uvicorn api.main:app --reload
+
+# Run full pipeline
+python src/01_agg_etl.py
+python src/02_features.py  
+python src/03_model.py
+python src/bottleneck_fusion.py
+
+# Docker (if installed)
+docker-compose up -d
+```
+
+---
+
+## 📊 Dashboards
+
+| Tab | Features |
+|-----|----------|
+| 📍 Hotspot Map | Priority visualization by district |
+| 🔍 District Analysis | SHAP explanations, action recommendations |
+| 🎮 Policy Simulator | Intervention testing with Monte Carlo |
+| 📊 Overview | Child metrics, bottleneck distribution |
+| 📈 Pilot Monitor | Treatment vs Control trends |
+| 🔧 System Health | PSI drift, MAPE, alerts |
+
+---
+
+## 🔒 Privacy & Security
+
+- **K-anonymity:** k=10 threshold, all values <10 suppressed
+- **Hashing:** SHA-256 with cryptographic salt
+- **Differential Privacy:** Laplace/Gaussian noise for exports (ε=1.0)
+- **RBAC:** Role-based dashboard access
+- **Audit Logging:** All actions logged to `outputs/audit_logs/`
+
+---
+
+## 📖 Documentation
+
+- [Pilot Charter](docs/pilot_charter.md)
+- [SLA & Alerts](docs/SLA.md)
+- [Privacy Checklist](docs/privacy_checklist.md)
+- [Architecture](docs/architecture.md)
+- [Runbooks](docs/runbooks/)
+
+---
+
+## 🏆 Built for UIDAI Hackathon 2025
+
+**Judge Pitch:**
+> *"Fusion-driven bottleneck diagnosis, demand forecasting, and policy simulation—with DiD causal evaluation and production-ready Docker deployment. One command to run."*

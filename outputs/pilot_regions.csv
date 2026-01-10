@@ -1,0 +1,9 @@
+state,district,priority_rank,priority_score,bottleneck_label,group,matched_to
+Chhattisgarh,Dhamtari,1.0,0.534,ANOMALY_DETECTED,treatment,Dhamtari
+Chhattisgarh,Kabeerdham,2.0,0.5145,ANOMALY_DETECTED,treatment,Kabeerdham
+Andhra Pradesh,Dr. B. R. Ambedkar Konaseema,3.0,0.5004459770348356,NORMAL,treatment,Dr. B. R. Ambedkar Konaseema
+Andhra Pradesh,Tirupati,4.0,0.4919348456719631,NORMAL,treatment,Tirupati
+Chhattisgarh,Janjgir Champa,111.0,0.1502,NORMAL,control,Dhamtari
+Chhattisgarh,Janjgir Champa,111.0,0.1502,NORMAL,control,Kabeerdham
+Andhra Pradesh,Nandyal,103.0,0.1575,DEMOGRAPHIC_SURGE,control,Dr. B. R. Ambedkar Konaseema
+Andhra Pradesh,Nandyal,103.0,0.1575,DEMOGRAPHIC_SURGE,control,Tirupati

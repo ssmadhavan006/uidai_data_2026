@@ -1,0 +1,73 @@
+# Aadhaar Pulse - Docker Compose
+# Multi-service deployment configuration
+
+version: '3.8'
+
+services:
+  # Main dashboard
+  dashboard:
+    build: .
+    container_name: aadhaar-pulse-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./config:/app/config
+    environment:
+      - PYTHONPATH=/app:/app/src
+      - AADHAAR_SALT=${AADHAAR_SALT:-hackathon_demo_salt_2025}
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8501/_stcore/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # FastAPI recommendation service
+  api:
+    build: .
+    container_name: aadhaar-pulse-api
+    command: [ "uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000" ]
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./config:/app/config
+    environment:
+      - PYTHONPATH=/app:/app/src
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8000/" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: unless-stopped
+
+  # Pilot monitoring dashboard
+  pilot-monitor:
+    build: .
+    container_name: aadhaar-pulse-pilot
+    command: [ "streamlit", "run", "app/pilot_monitor.py", "--server.address=0.0.0.0", "--server.port=8502" ]
+    ports:
+      - "8502:8502"
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    restart: unless-stopped
+
+  # MLflow tracking server (optional)
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:v2.10.0
+    container_name: aadhaar-pulse-mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    command: [ "mlflow", "server", "--host", "0.0.0.0", "--port", "5000", "--backend-store-uri", "sqlite:///mlflow/mlruns/mlflow.db" ]
+    restart: unless-stopped
+
+volumes:
+  data:
+  outputs:
+  mlruns:

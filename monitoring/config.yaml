@@ -1,0 +1,77 @@
+# Aadhaar Pulse - Monitoring Configuration
+# Defines metrics, thresholds, and alert rules
+
+metrics:
+  data_drift:
+    - name: bio_update_child_psi
+      description: Population Stability Index for bio_update_child
+      threshold: 0.25
+      alert_on: consecutive_2_weeks
+      
+    - name: demo_update_child_psi
+      description: Population Stability Index for demo_update_child
+      threshold: 0.25
+      alert_on: consecutive_2_weeks
+      
+    - name: failure_rate_psi
+      description: Population Stability Index for failure rate
+      threshold: 0.20
+      alert_on: any
+
+  model_performance:
+    - name: forecast_mape
+      description: Weekly forecast MAPE vs delayed actuals
+      threshold: 70
+      unit: percent
+      alert_on: consecutive_2_weeks
+      
+    - name: priority_score_correlation
+      description: Correlation between predicted and actual priority
+      threshold: 0.6
+      alert_on: below_threshold
+
+  system_health:
+    - name: etl_pipeline_duration
+      description: ETL pipeline execution time
+      threshold: 3600
+      unit: seconds
+      alert_on: above_threshold
+      
+    - name: pipeline_success_rate
+      description: Percentage of successful pipeline runs
+      threshold: 95
+      unit: percent
+      alert_on: below_threshold
+
+alert_rules:
+  - name: critical_data_drift
+    condition: "any PSI > 0.25 for 2 consecutive weeks"
+    severity: critical
+    action: page_oncall
+    channels:
+      - email
+      - slack
+      
+  - name: model_degradation
+    condition: "MAPE > 70% for 3 consecutive weeks"
+    severity: high
+    action: ticket_and_notify
+    channels:
+      - email
+      
+  - name: pipeline_failure
+    condition: "pipeline_success_rate < 95%"
+    severity: medium
+    action: notify_team
+    channels:
+      - slack
+
+sla:
+  etl_completion: "2 hours after data arrival, 95% of time"
+  forecast_availability: "6 AM local time on Mondays, 99% of time"
+  dashboard_uptime: "99.5%"
+
+retention:
+  raw_metrics: 90_days
+  aggregated_metrics: 1_year
+  alerts: 2_years
