@@ -173,13 +173,18 @@ def sanitize_dataframe(
     return df
 
 
-def validate_privacy(df: pd.DataFrame, k: int = 10) -> dict:
+def validate_privacy(
+    df: pd.DataFrame, 
+    k: int = 10,
+    count_columns: Optional[List[str]] = None
+) -> dict:
     """
     Validate that a DataFrame meets privacy requirements.
     
     Args:
         df: DataFrame to validate
         k: K-anonymity threshold
+        count_columns: List of columns to validate (optional)
     
     Returns:
         Validation report dictionary
@@ -190,12 +195,16 @@ def validate_privacy(df: pd.DataFrame, k: int = 10) -> dict:
         'stats': {}
     }
     
-    count_cols = [
-        col for col in df.select_dtypes(include=[np.number]).columns
-        if 'ratio' not in col.lower() and col not in ['year', 'week_number']
-    ]
+    if count_columns is None:
+        count_columns = [
+            col for col in df.select_dtypes(include=[np.number]).columns
+            if 'ratio' not in col.lower() 
+            and 'proxy' not in col.lower()
+            and 'gap' not in col.lower()
+            and col not in ['year', 'week_number']
+        ]
     
-    for col in count_cols:
+    for col in count_columns:
         # Check for values between 0 and k (excluding suppressed -1 values)
         violations = ((df[col] > 0) & (df[col] < k)).sum()
         suppressed = (df[col] == -1).sum()

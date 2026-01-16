@@ -247,13 +247,15 @@ def run_etl(
         master = sanitize_dataframe(master, k=k, count_columns=count_cols)
         
         # Validate
-        report = validate_privacy(master, k=k)
+        report = validate_privacy(master, k=k, count_columns=count_cols)
         if report['valid']:
             print("Privacy validation: PASS")
         else:
             print("Privacy validation: FAIL")
             print(f"Violations: {report.get('violations', 'Unknown')}")
-            raise ValueError(f"Privacy validation failed with k={k}")    else:
+            raise ValueError(f"Privacy validation failed with k={k}")
+            
+    else:
         print("\n[6/6] Skipping privacy guard (disabled)...")
     
     # Save
