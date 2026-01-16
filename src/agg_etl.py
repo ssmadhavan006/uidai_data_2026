@@ -53,9 +53,9 @@ def load_raw_data(data_dir: str = 'data/raw') -> tuple:
         files = glob.glob(os.path.join(data_dir, pattern))
         print(f"Loading {len(files)} files for '{pattern}'")
         if not files:
+            print(f"  ⚠️ Warning: No files found for pattern '{pattern}'")
             return pd.DataFrame()
-        return pd.concat([pd.read_csv(f) for f in files], ignore_index=True)
-    
+        return pd.concat([pd.read_csv(f) for f in files], ignore_index=True)    
     enrolment = load_pattern('*enrolment*.csv')
     demographic = load_pattern('*demographic*.csv')
     biometric = load_pattern('*biometric*.csv')
@@ -248,8 +248,12 @@ def run_etl(
         
         # Validate
         report = validate_privacy(master, k=k)
-        print(f"Privacy validation: {'PASS' if report['valid'] else 'FAIL'}")
-    else:
+        if report['valid']:
+            print("Privacy validation: PASS")
+        else:
+            print("Privacy validation: FAIL")
+            print(f"Violations: {report.get('violations', 'Unknown')}")
+            raise ValueError(f"Privacy validation failed with k={k}")    else:
         print("\n[6/6] Skipping privacy guard (disabled)...")
     
     # Save

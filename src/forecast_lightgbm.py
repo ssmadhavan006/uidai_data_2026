@@ -1,5 +1,5 @@
 """
-03_forecast_lightgbm.py
+forecast_lightgbm.py
 Advanced hierarchical forecasting using LightGBM with time-series cross-validation.
 
 Features:

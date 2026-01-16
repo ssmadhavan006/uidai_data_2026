@@ -43,8 +43,8 @@ jobs:
       
       - name: Run ETL
         run: |
-          python src/agg_etl.py
-          python src/features.py
+          python -m src.agg_etl
+          python -m src.features
       
       - name: Upload processed data
         uses: actions/upload-artifact@v4
@@ -77,7 +77,7 @@ jobs:
       
       - name: Train model and generate forecasts
         run: |
-          python src/forecast_lightgbm.py
+          python -m src.forecast_lightgbm
       
       - name: Upload outputs
         uses: actions/upload-artifact@v4
@@ -117,7 +117,7 @@ jobs:
       - name: Run validation
         id: validation
         run: |
-          python src/validation_forecast.py | tee validation.log
+          python -m src.validation_forecast | tee validation.log
           MAPE=$(grep "Mean SMAPE" validation.log | grep -oP '\d+\.\d+' | head -1)
           echo "mape=$MAPE" >> $GITHUB_OUTPUT
           

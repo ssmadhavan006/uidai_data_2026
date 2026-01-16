@@ -1,5 +1,5 @@
 """
-02_features.py
+features.py
 Feature engineering module for modeling.
 
 Creates:
@@ -128,13 +128,12 @@ def add_priority_score(df: pd.DataFrame) -> pd.DataFrame:
     
     # Normalize components to 0-1 scale
     def minmax_scale(series):
+    def minmax_scale(series):
         min_val = series.min()
         max_val = series.max()
-        if max_val - min_val == 0:
+        if pd.isna(max_val) or pd.isna(min_val) or max_val - min_val == 0:
             return pd.Series(0, index=series.index)
-        return (series - min_val) / (max_val - min_val)
-    
-    # Handle suppressed values (-1) and NaN
+        return (series - min_val) / (max_val - min_val)    # Handle suppressed values (-1) and NaN
     backlog = df['update_backlog_child'].clip(lower=0)  # Only positive backlog
     completion = df['completion_rate_child'].fillna(0).clip(0, 1)
     volume = df['enroll_child'].clip(lower=0)
