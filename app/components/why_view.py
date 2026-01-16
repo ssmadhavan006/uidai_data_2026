@@ -10,7 +10,7 @@ import pandas as pd
 import sys
 sys.path.insert(0, '..')
 
-from utils.data_loader import mask_small_values
+from utils.data_loader import mask_small_values, format_bottleneck_label
 
 
 def create_forecast_chart(features_df: pd.DataFrame, district: str, state: str) -> go.Figure:
@@ -147,7 +147,7 @@ def render_bottleneck_card(district_data: dict):
         border-radius: 5px;
         margin: 10px 0;
     ">
-        <h4 style="color: {color}; margin: 0;">🏷️ {label.replace('_', ' ')}</h4>
+        <h4 style="color: {color}; margin: 0;">🏷️ {format_bottleneck_label(label)}</h4>
         <p style="margin: 10px 0 0 0;">{district_data.get('rationale', 'No rationale available')}</p>
     </div>
     """, unsafe_allow_html=True)

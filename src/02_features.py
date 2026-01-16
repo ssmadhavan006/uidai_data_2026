@@ -99,8 +99,10 @@ def add_performance_features(df: pd.DataFrame) -> pd.DataFrame:
     # Child focus ratio (how much of bio updates are children)
     df['child_focus_ratio'] = df['bio_update_child'] / df['bio_update_total'].replace(0, np.nan)
     
-    # Completion rate (bio / demo)
-    df['completion_rate_child'] = df['bio_update_child'] / df['demo_update_child'].replace(0, np.nan)
+    # Completion rate (bio / demo) - MUST BE CLIPPED TO 0-1 RANGE
+    raw_completion = df['bio_update_child'] / df['demo_update_child'].replace(0, np.nan)
+    # Clip to valid range: can't be negative or > 100%
+    df['completion_rate_child'] = raw_completion.clip(0, 1)
     
     # Backlog severity (normalized)
     max_backlog = df['update_backlog_child'].abs().max()

@@ -65,9 +65,9 @@ def create_backlog_timeline_chart(initial_backlog: float, weekly_demand: float,
     ))
     
     fig.update_layout(
-        title='Projected Backlog Over Time',
+        title='Projected Children Protected Over Time',
         xaxis_title='Week',
-        yaxis_title='Backlog (Updates)',
+        yaxis_title='Pending Child Updates',
         height=350,
         legend=dict(yanchor="top", y=0.99, xanchor="right", x=0.99)
     )
@@ -96,11 +96,15 @@ def render_simulator_view(district_data: dict, interventions: dict = None):
     with col1:
         st.subheader("Configuration")
         
-        # Intervention selector
+        # Intervention selector with human-readable names
+        def format_intervention_name(name):
+            """Convert intervention name to human-readable format."""
+            return name.replace('_', ' ').replace('-', ' ').title()
+        
         intervention_name = st.selectbox(
             "Select Intervention",
             list(interventions.keys()),
-            format_func=lambda x: x.replace('_', ' ').title()
+            format_func=format_intervention_name
         )
         
         intervention = interventions[intervention_name]
@@ -164,11 +168,11 @@ def render_simulator_view(district_data: dict, interventions: dict = None):
                 with m1:
                     reduction = mc_result['backlog_reduction']['p50']
                     uncertainty = (mc_result['backlog_reduction']['p95'] - mc_result['backlog_reduction']['p5']) / 2
-                    st.metric("Backlog Reduction", f"{reduction:,.0f}", f"±{uncertainty:,.0f}")
+                    st.metric("👦👧 Children Protected", f"{reduction:,.0f}", f"±{uncertainty:,.0f}")
                 
                 with m2:
                     pct = mc_result['reduction_pct']['p50']
-                    st.metric("Reduction %", f"{pct:.1f}%")
+                    st.metric("Workload Processed", f"{pct:.1f}%")
                 
                 with m3:
                     cost_per = mc_result['cost_per_update']['p50']
@@ -190,9 +194,9 @@ def render_simulator_view(district_data: dict, interventions: dict = None):
                 
                 # Confidence interval display
                 st.success(f"""
-                **90% Confidence Interval:**
-                - Reduction: {mc_result['backlog_reduction']['p5']:,.0f} to {mc_result['backlog_reduction']['p95']:,.0f} updates
-                - Percentage: {mc_result['reduction_pct']['p5']:.1f}% to {mc_result['reduction_pct']['p95']:.1f}%
+                **90% Confidence Interval (Children Protected):**
+                - Children Reached: {mc_result['backlog_reduction']['p5']:,.0f} to {mc_result['backlog_reduction']['p95']:,.0f}
+                - Workload Processed: {mc_result['reduction_pct']['p5']:.1f}% to {mc_result['reduction_pct']['p95']:.1f}%
                 """)
                 
                 # Save result for PDF export

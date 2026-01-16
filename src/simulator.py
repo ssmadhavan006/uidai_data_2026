@@ -116,8 +116,10 @@ def simulate_intervention(
         backlog = max(backlog, 0)
     
     # Calculate metrics
-    backlog_reduction = initial_backlog - backlog + (weekly_demand * duration)  # Demand served
-    reduction_pct = ((initial_backlog - backlog) / initial_backlog * 100) if initial_backlog > 0 else 0
+    total_workload = initial_backlog + (weekly_demand * duration)  # Total work over the period
+    backlog_reduction = initial_backlog - backlog + (weekly_demand * duration)  # Demand actually served
+    # Reduction % = what fraction of total workload was processed
+    reduction_pct = (total_processed / max(total_workload, 1)) * 100 if total_workload > 0 else 0
     cost_per_update = cost / max(total_processed, 1)
     
     # Fairness index: higher = more equitable (considers backlog cleared and cost efficiency)

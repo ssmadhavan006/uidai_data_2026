@@ -62,6 +62,7 @@ aadhaar-pulse/
 | Feature | Description |
 |---------|-------------|
 | **Bottleneck Fusion** | 5 diagnostic types: Operational, Demographic Surge, Capacity Strain, Inclusion Gap, Anomaly |
+| **District Comparison** | **(New)** Multi-district side-by-side analysis, trend classification, and peer benchmarking |
 | **Demand Forecasting** | LightGBM with hierarchical reconciliation, SMAPE <70% |
 | **Policy Simulator** | Monte Carlo simulation with 90% confidence intervals |
 | **Explainability** | SHAP feature importance, per-district rationale |
@@ -96,12 +97,13 @@ docker-compose up -d
 
 | Tab | Features |
 |-----|----------|
-| 📍 Hotspot Map | Priority visualization by district |
+| 📍 Hotspot Map | Priority visualization (Heatmap/Scatter), state summaries |
 | 🔍 District Analysis | SHAP explanations, action recommendations |
-| 🎮 Policy Simulator | Intervention testing with Monte Carlo |
-| 📊 Overview | Child metrics, bottleneck distribution |
-| 📈 Pilot Monitor | Treatment vs Control trends |
-| 🔧 System Health | PSI drift, MAPE, alerts |
+| 📊 Compare Districts | **(New)** Side-by-side comparison, radar charts, trend analysis |
+| 🎮 Policy Simulator | Intervention testing with Monte Carlo & 90% CIs |
+| 📊 Overview | Child metrics, bottleneck distribution, top 10 list |
+| 📈 Pilot Monitor | Treatment vs Control trends, action tracker |
+| 🔧 System Health | Data drift (PSI), MAPE trends, alerts |
 
 ---
 

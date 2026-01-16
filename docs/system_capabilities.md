@@ -74,6 +74,13 @@ Composite index weighing:
 - Z-score analysis for time-series outliers
 - Spatial outlier detection across districts
 
+### 2.5 Trend Classification & Benchmarking (New)
+- **Trend Classification:** Automatic segmentation of districts into "Improving", "Declining", or "Stable" based on 4-week linear regression slopes.
+- **Peer Benchmarking:** Clustering districts by bottleneck type and priority score to identify "Like-for-Like" comparisons.
+- **Comparison Engine:** Side-by-side metric evaluation of 2-5 districts with normalized radar charts.
+
+**Use Case:** "How does District A compare to similar peers, and is it improvement trend sustainable?"
+
 ---
 
 ## 3. Policy Simulation Engine
@@ -141,12 +148,13 @@ New bottleneck type specifically for:
 
 ## 6. Dashboard & Visualization
 
-### 6.1 Unified Dashboard (6 Tabs)
+### 6.1 Unified Dashboard (7 Tabs)
 | Tab | Features |
 |-----|----------|
-| 📍 Hotspot Map | State-level priority choropleth, top districts list |
+| 📍 Hotspot Map | **Enhanced** heatmap/scatter modes, state summaries, priority filters |
 | 🔍 District Analysis | Detailed view, SHAP, trends, rationale |
-| 🎮 Policy Simulator | Interactive intervention testing |
+| 📊 Compare Districts | **(New)** Multi-district side-by-side, radar charts, trend classification |
+| 🎮 Policy Simulator | Interactive intervention testing, 90% confidence intervals |
 | 📊 Overview | Child metrics, bottleneck distribution, top 10 list |
 | 📈 Pilot Monitor | Treatment vs Control trends, action tracker |
 | 🔧 System Health | Data drift (PSI), MAPE trends, alerts |

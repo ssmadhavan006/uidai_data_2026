@@ -61,6 +61,32 @@ def mask_small_values(value, threshold: int = 10) -> str:
     return str(int(value)) if isinstance(value, float) else str(value)
 
 
+# Human-readable label mappings
+BOTTLENECK_LABELS = {
+    'OPERATIONAL_BOTTLENECK': 'Hardware & Process Issues',
+    'DEMOGRAPHIC_SURGE': 'Population Surge',
+    'CAPACITY_STRAIN': 'Overloaded Centers',
+    'INCLUSION_GAP': 'Access Barriers',
+    'ANOMALY_DETECTED': 'Unusual Patterns',
+    'NORMAL': 'No Issues',
+    'UNKNOWN': 'Unknown'
+}
+
+
+def format_bottleneck_label(label: str) -> str:
+    """Convert bottleneck label to human-readable format."""
+    if pd.isna(label):
+        return "Unknown"
+    return BOTTLENECK_LABELS.get(label, label.replace('_', ' ').title())
+
+
+def format_text_label(text: str) -> str:
+    """Convert any underscore/dash separated text to human-readable format."""
+    if pd.isna(text) or not text:
+        return "N/A"
+    return text.replace('_', ' ').replace('-', ' ').title()
+
+
 def get_district_list(priority_df: pd.DataFrame) -> list:
     """Get sorted list of districts."""
     return sorted(priority_df['district'].unique().tolist())
