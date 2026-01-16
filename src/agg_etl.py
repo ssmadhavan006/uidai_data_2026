@@ -1,5 +1,5 @@
 """
-01_agg_etl.py
+agg_etl.py
 ETL pipeline to transform raw CSVs into canonical district-week dataset.
 
 Steps:
@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Import privacy guard
-from src.01_privacy_guard import sanitize_dataframe, validate_privacy
+from src.privacy_guard import sanitize_dataframe, validate_privacy
 
 
 # District name normalization mapping

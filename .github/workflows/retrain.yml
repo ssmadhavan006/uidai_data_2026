@@ -10,8 +10,8 @@ on:
   push:
     paths:
       - 'data/raw/**'
-      - 'src/02_features.py'
-      - 'src/03_model.py'
+      - 'src/features.py'
+      - 'src/forecast_lightgbm.py'
   workflow_dispatch:
     inputs:
       force_retrain:
@@ -43,8 +43,8 @@ jobs:
       
       - name: Run ETL
         run: |
-          python src/01_agg_etl.py
-          python src/02_features.py
+          python src/agg_etl.py
+          python src/features.py
       
       - name: Upload processed data
         uses: actions/upload-artifact@v4
@@ -77,8 +77,7 @@ jobs:
       
       - name: Train model and generate forecasts
         run: |
-          python src/03_model.py
-          python src/04_priority.py
+          python src/forecast_lightgbm.py
       
       - name: Upload outputs
         uses: actions/upload-artifact@v4

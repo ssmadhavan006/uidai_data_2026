@@ -41,10 +41,10 @@ aadhaar-pulse/
 ├── api/                    # FastAPI endpoints
 │   └── main.py            # /forecast, /bottleneck/analyze, /recommend
 ├── src/                    # Core analytics modules
-│   ├── 01_agg_etl.py      # ETL pipeline
-│   ├── 01_privacy_guard.py # K-anonymity enforcement
-│   ├── 02_features.py     # Feature engineering
-│   ├── 03_model.py        # LightGBM forecasting
+│   ├── agg_etl.py         # ETL pipeline
+│   ├── privacy_guard.py   # K-anonymity enforcement
+│   ├── features.py        # Feature engineering
+│   ├── forecast_lightgbm.py # LightGBM forecasting
 │   ├── bottleneck_fusion.py # 5-type bottleneck detection
 │   ├── simulator.py       # Monte Carlo policy simulator
 │   └── fairness_audit.py  # Equity analysis
@@ -82,9 +82,9 @@ streamlit run app/dashboard.py
 uvicorn api.main:app --reload
 
 # Run full pipeline
-python src/01_agg_etl.py
-python src/02_features.py  
-python src/03_model.py
+python src/agg_etl.py
+python src/features.py  
+python src/forecast_lightgbm.py
 python src/bottleneck_fusion.py
 
 # Docker (if installed)

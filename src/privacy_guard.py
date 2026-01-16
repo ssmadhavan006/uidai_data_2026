@@ -24,9 +24,27 @@ except ImportError:
 
 
 def get_salt() -> str:
-    """Get the project salt from environment variable."""
-    salt = os.getenv('AADHAAR_SALT', 'default_hackathon_salt_2025')
-    return salt
+    """
+    Get the cryptographic salt from multiple sources (in priority order):
+    1. Streamlit secrets (production)
+    2. Environment variable (dev/CI)
+    3. Default fallback (hackathon only)
+    """
+    # Try Streamlit secrets first
+    try:
+        import streamlit as st
+        if hasattr(st, 'secrets') and 'privacy' in st.secrets:
+            return st.secrets['privacy']['hash_salt']
+    except Exception:
+        pass
+    
+    # Try environment variable
+    salt = os.getenv('AADHAAR_SALT')
+    if salt:
+        return salt
+    
+    # Fallback for hackathon (not for production!)
+    return 'default_hackathon_salt_2025'
 
 
 def hash_identifier(raw_id: str, salt: Optional[str] = None) -> str:
