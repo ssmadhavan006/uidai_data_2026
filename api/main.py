@@ -9,10 +9,14 @@ from typing import List, Optional
 import pandas as pd
 import json
 import os
+import sys
+
+# Add src to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 app = FastAPI(
     title="Aadhaar Pulse API",
-    description="API for child biometric update recommendations",
+    description="API for child biometric update recommendations and AI chatbot",
     version="1.0.0"
 )
 
@@ -43,6 +47,33 @@ class RecommendationResponse(BaseModel):
     recommended_interventions: List[Intervention]
 
 
+class ChatRequest(BaseModel):
+    message: str
+    clear_history: Optional[bool] = False
+
+
+class ChatResponse(BaseModel):
+    response: str
+    configured: bool
+
+
+# Chatbot singleton
+_chatbot = None
+
+
+def get_chatbot():
+    """Get or create chatbot instance."""
+    global _chatbot
+    if _chatbot is None:
+        try:
+            from src.chatbot import AadhaarChatbot
+            _chatbot = AadhaarChatbot()
+        except Exception as e:
+            print(f"Could not initialize chatbot: {e}")
+            return None
+    return _chatbot
+
+
 def load_priority_data():
     """Load priority scores."""
     path = os.path.join(DATA_ROOT, 'outputs/priority_scores.csv')
@@ -67,9 +98,45 @@ def root():
             "GET /interventions - List interventions",
             "GET /bottleneck/analyze/{state}/{district} - Analyze bottleneck",
             "GET /forecast/{state}/{district} - Get demand forecast",
-            "POST /recommend_action - Get intervention recommendation"
+            "POST /recommend_action - Get intervention recommendation",
+            "POST /chat - Chat with AI assistant"
         ]
     }
+
+
+@app.post("/chat", response_model=ChatResponse)
+def chat(request: ChatRequest):
+    """
+    Chat with the AI assistant.
+    
+    Send a message and receive an AI-generated response about
+    districts, forecasts, interventions, and more.
+    """
+    chatbot = get_chatbot()
+    
+    if chatbot is None:
+        return ChatResponse(
+            response="Chatbot module not available. Please check installation.",
+            configured=False
+        )
+    
+    if request.clear_history:
+        chatbot.clear_history()
+    
+    if not chatbot.is_configured():
+        return ChatResponse(
+            response="Chatbot not configured. Please add GEMINI_API_KEY to .env file.",
+            configured=False
+        )
+    
+    try:
+        response = chatbot.chat(request.message)
+        return ChatResponse(response=response, configured=True)
+    except Exception as e:
+        return ChatResponse(
+            response=f"Error: {str(e)}",
+            configured=chatbot.is_configured()
+        )
 
 
 @app.get("/districts")

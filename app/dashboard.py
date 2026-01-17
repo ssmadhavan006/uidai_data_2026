@@ -181,11 +181,11 @@ priority_df = mask_for_viewer(priority_df)
 
 # Tabs - Analyst gets all tabs
 if require_role("Analyst"):
-    tabs = st.tabs(["📍 Hotspot Map", "🔍 District Analysis", "📊 Compare Districts", "🎮 Policy Simulator", "📊 Overview", "📈 Pilot Monitor", "🔧 System Health"])
-    tab1, tab2, tab_compare, tab3, tab4, tab5, tab6 = tabs
+    tabs = st.tabs(["📍 Hotspot Map", "🔍 District Analysis", "📊 Compare Districts", "🎮 Policy Simulator", "📊 Overview", "📈 Pilot Monitor", "🔧 System Health", "🤖 AI Assistant"])
+    tab1, tab2, tab_compare, tab3, tab4, tab5, tab6, tab7 = tabs
 else:
-    tabs = st.tabs(["📍 Hotspot Map", "📊 Overview"])
-    tab1, tab4 = tabs
+    tabs = st.tabs(["📍 Hotspot Map", "📊 Overview", "🤖 AI Assistant"])
+    tab1, tab4, tab7 = tabs
     tab2 = tab3 = tab5 = tab6 = tab_compare = None
 
 # ===== TAB 1: MAP VIEW =====
@@ -699,6 +699,13 @@ if tab6 is not None:
             'Status': ['Open', 'Resolved', 'Closed']
         })
         st.dataframe(alerts, use_container_width=True, hide_index=True)
+
+# ===== TAB 7: AI ASSISTANT =====
+if tab7 is not None:
+    with tab7:
+        audit.log_view(user['username'], user['role'], "ai_assistant")
+        from components.chatbot_view import render_chatbot_view
+        render_chatbot_view()
 
 # Footer
 st.divider()

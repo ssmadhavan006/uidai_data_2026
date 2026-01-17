@@ -7,22 +7,36 @@
 
 ## 🚀 Quick Start
 
-```bash
-# Clone and setup
-git clone <repo-url>
-cd aadhaar-pulse
+1. **Clone and Setup**
+   ```bash
+   git clone <repo-url>
+   cd aadhaar-pulse
+   ```
 
-# Create virtual environment
-python -m venv .venv
-.venv\Scripts\Activate.ps1  # Windows
-source .venv/bin/activate   # Linux/Mac
+2. **Create Environment**
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\Activate.ps1  # Windows
+   source .venv/bin/activate   # Linux/Mac
+   ```
 
-# Install dependencies
-pip install -r requirements.txt
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Run dashboard
-streamlit run app/dashboard.py
-```
+4. **Configure Environment**
+   - Create a `.env` file in the root directory (see `.env.example`).
+   - Add your Gemini API key:
+     ```
+     GEMINI_API_KEY=your_api_key_here
+     ```
+   - Get key from: [Google AI Studio](https://aistudio.google.com/apikey)
+
+5. **Run Dashboard**
+   ```bash
+   streamlit run app/dashboard.py
+   ```
 
 **Demo Credentials:**
 - Analyst: `analyst` / `analyst123` (full access)
@@ -35,23 +49,24 @@ streamlit run app/dashboard.py
 ```
 aadhaar-pulse/
 ├── app/                    # Streamlit dashboards
-│   ├── dashboard.py       # Main unified dashboard (6 tabs)
-│   ├── components/        # Reusable view components
-│   └── utils/             # Auth, data loading, export
+│   ├── dashboard.py       # Main unified dashboard
+│   ├── components/        # Components (incl. chatbot_view.py)
+│   └── utils/             # Utilities (auth, data_loader)
 ├── api/                    # FastAPI endpoints
-│   └── main.py            # /forecast, /bottleneck/analyze, /recommend
+│   └── main.py            # /chat, /forecast, /recommend
 ├── src/                    # Core analytics modules
+│   ├── chatbot.py         # Gemini AI Chatbot Engine
 │   ├── agg_etl.py         # ETL pipeline
 │   ├── privacy_guard.py   # K-anonymity enforcement
 │   ├── features.py        # Feature engineering
-│   ├── forecast_lightgbm.py # LightGBM forecasting
-│   ├── bottleneck_fusion.py # 5-type bottleneck detection
 │   ├── simulator.py       # Monte Carlo policy simulator
-│   └── fairness_audit.py  # Equity analysis
-├── notebooks/              # Analysis & validation
+│   └── ...
+├── tests/                  # Test Suite
+│   ├── test_chatbot.py
+│   ├── test_api.py
+│   └── ...
 ├── config/                 # Intervention definitions
-├── docs/                   # Documentation, runbooks, SLAs
-├── outputs/                # Generated files (priority_scores, etc.)
+├── outputs/                # Generated files
 └── data/                   # Raw and processed data
 ```
 
@@ -61,34 +76,50 @@ aadhaar-pulse/
 
 | Feature | Description |
 |---------|-------------|
+| **AI Assistant** | **(New)** Chat with your data using Gemini 2.5 Flash. Ask about priorities, forecasts, and interventions. |
 | **Bottleneck Fusion** | 5 diagnostic types: Operational, Demographic Surge, Capacity Strain, Inclusion Gap, Anomaly |
-| **District Comparison** | **(New)** Multi-district side-by-side analysis, trend classification, and peer benchmarking |
+| **District Comparison** | Multi-district side-by-side analysis, trend classification, and peer benchmarking |
 | **Demand Forecasting** | LightGBM with hierarchical reconciliation, SMAPE <70% |
 | **Policy Simulator** | Monte Carlo simulation with 90% confidence intervals |
-| **Explainability** | SHAP feature importance, per-district rationale |
 | **Privacy-First** | k=10 anonymity, SHA-256 hashing, differential privacy exports |
 | **RBAC** | Analyst (full) / Viewer (masked) role-based access |
-| **Pilot Framework** | Treatment/control selection, DiD causal analysis |
+
+---
+
+## 🧪 Running Tests
+
+The project includes a comprehensive test suite using `pytest`.
+
+```bash
+# Run all tests
+python -m pytest tests/
+
+# Run specific module tests
+python -m pytest tests/test_chatbot.py
+python -m pytest tests/test_api.py
+
+# Run with verbose output
+python -m pytest tests/ -v
+```
 
 ---
 
 ## 🛠️ Run Commands
 
 ```bash
-# Main dashboard
+# Main dashboard (with Chatbot)
 streamlit run app/dashboard.py
 
-# FastAPI
+# FastAPI Backend
 uvicorn api.main:app --reload
 
 # Run full pipeline
 python src/agg_etl.py
 python src/features.py  
 python src/forecast_lightgbm.py
-python src/bottleneck_fusion.py
 
-# Docker (if installed)
-docker-compose up -d
+# Run Test Suite
+python -m pytest tests/
 ```
 
 ---
@@ -99,11 +130,12 @@ docker-compose up -d
 |-----|----------|
 | 📍 Hotspot Map | Priority visualization (Heatmap/Scatter), state summaries |
 | 🔍 District Analysis | SHAP explanations, action recommendations |
-| 📊 Compare Districts | **(New)** Side-by-side comparison, radar charts, trend analysis |
+| 📊 Compare Districts | Side-by-side comparison, radar charts, trend analysis |
 | 🎮 Policy Simulator | Intervention testing with Monte Carlo & 90% CIs |
 | 📊 Overview | Child metrics, bottleneck distribution, top 10 list |
 | 📈 Pilot Monitor | Treatment vs Control trends, action tracker |
 | 🔧 System Health | Data drift (PSI), MAPE trends, alerts |
+| 🤖 AI Assistant | **(New)** Interactive Q&A, priority summaries, quick insights |
 
 ---
 
@@ -112,8 +144,7 @@ docker-compose up -d
 - **K-anonymity:** k=10 threshold, all values <10 suppressed
 - **Hashing:** SHA-256 with cryptographic salt
 - **Differential Privacy:** Laplace/Gaussian noise for exports (ε=1.0)
-- **RBAC:** Role-based dashboard access
-- **Audit Logging:** All actions logged to `outputs/audit_logs/`
+- **Safe Chat:** AI safety settings enabled for government data context
 
 ---
 
@@ -122,7 +153,6 @@ docker-compose up -d
 - [Pilot Charter](docs/pilot_charter.md)
 - [SLA & Alerts](docs/SLA.md)
 - [Privacy Checklist](docs/privacy_checklist.md)
-- [Architecture](docs/architecture.md)
 - [Runbooks](docs/runbooks/)
 
 ---
@@ -130,4 +160,4 @@ docker-compose up -d
 ## 🏆 Built for UIDAI Hackathon 2025
 
 **Judge Pitch:**
-> *"Fusion-driven bottleneck diagnosis, demand forecasting, and policy simulation—with DiD causal evaluation and production-ready Docker deployment. One command to run."*
+> *"Fusion-driven bottleneck diagnosis, demand forecasting, and policy simulation—now with GenAI-powered conversational insights. Integrated, privacy-aware, and production-ready."*

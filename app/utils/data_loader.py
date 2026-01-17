@@ -11,13 +11,21 @@ from pathlib import Path
 @st.cache_data
 def load_priority_scores(path: str = 'outputs/priority_scores.csv') -> pd.DataFrame:
     """Load priority scores with caching."""
-    return pd.read_csv(path)
+    try:
+        return pd.read_csv(path)
+    except FileNotFoundError:
+        st.warning(f"Priority scores file not found: {path}")
+        return pd.DataFrame()
 
 
 @st.cache_data
 def load_bottleneck_labels(path: str = 'outputs/bottleneck_labels.csv') -> pd.DataFrame:
     """Load bottleneck labels with caching."""
-    return pd.read_csv(path)
+    try:
+        return pd.read_csv(path)
+    except FileNotFoundError:
+        st.warning(f"Bottleneck labels file not found: {path}")
+        return pd.DataFrame()
 
 
 @st.cache_data
@@ -27,6 +35,7 @@ def load_forecasts(path: str = 'outputs/forecasts.csv') -> pd.DataFrame:
         return pd.read_csv(path)
     except FileNotFoundError:
         return pd.DataFrame()
+
 
 
 @st.cache_data

@@ -358,3 +358,66 @@
 {"timestamp": "2026-01-16T16:54:29.072504Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
 {"timestamp": "2026-01-16T16:54:29.107812Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
 {"timestamp": "2026-01-16T16:54:29.265643Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:03:35.461527Z", "user_id": "analyst", "role": "Analyst", "action": "login", "target": null, "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:03:35.518649Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:03:35.658802Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-16T17:03:35.707270Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:03:43.142053Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:03:43.262308Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:03:43.303765Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:04.255332Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:04.359618Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:04.392804Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:04.673225Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:04.774105Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:04.809167Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:06.328563Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:06.433302Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:06.470887Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:07.857961Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:07.973911Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:08.015969Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:10.611395Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:10.712872Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:10.745183Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:13.707328Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:13.812883Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:13.849962Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:16.289169Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:16.400151Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:16.436018Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:16.977056Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:17.148754Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:17.185299Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:41.526861Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:41.631733Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:41.665516Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:41.962798Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:45.583515Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:45.693766Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:45.741397Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:45.894113Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:47.805005Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:47.924750Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:47.959283Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:48.142282Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:48.947291Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:49.077522Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:49.166982Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:49.397419Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:52.232824Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:52.365109Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:52.477633Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:52.820118Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:54.122670Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:54.233182Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:54.273170Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:54.517505Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:56.701652Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:56.807213Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:56.844178Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:56.991892Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
+{"timestamp": "2026-01-16T17:04:57.440427Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:57.584217Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "Bagalkot"}}
+{"timestamp": "2026-01-16T17:04:57.626336Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-16T17:04:57.850444Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "South 24 Parganas", "intervention": "unknown"}}
