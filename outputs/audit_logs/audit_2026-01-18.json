@@ -1,0 +1,66 @@
+{"timestamp": "2026-01-18T17:09:45.243070Z", "user_id": "analyst", "role": "Analyst", "action": "login", "target": null, "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:09:45.848573Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:09:46.173061Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:09:46.217764Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:09:46.622379Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:03.016364Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:03.143318Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:03.176477Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:03.536736Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:06.329608Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:06.486775Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:06.533264Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:06.993545Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:22.269165Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:22.377912Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:22.413988Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:22.806179Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:26.601544Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:26.711147Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:26.748445Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:27.160838Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:43.421783Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:43.526288Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:43.561279Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:43.718743Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:10:43.943516Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:46.136025Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:46.247352Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:46.281309Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:46.421820Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:10:46.702411Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:47.115713Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:47.260809Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:10:47.310660Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:10:47.480827Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:10:47.766980Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:56.688995Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:56.799580Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:11:56.834925Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:56.955436Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:11:57.201317Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:57.301877Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:57.415286Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:11:57.471333Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:11:57.594264Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:11:57.846202Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:19.933737Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:20.065197Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:12:20.105442Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:20.230904Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:12:20.585950Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:39.112433Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:39.245082Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:12:39.279898Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:39.394229Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:12:39.659197Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:57.711877Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:57.816441Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:12:57.849503Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:12:57.988745Z", "user_id": "analyst", "role": "Analyst", "action": "simulation", "target": null, "status": "success", "details": {"district": "100000", "intervention": "unknown"}}
+{"timestamp": "2026-01-18T17:12:58.268871Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:13:24.165820Z", "user_id": "analyst", "role": "Analyst", "action": "login", "target": null, "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:13:24.307135Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:13:24.412833Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-18T17:13:24.452514Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-18T17:13:24.802873Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
