@@ -1,14 +1,14 @@
 # Aadhaar Pulse - System Capabilities Document
 ## Child Update Intelligence Platform
 
-**Version:** 1.0  
-**Date:** 2026-01-13
+**Version:** 1.1  
+**Date:** 2026-01-18
 
 ---
 
 ## Executive Summary
 
-Aadhaar Pulse is an AI-powered decision support platform that transforms raw Aadhaar operational data into **actionable intelligence** for proactive service delivery. It addresses the critical challenge of managing the mandatory biometric update wave for children aged 5-15 across 742+ districts.
+Aadhaar Pulse is an AI-powered decision support platform that transforms raw Aadhaar operational data into **actionable intelligence** for proactive service delivery. It addresses the critical challenge of managing the mandatory biometric update wave for children aged 5-15 across 1,100+ districts.
 
 **Core Value Proposition:**
 > "Know where pressure will occur, why it happens, and what intervention works best—before the system is under strain."
@@ -148,22 +148,23 @@ New bottleneck type specifically for:
 
 ## 6. Dashboard & Visualization
 
-### 6.1 Unified Dashboard (7 Tabs)
+### 6.1 Unified Dashboard (8 Tabs)
 | Tab | Features |
 |-----|----------|
 | 📍 Hotspot Map | **Enhanced** heatmap/scatter modes, state summaries, priority filters |
 | 🔍 District Analysis | Detailed view, SHAP, trends, rationale |
-| 📊 Compare Districts | **(New)** Multi-district side-by-side, radar charts, trend classification |
+| 📊 Compare Districts | Multi-district side-by-side, radar charts, trend classification |
 | 🎮 Policy Simulator | Interactive intervention testing, 90% confidence intervals |
 | 📊 Overview | Child metrics, bottleneck distribution, top 10 list |
 | 📈 Pilot Monitor | Treatment vs Control trends, action tracker |
 | 🔧 System Health | Data drift (PSI), MAPE trends, alerts |
+| 🤖 AI Assistant | **(New)** Natural language queries, context-aware responses, quick actions |
 
 ### 6.2 Role-Based Access Control
 | Role | Access |
 |------|--------|
-| Analyst | Full access to all 6 tabs, exports, simulations |
-| Viewer | Hotspot Map + Overview only, masked data |
+| Analyst | Full access to all 8 tabs, exports, simulations |
+| Viewer | Hotspot Map + Overview + AI Assistant only, masked data |
 
 ### 6.3 Export Capabilities
 - PDF Action Packs with rationale
@@ -181,9 +182,10 @@ GET  /interventions                      - Available interventions
 GET  /bottleneck/analyze/{state}/{district}  - Bottleneck diagnosis
 GET  /forecast/{state}/{district}        - Demand forecast
 POST /recommend_action                   - Intervention recommendation
+POST /chat                               - AI chatbot interaction (New)
 ```
 
-**Use Case:** Integration with existing UIDAI operational systems.
+**Use Case:** Integration with existing UIDAI operational systems and AI-powered queries.
 
 ---
 
@@ -261,13 +263,15 @@ Where β₃ = causal treatment effect
 
 | Category | Files |
 |----------|-------|
-| **Core ETL** | `01_agg_etl.py`, `01_privacy_guard.py`, `02_features.py` |
+| **Core ETL** | `agg_etl.py`, `privacy_guard.py`, `features.py` |
 | **ML Models** | `forecast_lightgbm.py`, `anomaly_detection.py`, `bottleneck_fusion.py` |
 | **Policy Engine** | `simulator.py`, `action_recommender.py` |
-| **Dashboard** | `app/dashboard.py` (6 tabs unified) |
-| **API** | `api/main.py` (5 endpoints) |
+| **AI Chatbot** | `src/chatbot.py`, `app/components/chatbot_view.py` |
+| **Dashboard** | `app/dashboard.py` (8 tabs unified) |
+| **API** | `api/main.py` (6 endpoints incl. /chat) |
+| **Tests** | `tests/` (77 automated tests) |
 | **Pilot** | `synthetic_pilot.py`, `08_causal_evaluation.ipynb` |
-| **Docs** | `SLA.md`, `pilot_charter.md`, `architecture.md`, runbooks |
+| **Docs** | `SLA.md`, `report.md`, `architecture.md`, runbooks |
 | **DevOps** | `Dockerfile`, `docker-compose.yml`, `retrain.yml` |
 
 ---

@@ -1,9 +1,9 @@
 # Data Governance Policy
 ## Aadhaar Pulse - Child Update Intelligence Platform
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Effective Date:** 2026-01-10  
-**Last Review:** 2026-01-10
+**Last Review:** 2026-01-18
 
 ---
 
@@ -50,11 +50,11 @@ This policy establishes the rules and responsibilities for handling Aadhaar-rela
 
 ### 5.1 Role-Based Access
 
-| Role | Dashboard Access | Data Export | Simulation | Admin |
-|------|------------------|-------------|------------|-------|
-| Analyst | Full | With DP | Yes | No |
-| Viewer | Masked only | No | No | No |
-| Admin | Full | Full | Yes | Yes |
+| Role | Dashboard Access | Data Export | Simulation | AI Chat | Admin |
+|------|------------------|-------------|------------|---------|-------|
+| Analyst | Full | With DP | Yes | Yes | No |
+| Viewer | Masked only | No | No | Yes | No |
+| Admin | Full | Full | Yes | Yes | Yes |
 
 ### 5.2 Authentication Requirements
 
@@ -74,6 +74,7 @@ All the following actions are logged:
 | Data Export | Timestamp, user_id, dataset, row_count |
 | Simulation Run | Timestamp, user_id, parameters |
 | Priority View | Timestamp, user_id, district accessed |
+| AI Chat Session | Timestamp, user_id, view accessed |
 
 Logs are stored in `outputs/audit_logs/` in JSON format.
 
