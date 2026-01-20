@@ -4,6 +4,22 @@
 *Fusion-driven, AI-first decision support for proactive, equitable Aadhaar service delivery*
 
 ---
+## IMAGE
+<img width="2294" height="1274" alt="Screenshot 2026-01-20 193622" src="https://github.com/user-attachments/assets/7c780591-2b4d-4b04-b350-a6254a570d1d" />
+<img width="2282" height="1271" alt="Screenshot 2026-01-20 192916" src="https://github.com/user-attachments/assets/4bbf1a68-b1c7-406c-afff-3e6892742158" />
+<img width="2297" height="1267" alt="Screenshot 2026-01-20 192932" src="https://github.com/user-attachments/assets/d46b2dd8-16d3-4a21-8163-0689b97c06f4" />
+<img width="2299" height="1267" alt="Screenshot 2026-01-20 192942" src="https://github.com/user-attachments/assets/8e09eab5-9296-494d-9862-63ef146495db" />
+<img width="2298" height="1271" alt="Screenshot 2026-01-20 192953" src="https://github.com/user-attachments/assets/00ac1f9d-61bf-4d7e-8a55-26830e922c53" />
+<img width="2298" height="1273" alt="Screenshot 2026-01-20 193050" src="https://github.com/user-attachments/assets/ec69791c-34a5-434e-b0d0-ba0de6a72ce2" />
+<img width="2299" height="1273" alt="Screenshot 2026-01-20 193105" src="https://github.com/user-attachments/assets/89069f7f-a480-4a52-ad9f-ef701835fd5a" />
+<img width="2323" height="1271" alt="Screenshot 2026-01-20 193235" src="https://github.com/user-attachments/assets/aa15bef3-3e0b-4952-a771-488f84cee295" />
+<img width="2325" height="1272" alt="Screenshot 2026-01-20 193255" src="https://github.com/user-attachments/assets/7d91e1df-b14d-4bbf-9f59-f1b6ca199d48" />
+<img width="2322" height="1273" alt="Screenshot 2026-01-20 193305" src="https://github.com/user-attachments/assets/9fe3ce9a-bdb9-4d6c-b6f5-f8ed8d344b88" />
+<img width="2299" height="1275" alt="Screenshot 2026-01-20 193328" src="https://github.com/user-attachments/assets/97ea689b-6e49-4772-8b57-c33c737997d1" />
+<img width="2287" height="1269" alt="Screenshot 2026-01-20 193340" src="https://github.com/user-attachments/assets/19fa8f64-bf19-48af-a9b1-7b35d289edbf" />
+<img width="2278" height="1265" alt="Screenshot 2026-01-20 193555" src="https://github.com/user-attachments/assets/88cbd793-dfe9-469d-8f51-cdb103b8b6b1" />
+<img width="2294" height="1274" alt="Screenshot 2026-01-20 193622" src="https://github.com/user-attachments/assets/db4dc37f-9a48-4157-97ee-d5cde164cc5e" />
+
 
 ## 🚀 Quick Start
 
