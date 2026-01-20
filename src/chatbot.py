@@ -39,14 +39,21 @@ class AadhaarChatbot:
     MODEL_NAME = "gemini-2.5-flash"
 
     
-    def __init__(self, api_key: Optional[str] = None):
+    # Sentinel to distinguish "not provided" from "explicitly None"
+    _NOT_PROVIDED = object()
+    
+    def __init__(self, api_key: Optional[str] = _NOT_PROVIDED):
         """
         Initialize the chatbot with Gemini API.
         
         Args:
             api_key: Gemini API key. Uses GEMINI_API_KEY env var if not provided.
+                     Pass None explicitly to disable env var fallback.
         """
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
+        if api_key is AadhaarChatbot._NOT_PROVIDED:
+            self.api_key = os.getenv("GEMINI_API_KEY")
+        else:
+            self.api_key = api_key
         self.model = None
         self.chat_session = None
         self.context = ""

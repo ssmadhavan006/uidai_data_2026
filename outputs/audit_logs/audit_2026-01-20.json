@@ -1,0 +1,5 @@
+{"timestamp": "2026-01-20T13:52:48.497754Z", "user_id": "analyst", "role": "Analyst", "action": "login", "target": null, "status": "success", "details": {}}
+{"timestamp": "2026-01-20T13:52:49.278258Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "map_view", "status": "success", "details": {}}
+{"timestamp": "2026-01-20T13:52:49.601109Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "district_analysis", "status": "success", "details": {"district": "100000"}}
+{"timestamp": "2026-01-20T13:52:49.644578Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "compare_districts", "status": "success", "details": {}}
+{"timestamp": "2026-01-20T13:52:50.039319Z", "user_id": "analyst", "role": "Analyst", "action": "view", "target": "ai_assistant", "status": "success", "details": {}}
